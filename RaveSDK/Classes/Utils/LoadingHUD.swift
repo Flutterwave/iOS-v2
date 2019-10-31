@@ -25,7 +25,7 @@ class LoadingHUD: UIView {
     
     class func shared() -> LoadingHUD{
         struct Static {
-             static let loader = LoadingHUD(frame: (UIApplication.shared.keyWindow!.frame))
+            static let loader = LoadingHUD(frame: (UIScreen.main.bounds))
             
         }
         return Static.loader
@@ -91,6 +91,7 @@ class LoadingHUD: UIView {
         
         self.animation.play()
         view.addSubview(self)
+        
         isHidden = false
     }
     
