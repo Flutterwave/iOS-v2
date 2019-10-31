@@ -25,7 +25,7 @@ class LoadingHUD: UIView {
     
     class func shared() -> LoadingHUD{
         struct Static {
-            static let loader = LoadingHUD(frame: (UIApplication.shared.delegate?.window??.frame)!)
+             static let loader = LoadingHUD(frame: (UIApplication.shared.keyWindow!.frame))
             
         }
         return Static.loader
