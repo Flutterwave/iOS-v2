@@ -135,15 +135,15 @@
 		78434AFB236B0882000433EE /* RavePayNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACB236B0882000433EE /* RavePayNavTitle.swift */; };
 		78434AFC236B0882000433EE /* SaveCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACC236B0882000433EE /* SaveCardCell.swift */; };
 		78434AFD236B0882000433EE /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACD236B0882000433EE /* VSTextField.swift */; };
-		78434AFE236B0882000433EE /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434ACF236B0882000433EE /* Loader_WY.json */; };
-		78434AFF236B0882000433EE /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD0236B0882000433EE /* Loader_YW.json */; };
-		78434B00236B0882000433EE /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD1236B0882000433EE /* Loader_YB.json */; };
 		78434B02236B0882000433EE /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD4236B0882000433EE /* Bank.swift */; };
 		78434B03236B0882000433EE /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD5236B0882000433EE /* SavedCard.swift */; };
 		78434B04236B0882000433EE /* RaveMpesaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD7236B0882000433EE /* RaveMpesaClient.swift */; };
 		78434B05236B0882000433EE /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD8236B0882000433EE /* RaveMobileMoneyClient.swift */; };
 		78434B06236B0882000433EE /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD9236B0882000433EE /* RaveAccountClient.swift */; };
 		78434B07236B0882000433EE /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ADA236B0882000433EE /* RaveCardClient.swift */; };
+		7876E00A236B0A98003DDEF5 /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434ACF236B0882000433EE /* Loader_WY.json */; };
+		7876E00B236B0A98003DDEF5 /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD0236B0882000433EE /* Loader_YW.json */; };
+		7876E00C236B0A98003DDEF5 /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD1236B0882000433EE /* Loader_YB.json */; };
 		7D3FFF0CCA329410ECA45C2C56F87839 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94779980673F520C772F714A7923EF1 /* Glyph.swift */; };
 		7DDF6E68C9707C67380293369D89945C /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96DCA9D746A4FED37DEE6326CA535BB /* BezierPath.swift */; };
 		7EAF5979CE105F8F595D38123B0F3189 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5BBDCFB10D4670E341DA0A9C5797A /* Transform.swift */; };
@@ -1365,9 +1365,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78434AFF236B0882000433EE /* Loader_YW.json in Resources */,
-				78434AFE236B0882000433EE /* Loader_WY.json in Resources */,
-				78434B00236B0882000433EE /* Loader_YB.json in Resources */,
+				7876E00A236B0A98003DDEF5 /* Loader_WY.json in Resources */,
+				7876E00B236B0A98003DDEF5 /* Loader_YW.json in Resources */,
+				7876E00C236B0A98003DDEF5 /* Loader_YB.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
