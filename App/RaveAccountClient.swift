@@ -108,7 +108,13 @@ class RaveAccountClient {
     public func chargeAccount(){
         if let pubkey = RaveConfig.sharedConfig().publicKey{
             let isInternetBanking = (self.isInternetBanking) == true ? 1 : 0
-            let country = (RaveConfig.sharedConfig().currencyCode != "KES" ||  RaveConfig.sharedConfig().currencyCode != "GHS" ||  RaveConfig.sharedConfig().currencyCode != "ZAR" ||  RaveConfig.sharedConfig().currencyCode != "TZS") ? "NG" : RaveConfig.sharedConfig().country
+            var country :String = ""
+            switch RaveConfig.sharedConfig().currencyCode {
+                       case "KES","TZS","GHS","KES","ZAR":
+                           country = RaveConfig.sharedConfig().country
+                       default:
+                           country = "NG"
+                       }
             guard let _ = amount else {
                 fatalError("Amount is missing")
             }
@@ -201,7 +207,7 @@ class RaveAccountClient {
             
             
             let jsonString  = param.jsonStringify()
-            let secret = getEncryptionKey(RaveConfig.sharedConfig().secretKey!)
+            let secret = RaveConfig.sharedConfig().encryptionKey!
             let data =  TripleDES.encrypt(string: jsonString, key:secret)
             let base64String = data?.base64EncodedString()
             

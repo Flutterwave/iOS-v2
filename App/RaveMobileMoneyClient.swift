@@ -72,7 +72,13 @@ class RaveMobileMoneyClient {
     
     //MARK: Charge
     public func chargeMobileMoney(_ type:MobileMoneyType = .ghana){
-        let country = (RaveConfig.sharedConfig().currencyCode == "KES" ||  RaveConfig.sharedConfig().currencyCode == "GHS" ||  RaveConfig.sharedConfig().currencyCode == "ZAR" ||  RaveConfig.sharedConfig().currencyCode == "TZS") ? RaveConfig.sharedConfig().country  :  "NG"
+        var country :String = ""
+        switch RaveConfig.sharedConfig().currencyCode {
+                   case "KES","TZS","GHS","KES","ZAR":
+                       country = RaveConfig.sharedConfig().country
+                   default:
+                       country = "NG"
+                   }
         if let pubkey = RaveConfig.sharedConfig().publicKey{
             var param:[String:Any] = [
                 "PBFPubKey": pubkey,
@@ -134,7 +140,7 @@ class RaveMobileMoneyClient {
                 param.merge(["voucher":_voucher])
             }
             let jsonString  = param.jsonStringify()
-            let secret = getEncryptionKey(RaveConfig.sharedConfig().secretKey!)
+            let secret = RaveConfig.sharedConfig().encryptionKey!
             let data =  TripleDES.encrypt(string: jsonString, key:secret)
             let base64String = data?.base64EncodedString()
             

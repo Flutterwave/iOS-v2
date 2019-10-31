@@ -23,10 +23,8 @@ class ViewController: UIViewController ,RavePayProtocol {
         let config = RaveConfig.sharedConfig()
         config.country = "GH"
         config.currencyCode = "GHS"
-        //        config.country = "ZA"
-        //        config.currencyCode = "ZAR"
         config.email = "test@mailinator.com"
-        config.isStaging = true
+        config.isStaging = false
         config.phoneNumber = "08012345678"
         config.transcationRef = "ref"
         config.firstName = "Solejay"
@@ -34,8 +32,9 @@ class ViewController: UIViewController ,RavePayProtocol {
         config.meta = [["metaname":"sdk", "metavalue":"ios"]]
         //config.whiteListedBanksOnly = ["011","058"]
         
-        config.publicKey = "FLWPUBK-843da32837a606175e671012f5149d16-X"
-        config.secretKey = "FLWSECK-3f908c1944683538e11845641952e3ff-X"
+        config.publicKey = "FLWPUBK-186414ab618f470c20b05e3dc754d9ed-X"
+        //config.secretKey = "FLWSECK_TEST-9e54889bc26206218e96152ce4f477f9-X"
+        config.encryptionKey = "470acfba8f4ec451e2a3b479"
 
         
         let controller = NewRavePayViewController()

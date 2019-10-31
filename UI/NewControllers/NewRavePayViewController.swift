@@ -469,6 +469,9 @@ public class NewRavePayViewController: UITableViewController {
         let closeButton = UIButton(type: .system)
         closeButton.tintColor = .darkGray
         closeButton.setImage(UIImage(named: "rave_close"), for: .normal)
+        closeButton.setTitle("X", for: .normal)
+        closeButton.titleLabel?.font  = UIFont.systemFont(ofSize: 17, weight: .bold)
+        closeButton.titleLabel?.textAlignment = .center
         closeButton.frame = CGRect(x: 0, y:0, width: 40, height: 40)
         closeButton.addTarget(self, action: #selector(closeView), for: .touchUpInside)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: closeButton)

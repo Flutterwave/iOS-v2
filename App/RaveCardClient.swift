@@ -88,7 +88,13 @@ class RaveCardClient{
     //MARK: Charge Saved Card
     public func saveCardCharge(){
         if let pubkey = RaveConfig.sharedConfig().publicKey{
-            let country = (RaveConfig.sharedConfig().currencyCode != "KES" ||  RaveConfig.sharedConfig().currencyCode != "GHS" ||  RaveConfig.sharedConfig().currencyCode != "ZAR" ||  RaveConfig.sharedConfig().currencyCode != "TZS") ? "NG" : RaveConfig.sharedConfig().country
+            var country :String = ""
+            switch RaveConfig.sharedConfig().currencyCode {
+                       case "KES","TZS","GHS","KES","ZAR":
+                           country = RaveConfig.sharedConfig().country
+                       default:
+                           country = "NG"
+                       }
             var param:[String:Any] = ["PBFPubKey":pubkey,
                                       "IP": getIFAddresses().first!,
                                       "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!,
@@ -155,7 +161,7 @@ class RaveCardClient{
             }
             
             let jsonString  = param.jsonStringify()
-            let secret = getEncryptionKey(RaveConfig.sharedConfig().secretKey!)
+            let secret = RaveConfig.sharedConfig().encryptionKey!
             let data =  TripleDES.encrypt(string: jsonString, key:secret)
             let base64String = data?.base64EncodedString()
             
@@ -239,7 +245,13 @@ class RaveCardClient{
     //MARK: Charge Card
     public func chargeCard(){
         if let pubkey = RaveConfig.sharedConfig().publicKey{
-            let country = (RaveConfig.sharedConfig().currencyCode != "KES" ||  RaveConfig.sharedConfig().currencyCode != "GHS" ||  RaveConfig.sharedConfig().currencyCode != "ZAR" ||  RaveConfig.sharedConfig().currencyCode != "TZS") ? "NG" : RaveConfig.sharedConfig().country
+            var country :String = ""
+            switch RaveConfig.sharedConfig().currencyCode {
+                       case "KES","TZS","GHS","KES","ZAR":
+                           country = RaveConfig.sharedConfig().country
+                       default:
+                           country = "NG"
+                       }
             guard let _ = cardNumber else {
                 fatalError("Card Number is missing")
             }
@@ -326,7 +338,7 @@ class RaveCardClient{
                 }
             }
             let jsonString  = bodyParam!.jsonStringify()
-            let secret = getEncryptionKey(RaveConfig.sharedConfig().secretKey!)
+            let secret = RaveConfig.sharedConfig().encryptionKey!
             let data =  TripleDES.encrypt(string: jsonString, key:secret)
             let base64String = data?.base64EncodedString()
             

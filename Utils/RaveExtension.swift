@@ -79,10 +79,13 @@ func MD5(string: String) -> Data? {
     if secretKey.contains("FLWSECK-") {
         secretKeyHex = secretKey.replacingOccurrences(of: "FLWSECK-", with: "")
     }
+//    if secretKey.contains("FLWSECK_TEST") {
+//        secretKeyHex = secretKey.replacingOccurrences(of: "FLWSECK_TEST", with: "_TEST")
+//    }
     if secretKey.contains("-X") {
         secretKeyHex = secretKeyHex.replacingOccurrences(of: "-X", with: "")
     }
-    
+    secretKeyHex = secretKey.components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
     let index = secretKeyHex.index(secretKeyHex.startIndex, offsetBy: 12)
     let first12 = secretKeyHex.substring(to: index)
     
