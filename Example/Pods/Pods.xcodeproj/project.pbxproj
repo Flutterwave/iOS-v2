@@ -101,46 +101,49 @@
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CA472AECDBE826366C95209CA12668 /* Foundation.framework */; };
 		7714927D19EED5955A0AC0354BB33502 /* ShapeCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E8D5903EB0F01274C13ADC8856E88 /* ShapeCompositionLayer.swift */; };
 		77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691A61494B74DA46DB3AEC37A2EE901 /* IQUIView+IQKeyboardToolbar.swift */; };
-		7875A4F3233E5E3F00F52A5D /* RaveURLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4EB233E5DD900F52A5D /* RaveURLHelper.swift */; };
-		7875A4F4233E5E3F00F52A5D /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4EC233E5DD900F52A5D /* TripleDES.swift */; };
-		7875A4F5233E5E3F00F52A5D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4ED233E5DD900F52A5D /* SnackBar.swift */; };
-		7875A4F6233E5E3F00F52A5D /* RaveConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4EE233E5DD900F52A5D /* RaveConstants.swift */; };
-		7875A4F7233E5E3F00F52A5D /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4EF233E5DD900F52A5D /* LoadingHUD.swift */; };
-		7875A4F8233E5E3F00F52A5D /* RaveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4F0233E5DD900F52A5D /* RaveExtension.swift */; };
-		7875A4F9233E5EDF00F52A5D /* RavePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4E0233E5DD900F52A5D /* RavePayHeaderView.swift */; };
-		7875A4FA233E5EDF00F52A5D /* RavePayNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4E1233E5DD900F52A5D /* RavePayNavTitle.swift */; };
-		7875A4FB233E5EDF00F52A5D /* SaveCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4E2233E5DD900F52A5D /* SaveCardCell.swift */; };
-		7875A4FC233E5EDF00F52A5D /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4E3233E5DD900F52A5D /* VSTextField.swift */; };
-		7875A4FD233E5EEC00F52A5D /* SaveCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4C8233E5DD900F52A5D /* SaveCardViewController.swift */; };
-		7875A4FE233E5EEC00F52A5D /* NewRavePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4C9233E5DD900F52A5D /* NewRavePayViewController.swift */; };
-		7875A4FF233E5EEC00F52A5D /* RavePayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4CA233E5DD900F52A5D /* RavePayWebViewController.swift */; };
-		7875A500233E5EF300F52A5D /* MPesaBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4CB233E5DD900F52A5D /* MPesaBusinessView.swift */; };
-		7875A501233E5EF300F52A5D /* MpesaPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4CC233E5DD900F52A5D /* MpesaPendingView.swift */; };
-		7875A502233E5EF300F52A5D /* AccountForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4CD233E5DD900F52A5D /* AccountForm.swift */; };
-		7875A503233E5EF300F52A5D /* SelectBankAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4CE233E5DD900F52A5D /* SelectBankAccountView.swift */; };
-		7875A504233E5EF300F52A5D /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4CF233E5DD900F52A5D /* OTPView.swift */; };
-		7875A505233E5EF300F52A5D /* MobileMoneyGHPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D0233E5DD900F52A5D /* MobileMoneyGHPendingView.swift */; };
-		7875A506233E5EF300F52A5D /* MpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D1233E5DD900F52A5D /* MpesaView.swift */; };
-		7875A507233E5EF300F52A5D /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D2233E5DD900F52A5D /* PinView.swift */; };
-		7875A508233E5EF300F52A5D /* MobileMoneyRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D3233E5DD900F52A5D /* MobileMoneyRW.swift */; };
-		7875A509233E5EF300F52A5D /* MobileMoneyZM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D4233E5DD900F52A5D /* MobileMoneyZM.swift */; };
-		7875A50A233E5EF300F52A5D /* SavedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D5233E5DD900F52A5D /* SavedCardsView.swift */; };
-		7875A50B233E5EF300F52A5D /* BillingAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D6233E5DD900F52A5D /* BillingAddress.swift */; };
-		7875A50C233E5EF300F52A5D /* DebitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D7233E5DD900F52A5D /* DebitCardView.swift */; };
-		7875A50D233E5EF300F52A5D /* MobileMoneyUganda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D8233E5DD900F52A5D /* MobileMoneyUganda.swift */; };
-		7875A50E233E5EF300F52A5D /* MobileMoneyFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4D9233E5DD900F52A5D /* MobileMoneyFR.swift */; };
-		7875A50F233E5EF300F52A5D /* HowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4DA233E5DD900F52A5D /* HowView.swift */; };
-		7875A510233E5EF300F52A5D /* MobileMoneyGHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4DB233E5DD900F52A5D /* MobileMoneyGHView.swift */; };
-		7875A511233E5EFB00F52A5D /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4C6233E5DD900F52A5D /* RavePayService.swift */; };
-		7875A512233E5F0100F52A5D /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4C3233E5DD900F52A5D /* Bank.swift */; };
-		7875A513233E5F0100F52A5D /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4C4233E5DD900F52A5D /* SavedCard.swift */; };
-		7875A514233E5F0600F52A5D /* RaveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4C1233E5DD900F52A5D /* RaveConfig.swift */; };
-		7875A515233E5F0C00F52A5D /* RaveMpesaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4BC233E5DD900F52A5D /* RaveMpesaClient.swift */; };
-		7875A516233E5F0C00F52A5D /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4BD233E5DD900F52A5D /* RaveMobileMoneyClient.swift */; };
-		7875A517233E5F0C00F52A5D /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4BE233E5DD900F52A5D /* RaveAccountClient.swift */; };
-		7875A518233E5F0C00F52A5D /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875A4BF233E5DD900F52A5D /* RaveCardClient.swift */; };
-		78BF304B2350C83C00036315 /* UKAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF30492350C83C00036315 /* UKAccountView.swift */; };
-		78BF304C2350C83C00036315 /* UKAccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF304A2350C83C00036315 /* UKAccountDetailsView.swift */; };
+		78434ADB236B0882000433EE /* RaveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA4236B0881000433EE /* RaveConfig.swift */; };
+		78434ADC236B0882000433EE /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA6236B0881000433EE /* RavePayService.swift */; };
+		78434ADD236B0882000433EE /* RaveURLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA8236B0881000433EE /* RaveURLHelper.swift */; };
+		78434ADE236B0882000433EE /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA9236B0881000433EE /* TripleDES.swift */; };
+		78434ADF236B0882000433EE /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AAA236B0881000433EE /* SnackBar.swift */; };
+		78434AE0236B0882000433EE /* RaveConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AAB236B0881000433EE /* RaveConstants.swift */; };
+		78434AE1236B0882000433EE /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AAC236B0881000433EE /* LoadingHUD.swift */; };
+		78434AE2236B0882000433EE /* RaveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AAD236B0881000433EE /* RaveExtension.swift */; };
+		78434AE3236B0882000433EE /* SaveCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB0236B0881000433EE /* SaveCardViewController.swift */; };
+		78434AE4236B0882000433EE /* NewRavePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB1236B0881000433EE /* NewRavePayViewController.swift */; };
+		78434AE5236B0882000433EE /* RavePayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB2236B0881000433EE /* RavePayWebViewController.swift */; };
+		78434AE6236B0882000433EE /* MPesaBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB4236B0881000433EE /* MPesaBusinessView.swift */; };
+		78434AE7236B0882000433EE /* MpesaPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB5236B0881000433EE /* MpesaPendingView.swift */; };
+		78434AE8236B0882000433EE /* AccountForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB6236B0881000433EE /* AccountForm.swift */; };
+		78434AE9236B0882000433EE /* SelectBankAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB7236B0881000433EE /* SelectBankAccountView.swift */; };
+		78434AEA236B0882000433EE /* UKAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB8236B0881000433EE /* UKAccountView.swift */; };
+		78434AEB236B0882000433EE /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AB9236B0881000433EE /* OTPView.swift */; };
+		78434AEC236B0882000433EE /* MobileMoneyGHPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ABA236B0881000433EE /* MobileMoneyGHPendingView.swift */; };
+		78434AED236B0882000433EE /* MpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ABB236B0881000433EE /* MpesaView.swift */; };
+		78434AEE236B0882000433EE /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ABC236B0881000433EE /* PinView.swift */; };
+		78434AEF236B0882000433EE /* MobileMoneyRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ABD236B0881000433EE /* MobileMoneyRW.swift */; };
+		78434AF0236B0882000433EE /* MobileMoneyZM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ABE236B0881000433EE /* MobileMoneyZM.swift */; };
+		78434AF1236B0882000433EE /* SavedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ABF236B0881000433EE /* SavedCardsView.swift */; };
+		78434AF2236B0882000433EE /* BillingAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC0236B0881000433EE /* BillingAddress.swift */; };
+		78434AF3236B0882000433EE /* UKAccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC1236B0881000433EE /* UKAccountDetailsView.swift */; };
+		78434AF4236B0882000433EE /* DebitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC2236B0881000433EE /* DebitCardView.swift */; };
+		78434AF5236B0882000433EE /* MobileMoneyUganda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC3236B0881000433EE /* MobileMoneyUganda.swift */; };
+		78434AF6236B0882000433EE /* MobileMoneyFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC4236B0881000433EE /* MobileMoneyFR.swift */; };
+		78434AF7236B0882000433EE /* HowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC5236B0881000433EE /* HowView.swift */; };
+		78434AF8236B0882000433EE /* MobileMoneyGHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AC6236B0881000433EE /* MobileMoneyGHView.swift */; };
+		78434AFA236B0882000433EE /* RavePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACA236B0882000433EE /* RavePayHeaderView.swift */; };
+		78434AFB236B0882000433EE /* RavePayNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACB236B0882000433EE /* RavePayNavTitle.swift */; };
+		78434AFC236B0882000433EE /* SaveCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACC236B0882000433EE /* SaveCardCell.swift */; };
+		78434AFD236B0882000433EE /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ACD236B0882000433EE /* VSTextField.swift */; };
+		78434AFE236B0882000433EE /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434ACF236B0882000433EE /* Loader_WY.json */; };
+		78434AFF236B0882000433EE /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD0236B0882000433EE /* Loader_YW.json */; };
+		78434B00236B0882000433EE /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD1236B0882000433EE /* Loader_YB.json */; };
+		78434B02236B0882000433EE /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD4236B0882000433EE /* Bank.swift */; };
+		78434B03236B0882000433EE /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD5236B0882000433EE /* SavedCard.swift */; };
+		78434B04236B0882000433EE /* RaveMpesaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD7236B0882000433EE /* RaveMpesaClient.swift */; };
+		78434B05236B0882000433EE /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD8236B0882000433EE /* RaveMobileMoneyClient.swift */; };
+		78434B06236B0882000433EE /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD9236B0882000433EE /* RaveAccountClient.swift */; };
+		78434B07236B0882000433EE /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ADA236B0882000433EE /* RaveCardClient.swift */; };
 		7D3FFF0CCA329410ECA45C2C56F87839 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94779980673F520C772F714A7923EF1 /* Glyph.swift */; };
 		7DDF6E68C9707C67380293369D89945C /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96DCA9D746A4FED37DEE6326CA535BB /* BezierPath.swift */; };
 		7EAF5979CE105F8F595D38123B0F3189 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5BBDCFB10D4670E341DA0A9C5797A /* Transform.swift */; };
@@ -173,7 +176,6 @@
 		A189256D2918BD2D440634A1D5C9BEAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC9E53AB5DBD6746C6CDFC2CD2958F /* UIKit.framework */; };
 		A1AF61A27390979F55F2B105E09B816B /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B65451392839E21AB8A9A2AAD70F72 /* KeyframeExtensions.swift */; };
 		A2195480FD04EAD347BB54512D60F925 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC9E53AB5DBD6746C6CDFC2CD2958F /* UIKit.framework */; };
-		A2A7C6CE8DBE09248A5C571BFE7AE8C0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E21FA75DDBED77BFAFAC5E4BBB633 /* ReplaceMe.swift */; };
 		A459FC10CCD37CD460C3E52B4B292A44 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB2C9DD55C1A94C711571517E0C82A /* Merge.swift */; };
 		A5D4E9D54603E07F5A9876E229043BF7 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE3FDE10B875269F1FF5999F09EF55 /* Mask.swift */; };
 		A6ACF3873DCAD3FCF1A773074ED922FC /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD86DB87546F89A2A9AFC7316F71D6DE /* IQKeyboardManager.bundle */; };
@@ -394,49 +396,49 @@
 		75EA436CC1E4A81DF683996CFB354133 /* Pods-RaveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaveSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		76BBA62293391156D9B92B4CABAFF3C1 /* RectNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/RectNode.swift"; sourceTree = "<group>"; };
 		77D439E6D66423912DCF1446251DCBA4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		7875A4BC233E5DD900F52A5D /* RaveMpesaClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMpesaClient.swift; sourceTree = "<group>"; };
-		7875A4BD233E5DD900F52A5D /* RaveMobileMoneyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMobileMoneyClient.swift; sourceTree = "<group>"; };
-		7875A4BE233E5DD900F52A5D /* RaveAccountClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveAccountClient.swift; sourceTree = "<group>"; };
-		7875A4BF233E5DD900F52A5D /* RaveCardClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveCardClient.swift; sourceTree = "<group>"; };
-		7875A4C1233E5DD900F52A5D /* RaveConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConfig.swift; sourceTree = "<group>"; };
-		7875A4C3233E5DD900F52A5D /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
-		7875A4C4233E5DD900F52A5D /* SavedCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
-		7875A4C6233E5DD900F52A5D /* RavePayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayService.swift; sourceTree = "<group>"; };
-		7875A4C8233E5DD900F52A5D /* SaveCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardViewController.swift; sourceTree = "<group>"; };
-		7875A4C9233E5DD900F52A5D /* NewRavePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRavePayViewController.swift; sourceTree = "<group>"; };
-		7875A4CA233E5DD900F52A5D /* RavePayWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayWebViewController.swift; sourceTree = "<group>"; };
-		7875A4CB233E5DD900F52A5D /* MPesaBusinessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPesaBusinessView.swift; sourceTree = "<group>"; };
-		7875A4CC233E5DD900F52A5D /* MpesaPendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MpesaPendingView.swift; sourceTree = "<group>"; };
-		7875A4CD233E5DD900F52A5D /* AccountForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountForm.swift; sourceTree = "<group>"; };
-		7875A4CE233E5DD900F52A5D /* SelectBankAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBankAccountView.swift; sourceTree = "<group>"; };
-		7875A4CF233E5DD900F52A5D /* OTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
-		7875A4D0233E5DD900F52A5D /* MobileMoneyGHPendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyGHPendingView.swift; sourceTree = "<group>"; };
-		7875A4D1233E5DD900F52A5D /* MpesaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MpesaView.swift; sourceTree = "<group>"; };
-		7875A4D2233E5DD900F52A5D /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
-		7875A4D3233E5DD900F52A5D /* MobileMoneyRW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyRW.swift; sourceTree = "<group>"; };
-		7875A4D4233E5DD900F52A5D /* MobileMoneyZM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyZM.swift; sourceTree = "<group>"; };
-		7875A4D5233E5DD900F52A5D /* SavedCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCardsView.swift; sourceTree = "<group>"; };
-		7875A4D6233E5DD900F52A5D /* BillingAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillingAddress.swift; sourceTree = "<group>"; };
-		7875A4D7233E5DD900F52A5D /* DebitCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebitCardView.swift; sourceTree = "<group>"; };
-		7875A4D8233E5DD900F52A5D /* MobileMoneyUganda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyUganda.swift; sourceTree = "<group>"; };
-		7875A4D9233E5DD900F52A5D /* MobileMoneyFR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyFR.swift; sourceTree = "<group>"; };
-		7875A4DA233E5DD900F52A5D /* HowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowView.swift; sourceTree = "<group>"; };
-		7875A4DB233E5DD900F52A5D /* MobileMoneyGHView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyGHView.swift; sourceTree = "<group>"; };
-		7875A4E0233E5DD900F52A5D /* RavePayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayHeaderView.swift; sourceTree = "<group>"; };
-		7875A4E1233E5DD900F52A5D /* RavePayNavTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayNavTitle.swift; sourceTree = "<group>"; };
-		7875A4E2233E5DD900F52A5D /* SaveCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardCell.swift; sourceTree = "<group>"; };
-		7875A4E3233E5DD900F52A5D /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
-		7875A4E5233E5DD900F52A5D /* Loader_WY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
-		7875A4E6233E5DD900F52A5D /* Loader_YW.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
-		7875A4E7233E5DD900F52A5D /* Loader_YB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
-		7875A4EB233E5DD900F52A5D /* RaveURLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveURLHelper.swift; sourceTree = "<group>"; };
-		7875A4EC233E5DD900F52A5D /* TripleDES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleDES.swift; sourceTree = "<group>"; };
-		7875A4ED233E5DD900F52A5D /* SnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
-		7875A4EE233E5DD900F52A5D /* RaveConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConstants.swift; sourceTree = "<group>"; };
-		7875A4EF233E5DD900F52A5D /* LoadingHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingHUD.swift; sourceTree = "<group>"; };
-		7875A4F0233E5DD900F52A5D /* RaveExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveExtension.swift; sourceTree = "<group>"; };
-		78BF30492350C83C00036315 /* UKAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKAccountView.swift; sourceTree = "<group>"; };
-		78BF304A2350C83C00036315 /* UKAccountDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKAccountDetailsView.swift; sourceTree = "<group>"; };
+		78434AA4236B0881000433EE /* RaveConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConfig.swift; sourceTree = "<group>"; };
+		78434AA6236B0881000433EE /* RavePayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayService.swift; sourceTree = "<group>"; };
+		78434AA8236B0881000433EE /* RaveURLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveURLHelper.swift; sourceTree = "<group>"; };
+		78434AA9236B0881000433EE /* TripleDES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleDES.swift; sourceTree = "<group>"; };
+		78434AAA236B0881000433EE /* SnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+		78434AAB236B0881000433EE /* RaveConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConstants.swift; sourceTree = "<group>"; };
+		78434AAC236B0881000433EE /* LoadingHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingHUD.swift; sourceTree = "<group>"; };
+		78434AAD236B0881000433EE /* RaveExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveExtension.swift; sourceTree = "<group>"; };
+		78434AB0236B0881000433EE /* SaveCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardViewController.swift; sourceTree = "<group>"; };
+		78434AB1236B0881000433EE /* NewRavePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRavePayViewController.swift; sourceTree = "<group>"; };
+		78434AB2236B0881000433EE /* RavePayWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayWebViewController.swift; sourceTree = "<group>"; };
+		78434AB4236B0881000433EE /* MPesaBusinessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPesaBusinessView.swift; sourceTree = "<group>"; };
+		78434AB5236B0881000433EE /* MpesaPendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MpesaPendingView.swift; sourceTree = "<group>"; };
+		78434AB6236B0881000433EE /* AccountForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountForm.swift; sourceTree = "<group>"; };
+		78434AB7236B0881000433EE /* SelectBankAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBankAccountView.swift; sourceTree = "<group>"; };
+		78434AB8236B0881000433EE /* UKAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKAccountView.swift; sourceTree = "<group>"; };
+		78434AB9236B0881000433EE /* OTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		78434ABA236B0881000433EE /* MobileMoneyGHPendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyGHPendingView.swift; sourceTree = "<group>"; };
+		78434ABB236B0881000433EE /* MpesaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MpesaView.swift; sourceTree = "<group>"; };
+		78434ABC236B0881000433EE /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		78434ABD236B0881000433EE /* MobileMoneyRW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyRW.swift; sourceTree = "<group>"; };
+		78434ABE236B0881000433EE /* MobileMoneyZM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyZM.swift; sourceTree = "<group>"; };
+		78434ABF236B0881000433EE /* SavedCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCardsView.swift; sourceTree = "<group>"; };
+		78434AC0236B0881000433EE /* BillingAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillingAddress.swift; sourceTree = "<group>"; };
+		78434AC1236B0881000433EE /* UKAccountDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKAccountDetailsView.swift; sourceTree = "<group>"; };
+		78434AC2236B0881000433EE /* DebitCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebitCardView.swift; sourceTree = "<group>"; };
+		78434AC3236B0881000433EE /* MobileMoneyUganda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyUganda.swift; sourceTree = "<group>"; };
+		78434AC4236B0881000433EE /* MobileMoneyFR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyFR.swift; sourceTree = "<group>"; };
+		78434AC5236B0881000433EE /* HowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowView.swift; sourceTree = "<group>"; };
+		78434AC6236B0881000433EE /* MobileMoneyGHView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileMoneyGHView.swift; sourceTree = "<group>"; };
+		78434ACA236B0882000433EE /* RavePayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayHeaderView.swift; sourceTree = "<group>"; };
+		78434ACB236B0882000433EE /* RavePayNavTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayNavTitle.swift; sourceTree = "<group>"; };
+		78434ACC236B0882000433EE /* SaveCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardCell.swift; sourceTree = "<group>"; };
+		78434ACD236B0882000433EE /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
+		78434ACF236B0882000433EE /* Loader_WY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
+		78434AD0236B0882000433EE /* Loader_YW.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
+		78434AD1236B0882000433EE /* Loader_YB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
+		78434AD4236B0882000433EE /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		78434AD5236B0882000433EE /* SavedCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
+		78434AD7236B0882000433EE /* RaveMpesaClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMpesaClient.swift; sourceTree = "<group>"; };
+		78434AD8236B0882000433EE /* RaveMobileMoneyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMobileMoneyClient.swift; sourceTree = "<group>"; };
+		78434AD9236B0882000433EE /* RaveAccountClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveAccountClient.swift; sourceTree = "<group>"; };
+		78434ADA236B0882000433EE /* RaveCardClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveCardClient.swift; sourceTree = "<group>"; };
 		78F39FD8D386E800ABB989D6D3A4B0DC /* Pods-RaveSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaveSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B5C54C623D16C74E8C2ED0AA3A8CB89 /* LayerImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerImageProvider.swift; path = "lottie-swift/src/Private/LayerContainers/Utility/LayerImageProvider.swift"; sourceTree = "<group>"; };
 		7B660BCC97F91E63E01D96714344A85C /* AnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationContext.swift; path = "lottie-swift/src/Private/Utility/Helpers/AnimationContext.swift"; sourceTree = "<group>"; };
@@ -506,7 +508,6 @@
 		C599BDEEF3C9BED19261E57CD395884E /* Pods-RaveSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RaveSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		C81DA2EBCDC6B6AA1202AD32D67FB883 /* AnimationKeypathExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationKeypathExtension.swift; path = "lottie-swift/src/Private/Utility/Extensions/AnimationKeypathExtension.swift"; sourceTree = "<group>"; };
 		CA38D9C1F9917EC98E557D38EAFBE8A5 /* Pods-RaveSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RaveSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC5E21FA75DDBED77BFAFAC5E4BBB633 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RaveSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CC6FD57B860ECE7473F5960D1A1F724B /* AnyValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueContainer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift"; sourceTree = "<group>"; };
 		CC7E832182E3369CA198B97FE569C78A /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		CCEE410A799F789DFA2B405DEC7C979B /* StarNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/StarNode.swift"; sourceTree = "<group>"; };
@@ -829,13 +830,12 @@
 		7030B732E13FF56284DF8C8C74608DEB /* RaveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4C0233E5DD900F52A5D /* App */,
-				7875A4C2233E5DD900F52A5D /* Config */,
-				7875A4C5233E5DD900F52A5D /* Model */,
-				7875A4C7233E5DD900F52A5D /* Service */,
-				7875A4EA233E5DD900F52A5D /* UI */,
-				7875A4F1233E5DD900F52A5D /* Utils */,
-				CC5E21FA75DDBED77BFAFAC5E4BBB633 /* ReplaceMe.swift */,
+				78434AD6236B0882000433EE /* App */,
+				78434AA3236B0881000433EE /* Config */,
+				78434AD3236B0882000433EE /* Model */,
+				78434AA5236B0881000433EE /* Service */,
+				78434AAE236B0881000433EE /* UI */,
+				78434AA7236B0881000433EE /* Utils */,
 				F9577D32449A210E6CF7AA5CF1F22085 /* Pod */,
 				7F874E5563EF0C17CCD0B53DB2B087F9 /* Support Files */,
 			);
@@ -843,121 +843,127 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7875A4C0233E5DD900F52A5D /* App */ = {
+		78434AA3236B0881000433EE /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4BC233E5DD900F52A5D /* RaveMpesaClient.swift */,
-				7875A4BD233E5DD900F52A5D /* RaveMobileMoneyClient.swift */,
-				7875A4BE233E5DD900F52A5D /* RaveAccountClient.swift */,
-				7875A4BF233E5DD900F52A5D /* RaveCardClient.swift */,
+				78434AA4236B0881000433EE /* RaveConfig.swift */,
 			);
-			path = App;
+			name = Config;
+			path = RaveSDK/Classes/Config;
 			sourceTree = "<group>";
 		};
-		7875A4C2233E5DD900F52A5D /* Config */ = {
+		78434AA5236B0881000433EE /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4C1233E5DD900F52A5D /* RaveConfig.swift */,
+				78434AA6236B0881000433EE /* RavePayService.swift */,
 			);
-			path = Config;
+			name = Service;
+			path = RaveSDK/Classes/Service;
 			sourceTree = "<group>";
 		};
-		7875A4C5233E5DD900F52A5D /* Model */ = {
+		78434AA7236B0881000433EE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4C3233E5DD900F52A5D /* Bank.swift */,
-				7875A4C4233E5DD900F52A5D /* SavedCard.swift */,
+				78434AA8236B0881000433EE /* RaveURLHelper.swift */,
+				78434AA9236B0881000433EE /* TripleDES.swift */,
+				78434AAA236B0881000433EE /* SnackBar.swift */,
+				78434AAB236B0881000433EE /* RaveConstants.swift */,
+				78434AAC236B0881000433EE /* LoadingHUD.swift */,
+				78434AAD236B0881000433EE /* RaveExtension.swift */,
 			);
-			path = Model;
+			name = Utils;
+			path = RaveSDK/Classes/Utils;
 			sourceTree = "<group>";
 		};
-		7875A4C7233E5DD900F52A5D /* Service */ = {
+		78434AAE236B0881000433EE /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4C6233E5DD900F52A5D /* RavePayService.swift */,
+				78434AAF236B0881000433EE /* NewControllers */,
+				78434AC9236B0882000433EE /* View */,
+				78434ACE236B0882000433EE /* Resource */,
 			);
-			path = Service;
+			name = UI;
+			path = RaveSDK/Classes/UI;
 			sourceTree = "<group>";
 		};
-		7875A4DC233E5DD900F52A5D /* Views */ = {
+		78434AAF236B0881000433EE /* NewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4CB233E5DD900F52A5D /* MPesaBusinessView.swift */,
-				7875A4CC233E5DD900F52A5D /* MpesaPendingView.swift */,
-				7875A4CD233E5DD900F52A5D /* AccountForm.swift */,
-				7875A4CE233E5DD900F52A5D /* SelectBankAccountView.swift */,
-				7875A4CF233E5DD900F52A5D /* OTPView.swift */,
-				7875A4D0233E5DD900F52A5D /* MobileMoneyGHPendingView.swift */,
-				7875A4D1233E5DD900F52A5D /* MpesaView.swift */,
-				7875A4D2233E5DD900F52A5D /* PinView.swift */,
-				7875A4D3233E5DD900F52A5D /* MobileMoneyRW.swift */,
-				7875A4D4233E5DD900F52A5D /* MobileMoneyZM.swift */,
-				7875A4D5233E5DD900F52A5D /* SavedCardsView.swift */,
-				7875A4D6233E5DD900F52A5D /* BillingAddress.swift */,
-				7875A4D7233E5DD900F52A5D /* DebitCardView.swift */,
-				7875A4D8233E5DD900F52A5D /* MobileMoneyUganda.swift */,
-				7875A4D9233E5DD900F52A5D /* MobileMoneyFR.swift */,
-				7875A4DA233E5DD900F52A5D /* HowView.swift */,
-				78BF304A2350C83C00036315 /* UKAccountDetailsView.swift */,
-				78BF30492350C83C00036315 /* UKAccountView.swift */,
-				7875A4DB233E5DD900F52A5D /* MobileMoneyGHView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7875A4DD233E5DD900F52A5D /* NewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7875A4C8233E5DD900F52A5D /* SaveCardViewController.swift */,
-				7875A4C9233E5DD900F52A5D /* NewRavePayViewController.swift */,
-				7875A4CA233E5DD900F52A5D /* RavePayWebViewController.swift */,
-				7875A4DC233E5DD900F52A5D /* Views */,
+				78434AB0236B0881000433EE /* SaveCardViewController.swift */,
+				78434AB1236B0881000433EE /* NewRavePayViewController.swift */,
+				78434AB2236B0881000433EE /* RavePayWebViewController.swift */,
+				78434AB3236B0881000433EE /* Views */,
 			);
 			path = NewControllers;
 			sourceTree = "<group>";
 		};
-		7875A4E4233E5DD900F52A5D /* View */ = {
+		78434AB3236B0881000433EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4E0233E5DD900F52A5D /* RavePayHeaderView.swift */,
-				7875A4E1233E5DD900F52A5D /* RavePayNavTitle.swift */,
-				7875A4E2233E5DD900F52A5D /* SaveCardCell.swift */,
-				7875A4E3233E5DD900F52A5D /* VSTextField.swift */,
+				78434AB4236B0881000433EE /* MPesaBusinessView.swift */,
+				78434AB5236B0881000433EE /* MpesaPendingView.swift */,
+				78434AB6236B0881000433EE /* AccountForm.swift */,
+				78434AB7236B0881000433EE /* SelectBankAccountView.swift */,
+				78434AB8236B0881000433EE /* UKAccountView.swift */,
+				78434AB9236B0881000433EE /* OTPView.swift */,
+				78434ABA236B0881000433EE /* MobileMoneyGHPendingView.swift */,
+				78434ABB236B0881000433EE /* MpesaView.swift */,
+				78434ABC236B0881000433EE /* PinView.swift */,
+				78434ABD236B0881000433EE /* MobileMoneyRW.swift */,
+				78434ABE236B0881000433EE /* MobileMoneyZM.swift */,
+				78434ABF236B0881000433EE /* SavedCardsView.swift */,
+				78434AC0236B0881000433EE /* BillingAddress.swift */,
+				78434AC1236B0881000433EE /* UKAccountDetailsView.swift */,
+				78434AC2236B0881000433EE /* DebitCardView.swift */,
+				78434AC3236B0881000433EE /* MobileMoneyUganda.swift */,
+				78434AC4236B0881000433EE /* MobileMoneyFR.swift */,
+				78434AC5236B0881000433EE /* HowView.swift */,
+				78434AC6236B0881000433EE /* MobileMoneyGHView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78434AC9236B0882000433EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78434ACA236B0882000433EE /* RavePayHeaderView.swift */,
+				78434ACB236B0882000433EE /* RavePayNavTitle.swift */,
+				78434ACC236B0882000433EE /* SaveCardCell.swift */,
+				78434ACD236B0882000433EE /* VSTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		7875A4E8233E5DD900F52A5D /* Resource */ = {
+		78434ACE236B0882000433EE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4E5233E5DD900F52A5D /* Loader_WY.json */,
-				7875A4E6233E5DD900F52A5D /* Loader_YW.json */,
-				7875A4E7233E5DD900F52A5D /* Loader_YB.json */,
+				78434ACF236B0882000433EE /* Loader_WY.json */,
+				78434AD0236B0882000433EE /* Loader_YW.json */,
+				78434AD1236B0882000433EE /* Loader_YB.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		7875A4EA233E5DD900F52A5D /* UI */ = {
+		78434AD3236B0882000433EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4DD233E5DD900F52A5D /* NewControllers */,
-				7875A4E4233E5DD900F52A5D /* View */,
-				7875A4E8233E5DD900F52A5D /* Resource */,
+				78434AD4236B0882000433EE /* Bank.swift */,
+				78434AD5236B0882000433EE /* SavedCard.swift */,
 			);
-			path = UI;
+			name = Model;
+			path = RaveSDK/Classes/Model;
 			sourceTree = "<group>";
 		};
-		7875A4F1233E5DD900F52A5D /* Utils */ = {
+		78434AD6236B0882000433EE /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7875A4EB233E5DD900F52A5D /* RaveURLHelper.swift */,
-				7875A4EC233E5DD900F52A5D /* TripleDES.swift */,
-				7875A4ED233E5DD900F52A5D /* SnackBar.swift */,
-				7875A4EE233E5DD900F52A5D /* RaveConstants.swift */,
-				7875A4EF233E5DD900F52A5D /* LoadingHUD.swift */,
-				7875A4F0233E5DD900F52A5D /* RaveExtension.swift */,
+				78434AD7236B0882000433EE /* RaveMpesaClient.swift */,
+				78434AD8236B0882000433EE /* RaveMobileMoneyClient.swift */,
+				78434AD9236B0882000433EE /* RaveAccountClient.swift */,
+				78434ADA236B0882000433EE /* RaveCardClient.swift */,
 			);
-			path = Utils;
+			name = App;
+			path = RaveSDK/Classes/App;
 			sourceTree = "<group>";
 		};
 		7F874E5563EF0C17CCD0B53DB2B087F9 /* Support Files */ = {
@@ -1359,6 +1365,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78434AFF236B0882000433EE /* Loader_YW.json in Resources */,
+				78434AFE236B0882000433EE /* Loader_WY.json in Resources */,
+				78434B00236B0882000433EE /* Loader_YB.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,48 +1411,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7875A4F7233E5E3F00F52A5D /* LoadingHUD.swift in Sources */,
-				78BF304B2350C83C00036315 /* UKAccountView.swift in Sources */,
-				7875A501233E5EF300F52A5D /* MpesaPendingView.swift in Sources */,
-				78BF304C2350C83C00036315 /* UKAccountDetailsView.swift in Sources */,
-				7875A4F8233E5E3F00F52A5D /* RaveExtension.swift in Sources */,
+				78434AE4236B0882000433EE /* NewRavePayViewController.swift in Sources */,
 				339222C6F9F430621331D6253A2ADE23 /* RaveSDK-dummy.m in Sources */,
-				7875A50E233E5EF300F52A5D /* MobileMoneyFR.swift in Sources */,
-				7875A505233E5EF300F52A5D /* MobileMoneyGHPendingView.swift in Sources */,
-				7875A4FA233E5EDF00F52A5D /* RavePayNavTitle.swift in Sources */,
-				A2A7C6CE8DBE09248A5C571BFE7AE8C0 /* ReplaceMe.swift in Sources */,
-				7875A508233E5EF300F52A5D /* MobileMoneyRW.swift in Sources */,
-				7875A504233E5EF300F52A5D /* OTPView.swift in Sources */,
-				7875A4F5233E5E3F00F52A5D /* SnackBar.swift in Sources */,
-				7875A513233E5F0100F52A5D /* SavedCard.swift in Sources */,
-				7875A4FE233E5EEC00F52A5D /* NewRavePayViewController.swift in Sources */,
-				7875A50D233E5EF300F52A5D /* MobileMoneyUganda.swift in Sources */,
-				7875A4FB233E5EDF00F52A5D /* SaveCardCell.swift in Sources */,
-				7875A516233E5F0C00F52A5D /* RaveMobileMoneyClient.swift in Sources */,
-				7875A514233E5F0600F52A5D /* RaveConfig.swift in Sources */,
-				7875A4FD233E5EEC00F52A5D /* SaveCardViewController.swift in Sources */,
-				7875A512233E5F0100F52A5D /* Bank.swift in Sources */,
-				7875A4F9233E5EDF00F52A5D /* RavePayHeaderView.swift in Sources */,
-				7875A502233E5EF300F52A5D /* AccountForm.swift in Sources */,
-				7875A50F233E5EF300F52A5D /* HowView.swift in Sources */,
-				7875A50C233E5EF300F52A5D /* DebitCardView.swift in Sources */,
-				7875A4F4233E5E3F00F52A5D /* TripleDES.swift in Sources */,
-				7875A517233E5F0C00F52A5D /* RaveAccountClient.swift in Sources */,
-				7875A506233E5EF300F52A5D /* MpesaView.swift in Sources */,
-				7875A4F3233E5E3F00F52A5D /* RaveURLHelper.swift in Sources */,
-				7875A50A233E5EF300F52A5D /* SavedCardsView.swift in Sources */,
-				7875A4FC233E5EDF00F52A5D /* VSTextField.swift in Sources */,
-				7875A50B233E5EF300F52A5D /* BillingAddress.swift in Sources */,
-				7875A518233E5F0C00F52A5D /* RaveCardClient.swift in Sources */,
-				7875A4FF233E5EEC00F52A5D /* RavePayWebViewController.swift in Sources */,
-				7875A4F6233E5E3F00F52A5D /* RaveConstants.swift in Sources */,
-				7875A503233E5EF300F52A5D /* SelectBankAccountView.swift in Sources */,
-				7875A510233E5EF300F52A5D /* MobileMoneyGHView.swift in Sources */,
-				7875A511233E5EFB00F52A5D /* RavePayService.swift in Sources */,
-				7875A507233E5EF300F52A5D /* PinView.swift in Sources */,
-				7875A500233E5EF300F52A5D /* MPesaBusinessView.swift in Sources */,
-				7875A515233E5F0C00F52A5D /* RaveMpesaClient.swift in Sources */,
-				7875A509233E5EF300F52A5D /* MobileMoneyZM.swift in Sources */,
+				78434AFA236B0882000433EE /* RavePayHeaderView.swift in Sources */,
+				78434AF5236B0882000433EE /* MobileMoneyUganda.swift in Sources */,
+				78434AEE236B0882000433EE /* PinView.swift in Sources */,
+				78434ADB236B0882000433EE /* RaveConfig.swift in Sources */,
+				78434AED236B0882000433EE /* MpesaView.swift in Sources */,
+				78434AF0236B0882000433EE /* MobileMoneyZM.swift in Sources */,
+				78434AE2236B0882000433EE /* RaveExtension.swift in Sources */,
+				78434AEC236B0882000433EE /* MobileMoneyGHPendingView.swift in Sources */,
+				78434AFD236B0882000433EE /* VSTextField.swift in Sources */,
+				78434AEF236B0882000433EE /* MobileMoneyRW.swift in Sources */,
+				78434AE3236B0882000433EE /* SaveCardViewController.swift in Sources */,
+				78434AF1236B0882000433EE /* SavedCardsView.swift in Sources */,
+				78434AE8236B0882000433EE /* AccountForm.swift in Sources */,
+				78434AFC236B0882000433EE /* SaveCardCell.swift in Sources */,
+				78434AE7236B0882000433EE /* MpesaPendingView.swift in Sources */,
+				78434AE6236B0882000433EE /* MPesaBusinessView.swift in Sources */,
+				78434AE1236B0882000433EE /* LoadingHUD.swift in Sources */,
+				78434ADC236B0882000433EE /* RavePayService.swift in Sources */,
+				78434AF7236B0882000433EE /* HowView.swift in Sources */,
+				78434AF6236B0882000433EE /* MobileMoneyFR.swift in Sources */,
+				78434B03236B0882000433EE /* SavedCard.swift in Sources */,
+				78434AF2236B0882000433EE /* BillingAddress.swift in Sources */,
+				78434AEA236B0882000433EE /* UKAccountView.swift in Sources */,
+				78434B07236B0882000433EE /* RaveCardClient.swift in Sources */,
+				78434AE9236B0882000433EE /* SelectBankAccountView.swift in Sources */,
+				78434B05236B0882000433EE /* RaveMobileMoneyClient.swift in Sources */,
+				78434AF3236B0882000433EE /* UKAccountDetailsView.swift in Sources */,
+				78434ADE236B0882000433EE /* TripleDES.swift in Sources */,
+				78434ADF236B0882000433EE /* SnackBar.swift in Sources */,
+				78434AEB236B0882000433EE /* OTPView.swift in Sources */,
+				78434ADD236B0882000433EE /* RaveURLHelper.swift in Sources */,
+				78434B02236B0882000433EE /* Bank.swift in Sources */,
+				78434AF8236B0882000433EE /* MobileMoneyGHView.swift in Sources */,
+				78434AE5236B0882000433EE /* RavePayWebViewController.swift in Sources */,
+				78434AFB236B0882000433EE /* RavePayNavTitle.swift in Sources */,
+				78434AF4236B0882000433EE /* DebitCardView.swift in Sources */,
+				78434B04236B0882000433EE /* RaveMpesaClient.swift in Sources */,
+				78434AE0236B0882000433EE /* RaveConstants.swift in Sources */,
+				78434B06236B0882000433EE /* RaveAccountClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
