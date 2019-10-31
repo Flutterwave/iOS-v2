@@ -101,6 +101,9 @@
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CA472AECDBE826366C95209CA12668 /* Foundation.framework */; };
 		7714927D19EED5955A0AC0354BB33502 /* ShapeCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E8D5903EB0F01274C13ADC8856E88 /* ShapeCompositionLayer.swift */; };
 		77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691A61494B74DA46DB3AEC37A2EE901 /* IQUIView+IQKeyboardToolbar.swift */; };
+		780BBA6A236B9BEC0030EC45 /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 780BBA67236B9BEC0030EC45 /* Loader_YW.json */; };
+		780BBA6B236B9BEC0030EC45 /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 780BBA68236B9BEC0030EC45 /* Loader_WY.json */; };
+		780BBA6C236B9BEC0030EC45 /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 780BBA69236B9BEC0030EC45 /* Loader_YB.json */; };
 		78434ADB236B0882000433EE /* RaveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA4236B0881000433EE /* RaveConfig.swift */; };
 		78434ADC236B0882000433EE /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA6236B0881000433EE /* RavePayService.swift */; };
 		78434ADD236B0882000433EE /* RaveURLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AA8236B0881000433EE /* RaveURLHelper.swift */; };
@@ -141,9 +144,6 @@
 		78434B05236B0882000433EE /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD8236B0882000433EE /* RaveMobileMoneyClient.swift */; };
 		78434B06236B0882000433EE /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434AD9236B0882000433EE /* RaveAccountClient.swift */; };
 		78434B07236B0882000433EE /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78434ADA236B0882000433EE /* RaveCardClient.swift */; };
-		7876E00A236B0A98003DDEF5 /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434ACF236B0882000433EE /* Loader_WY.json */; };
-		7876E00B236B0A98003DDEF5 /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD0236B0882000433EE /* Loader_YW.json */; };
-		7876E00C236B0A98003DDEF5 /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 78434AD1236B0882000433EE /* Loader_YB.json */; };
 		7D3FFF0CCA329410ECA45C2C56F87839 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94779980673F520C772F714A7923EF1 /* Glyph.swift */; };
 		7DDF6E68C9707C67380293369D89945C /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96DCA9D746A4FED37DEE6326CA535BB /* BezierPath.swift */; };
 		7EAF5979CE105F8F595D38123B0F3189 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5BBDCFB10D4670E341DA0A9C5797A /* Transform.swift */; };
@@ -396,6 +396,9 @@
 		75EA436CC1E4A81DF683996CFB354133 /* Pods-RaveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaveSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		76BBA62293391156D9B92B4CABAFF3C1 /* RectNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/RectNode.swift"; sourceTree = "<group>"; };
 		77D439E6D66423912DCF1446251DCBA4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		780BBA67236B9BEC0030EC45 /* Loader_YW.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
+		780BBA68236B9BEC0030EC45 /* Loader_WY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
+		780BBA69236B9BEC0030EC45 /* Loader_YB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
 		78434AA4236B0881000433EE /* RaveConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConfig.swift; sourceTree = "<group>"; };
 		78434AA6236B0881000433EE /* RavePayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayService.swift; sourceTree = "<group>"; };
 		78434AA8236B0881000433EE /* RaveURLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveURLHelper.swift; sourceTree = "<group>"; };
@@ -430,9 +433,6 @@
 		78434ACB236B0882000433EE /* RavePayNavTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayNavTitle.swift; sourceTree = "<group>"; };
 		78434ACC236B0882000433EE /* SaveCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardCell.swift; sourceTree = "<group>"; };
 		78434ACD236B0882000433EE /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
-		78434ACF236B0882000433EE /* Loader_WY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
-		78434AD0236B0882000433EE /* Loader_YW.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
-		78434AD1236B0882000433EE /* Loader_YB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
 		78434AD4236B0882000433EE /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		78434AD5236B0882000433EE /* SavedCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
 		78434AD7236B0882000433EE /* RaveMpesaClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMpesaClient.swift; sourceTree = "<group>"; };
@@ -878,28 +878,12 @@
 		78434AAE236B0881000433EE /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				78434AAF236B0881000433EE /* NewControllers */,
-				78434AC9236B0882000433EE /* View */,
-				78434ACE236B0882000433EE /* Resource */,
-			);
-			name = UI;
-			path = RaveSDK/Classes/UI;
-			sourceTree = "<group>";
-		};
-		78434AAF236B0881000433EE /* NewControllers */ = {
-			isa = PBXGroup;
-			children = (
+				780BBA68236B9BEC0030EC45 /* Loader_WY.json */,
+				780BBA69236B9BEC0030EC45 /* Loader_YB.json */,
+				780BBA67236B9BEC0030EC45 /* Loader_YW.json */,
 				78434AB0236B0881000433EE /* SaveCardViewController.swift */,
 				78434AB1236B0881000433EE /* NewRavePayViewController.swift */,
 				78434AB2236B0881000433EE /* RavePayWebViewController.swift */,
-				78434AB3236B0881000433EE /* Views */,
-			);
-			path = NewControllers;
-			sourceTree = "<group>";
-		};
-		78434AB3236B0881000433EE /* Views */ = {
-			isa = PBXGroup;
-			children = (
 				78434AB4236B0881000433EE /* MPesaBusinessView.swift */,
 				78434AB5236B0881000433EE /* MpesaPendingView.swift */,
 				78434AB6236B0881000433EE /* AccountForm.swift */,
@@ -919,29 +903,13 @@
 				78434AC4236B0881000433EE /* MobileMoneyFR.swift */,
 				78434AC5236B0881000433EE /* HowView.swift */,
 				78434AC6236B0881000433EE /* MobileMoneyGHView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		78434AC9236B0882000433EE /* View */ = {
-			isa = PBXGroup;
-			children = (
 				78434ACA236B0882000433EE /* RavePayHeaderView.swift */,
 				78434ACB236B0882000433EE /* RavePayNavTitle.swift */,
 				78434ACC236B0882000433EE /* SaveCardCell.swift */,
 				78434ACD236B0882000433EE /* VSTextField.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		78434ACE236B0882000433EE /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				78434ACF236B0882000433EE /* Loader_WY.json */,
-				78434AD0236B0882000433EE /* Loader_YW.json */,
-				78434AD1236B0882000433EE /* Loader_YB.json */,
-			);
-			path = Resource;
+			name = UI;
+			path = RaveSDK/Classes/UI;
 			sourceTree = "<group>";
 		};
 		78434AD3236B0882000433EE /* Model */ = {
@@ -1365,9 +1333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7876E00A236B0A98003DDEF5 /* Loader_WY.json in Resources */,
-				7876E00B236B0A98003DDEF5 /* Loader_YW.json in Resources */,
-				7876E00C236B0A98003DDEF5 /* Loader_YB.json in Resources */,
+				780BBA6B236B9BEC0030EC45 /* Loader_WY.json in Resources */,
+				780BBA6A236B9BEC0030EC45 /* Loader_YW.json in Resources */,
+				780BBA6C236B9BEC0030EC45 /* Loader_YB.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
