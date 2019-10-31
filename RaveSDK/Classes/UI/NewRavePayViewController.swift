@@ -1136,7 +1136,8 @@ public class NewRavePayViewController: UITableViewController {
     func saveCardCallbacks(){
         if let _ = RaveConfig.sharedConfig().publicKey{
             if let deviceNumber = RaveConfig.sharedConfig().phoneNumber, deviceNumber != ""{
-                LoadingHUD.shared().showInView(view: self.view)
+               // LoadingHUD.shared().showInView(view: self.view)
+                 LoadingHUD.shared().show()
                 raveCardClient.fetchSavedCards()
             }
         }
