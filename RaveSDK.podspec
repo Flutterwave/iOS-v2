@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RaveSDK'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'RaveSDK'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
   s.swift_versions = '5.0'
 
   s.source_files = 'RaveSDK/Classes/*/**'
+  s.ios.resource_bundle = { 'RaveSDK' => 'RaveSDK/Assets/*.png' }
   
 #   s.resource_bundles = {
 #     'RaveSDK' => ['RaveSDK/Assets/*.png']
