@@ -125,7 +125,7 @@ class AccountForm: UIView {
             goBack.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             goBack.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
             goBack.topAnchor.constraint(equalTo: accountPayButton.bottomAnchor, constant: 8),
-            goBack.heightAnchor.constraint(equalToConstant: 50),
+            //goBack.heightAnchor.constraint(equalToConstant: 50),
             
         ])
     }

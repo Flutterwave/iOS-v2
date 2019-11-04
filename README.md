@@ -17,7 +17,7 @@ RaveSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RaveSDK','~>1.1.6'
+pod 'RaveSDK','~>2.0.0'
 ```
 
 ## Author
