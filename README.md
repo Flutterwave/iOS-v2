@@ -58,6 +58,7 @@ pod 'RaveSDK'
          controller.delegate = self
          self.present(nav, animated: true)
      }
+}
 ```
 
 ## Author
