@@ -32,11 +32,9 @@ TODO: Add long description of the pod here.
   s.swift_versions = '5.0'
 
   s.source_files = 'RaveSDK/Classes/*/**'
-  s.ios.resource_bundle = { 'RaveSDK' => 'RaveSDK/Assets/*.png' }
-  
-#   s.resource_bundles = {
-#     'RaveSDK' => ['RaveSDK/Assets/*.png']
-#   }
+  s.ios.resource_bundle = { 'RaveSDK' => 'RaveSDK/Assets/{*.png,*.json}' }
+  s.resource = 'Resources/RaveSDK.bundle'
+
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'

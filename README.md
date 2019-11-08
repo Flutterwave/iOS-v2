@@ -20,6 +20,46 @@ it, simply add the following line to your Podfile:
 pod 'RaveSDK','~>2.0.1'
 ```
 
+## Usage
+
+```swift
+ import UIKit
+ import RaveSDK
+
+ class ViewController: UIViewController ,RavePayProtocol {
+     func tranasctionSuccessful(flwRef: String?, responseData: [String : Any]?) {
+         
+     }
+
+     func tranasctionFailed(flwRef: String?, responseData: [String : Any]?) {
+     
+     }
+
+
+     @IBAction func showAction(_ sender: Any) {
+         let config = RaveConfig.sharedConfig()
+         config.country = "NG" // Country Code
+         config.currencyCode = "NGN" // Currency
+         config.email = "[customer@email.com]" // Customer's email
+         config.isStaging = false // Toggle this for staging and live environment
+         config.phoneNumber = "[xxxxxxxxx]" //Phone number
+         config.transcationRef = "ref" // transaction ref
+         config.firstName = "[firstname]" 
+         config.lastName = "[lastname]" 
+         config.meta = [["metaname":"sdk", "metavalue":"ios"]]
+         
+         config.publicKey = "[PUB-KEY]" //Public key
+         config.encryptionKey = "[ENCRYPTION-KEY]" //Encryption key
+
+         
+         let controller = NewRavePayViewController()
+         let nav = UINavigationController(rootViewController: controller)
+         controller.amount = "[amount]" 
+         controller.delegate = self
+         self.present(nav, animated: true)
+     }
+```
+
 ## Author
 
 solejay, segun.solaja@flutterwavego.com

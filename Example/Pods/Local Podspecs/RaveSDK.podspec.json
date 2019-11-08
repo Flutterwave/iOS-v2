@@ -1,7 +1,7 @@
 {
   "name": "RaveSDK",
-  "version": "0.1.0",
-  "summary": "A short description of RaveSDK.",
+  "version": "2.0.1",
+  "summary": "RaveSDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/solejay/RaveSDK",
   "license": {
@@ -13,13 +13,19 @@
   },
   "source": {
     "git": "https://github.com/solejay/RaveSDK.git",
-    "tag": "0.1.0"
+    "tag": "2.0.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "swift_versions": "5.0",
-  "source_files": "RaveSDK/Classes/**/*",
+  "source_files": "RaveSDK/Classes/*/**",
+  "ios": {
+    "resource_bundles": {
+      "RaveSDK": "RaveSDK/Assets/{*.png,*.json}"
+    }
+  },
+  "resources": "Resources/RaveSDK.bundle",
   "frameworks": "UIKit",
   "dependencies": {
     "IQKeyboardManagerSwift": [

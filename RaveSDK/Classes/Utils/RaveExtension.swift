@@ -115,11 +115,13 @@ func styleTextField(_ textField:UITextField, leftView:UIView? = nil){
     }
 }
 extension Bundle {
-
-    func podResource(name: String) -> Bundle {
-        guard let bundleUrl = self.url(forResource: name, withExtension: "bundle") else { return self }
-        return Bundle(url: bundleUrl) ?? self
-    }
+   static func getResourcesBundle() -> Bundle? {
+    let bundle = Bundle(for:NewRavePayViewController.self)
+      guard let resourcesBundleUrl = bundle.resourceURL?.appendingPathComponent("RaveSDK.bundle") else {
+         return nil
+      }
+      return Bundle(url: resourcesBundleUrl)
+   }
 }
 
 
