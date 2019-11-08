@@ -10,6 +10,10 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+To install the RaveSDK you need to have Cocoapods installed on you Mac. If you don't have it installed you can paste the following code snippet in your Terminal
+```ruby
+ sudo gem install cocoapods
+```
 
 ## Installation
 
