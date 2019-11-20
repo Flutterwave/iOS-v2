@@ -163,7 +163,7 @@ class RaveMobileMoneyClient {
                                     if let authURL = result?["authurl"] as? String, authURL != "NO-URL", authURL != "N/A" {
                                         // Show Web View
                                         self.chargeWebAuth?(flwTransactionRef!,authURL)
-                                        if let txRef = result?["txRef"] as? String{
+                                        if let txRef = result?["flwRef"] as? String{
                                             self.queryMpesaTransaction(txRef: txRef)
                                         }
                                         
