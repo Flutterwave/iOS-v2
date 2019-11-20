@@ -140,7 +140,7 @@ class RaveMpesaClient {
                                                     self.chargePending?("Transaction Processing","A push notification has been sent to your phone, please complete the transaction by entering your pin.\n Please do not close this page until transaction is completed")
                                                     self.businessNumber =   result?["business_number"] as? String
                                                     self.accountNumber =  result?["orderRef"] as? String
-                                                    if let txRef = result?["txRef"] as? String{
+                                                    if let txRef = result?["flwRef"] as? String{
                                                         self.queryMpesaTransaction(txRef: txRef)
                                                     }
                                             }
