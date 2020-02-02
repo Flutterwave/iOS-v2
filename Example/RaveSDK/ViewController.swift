@@ -21,23 +21,23 @@ class ViewController: UIViewController ,RavePayProtocol {
 
     @IBAction func showAction(_ sender: Any) {
         let config = RaveConfig.sharedConfig()
-        config.country = "GH" // Country Code
-        config.currencyCode = "GHS" // Currency
-        config.email = "test@mailinator.com"
-        config.isStaging = false // Toggle this for staging and live environment
+        config.country = "NG" // Country Code
+        config.currencyCode = "NGN" // Currency
+        config.email = "test@email.com"
+        config.isStaging = true // Toggle this for staging and live environment
         config.phoneNumber = "08012345678" //Phone number
         config.transcationRef = "ref" // transaction ref
-        config.firstName = "Solejay" // first name
-        config.lastName = "baba" //lastname
+        config.firstName = "TEST" // first name
+        config.lastName = "TEST" //lastname
         config.meta = [["metaname":"sdk", "metavalue":"ios"]]
         
-        config.publicKey = "[PUB-KEY]" //Public key
+        config.publicKey = "[PUBLIC-KEY]" //Public key
         config.encryptionKey = "[ENCRYPTION-KEY]" //Encryption key
 
         
         let controller = NewRavePayViewController()
         let nav = UINavigationController(rootViewController: controller)
-        controller.amount = "200" // Amount
+        controller.amount = "10" // Amount
         controller.delegate = self
         self.present(nav, animated: true)
     }

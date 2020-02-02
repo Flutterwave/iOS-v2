@@ -130,25 +130,44 @@ extension String{
         return self.range(of: find, options: .caseInsensitive) != nil
     }
     func getLocale(code:String) -> Locale{
-        let locales: [String] = NSLocale.availableLocaleIdentifiers
-        let loc = locales.map { (item) -> Locale in
-            return Locale(identifier: item)
-        }
-        
-        let current = loc.filter { (item) -> Bool in
-            if let it = item.currencyCode{
-                return it == code
-            }else{
-                return false
-            }
-            }.first
-        return current ?? Locale(identifier: "ig_NG")
-        
+		switch code {
+		case "NGN":
+			return Locale(identifier: "ig_Ng")
+		case "USD":
+			return Locale(identifier: "en_US")
+		case "GBP":
+			return Locale(identifier: "en_GB")
+		case "KES":
+			return Locale(identifier: "kam_KE")
+		case "GHS":
+			return Locale(identifier: "ak_GH")
+		case "ZAR":
+			return Locale(identifier: "en_ZA")
+		case "UGX":
+			return Locale(identifier: "nyn_UG")
+		default:
+			let locales: [String] = NSLocale.availableLocaleIdentifiers
+			let loc = locales.map { (item) -> Locale in
+				return Locale(identifier: item)
+			}
+			
+			let current = loc.filter { (item) -> Bool in
+				if let it = item.currencyCode{
+					return it == code
+				}else{
+					return false
+				}
+			}.first
+			return current ?? Locale.current
+			
+		}
     }
-    func toRaveCurrency(_ withFraction:Int = 0, locale:Locale = Locale(identifier: "ig_NG")) -> String{
+	func toRaveCurrency(_ withFraction:Int = 0, locale:Locale = Locale.current) -> String{
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
+		formatter.minimumFractionDigits = withFraction
         formatter.maximumFractionDigits = withFraction
+		formatter.generatesDecimalNumbers = true
         formatter.locale = locale
         if self == ""{
             return formatter.string(from: NSNumber(value: 0))!
