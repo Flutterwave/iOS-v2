@@ -18,7 +18,7 @@ class RavePayHeaderView: UIView {
     let arrowButton:UIButton = {
         let button = UIButton(type: .custom)
         //UIImage(named: "rave_up_arrow")
-        button.setImage(UIImage(named: "rave_up_arrow",  in: Bundle.getResourcesBundle()!, compatibleWith: nil), for: .normal)
+        button.setImage(UIImage(named: "rave_up_arrow", in: Bundle.getResourcesBundle()!, compatibleWith: nil), for: .normal)
         button.tintColor = UIColor(hex: "#647482")
         button.translatesAutoresizingMaskIntoConstraints = false
         return button

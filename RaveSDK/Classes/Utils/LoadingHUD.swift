@@ -56,8 +56,9 @@ class LoadingHUD: UIView {
             blurView.topAnchor.constraint(equalTo: topAnchor).isActive = true
             blurView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         }
+		
         
-        animation = AnimationView(name: animationFile)
+		animation = AnimationView(name: animationFile, bundle: Bundle.getResourcesBundle() ?? Bundle.main)
         animation.loopMode = .loop
         animation.translatesAutoresizingMaskIntoConstraints = false
         addSubview(animation)

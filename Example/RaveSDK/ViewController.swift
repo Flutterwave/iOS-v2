@@ -31,8 +31,8 @@ class ViewController: UIViewController ,RavePayProtocol {
         config.lastName = "TEST" //lastname
         config.meta = [["metaname":"sdk", "metavalue":"ios"]]
         
-        config.publicKey = "[PUBLIC-KEY]" //Public key
-        config.encryptionKey = "[ENCRYPTION-KEY]" //Encryption key
+        config.publicKey = "FLWPUBK_TEST-edf1c9cf02e1280c418a2a50f32a40c5-X" //Public key
+        config.encryptionKey = "FLWSECK_TESTa2db7a79561a" //Encryption key
 
         
         let controller = NewRavePayViewController()

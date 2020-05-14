@@ -20,7 +20,7 @@ class RavePayNavTitle: UIView {
     
     let arrowButton:UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "rave_padlock"), for: .normal)
+        button.setImage(UIImage(named: "rave_padlock",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
         button.tintColor = UIColor(hex: "#647482")
         button.translatesAutoresizingMaskIntoConstraints = false
         return button

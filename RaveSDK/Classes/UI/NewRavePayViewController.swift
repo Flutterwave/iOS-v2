@@ -468,8 +468,7 @@ public class NewRavePayViewController: UITableViewController {
         
         let closeButton = UIButton(type: .system)
         closeButton.tintColor = .darkGray
-        closeButton.setImage(UIImage(named: "rave_close"), for: .normal)
-        closeButton.setTitle("X", for: .normal)
+        closeButton.setImage(UIImage(named: "rave_close", in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
         closeButton.titleLabel?.font  = UIFont.systemFont(ofSize: 17, weight: .bold)
         closeButton.titleLabel?.textAlignment = .center
         closeButton.frame = CGRect(x: 0, y:0, width: 40, height: 40)
@@ -561,7 +560,7 @@ public class NewRavePayViewController: UITableViewController {
         //access - 044 , sterling - 232 , zenith - 057, providus -101
         let dropButton = UIButton(type: .custom)
         dropButton.frame = CGRect(x: 0, y: 0, width: self.selectBankAccountView.otherBanksTextField.frame.height, height: selectBankAccountView.otherBanksTextField.frame.height)
-        dropButton.setImage(UIImage(named: "rave_down_arrow"), for: .normal)
+        dropButton.setImage(UIImage(named: "rave_down_arrow",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
         dropButton.addTarget(self, action: #selector(selectBankArrowTapped), for: .touchUpInside)
         self.selectBankAccountView.otherBanksTextField.rightView =  dropButton
         self.selectBankAccountView.otherBanksTextField.rightViewMode = .always
@@ -852,7 +851,7 @@ public class NewRavePayViewController: UITableViewController {
     
     @objc func toggleSaveCardCheck(){
         raveCardClient.saveCard =  !raveCardClient.saveCard
-        let image =  raveCardClient.saveCard == true ? UIImage(named:"rave_check_box") :  UIImage(named:"rave_unchecked_box")
+        let image =  raveCardClient.saveCard == true ? UIImage(named:"rave_check_box",in: Bundle.getResourcesBundle(), compatibleWith: nil) :  UIImage(named:"rave_unchecked_box",in: Bundle.getResourcesBundle(), compatibleWith: nil)
         debitCardView.rememberCardCheck.setImage(image, for: .normal)
     }
 
@@ -1070,7 +1069,7 @@ public class NewRavePayViewController: UITableViewController {
             self.tableView.insertRows(at: [IndexPath(row: 0, section: 0)], with: .fade)
             expandables[section].isExpanded = false
             self.tableView.deleteRows(at: [IndexPath(row: 0, section: section)], with: .fade)
-            self.headers[section]?.arrowButton.setImage(UIImage(named: "rave_up_arrow"), for: .normal)
+            self.headers[section]?.arrowButton.setImage(UIImage(named: "rave_up_arrow",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
         }else{
             //Expand current view and collapse the other sections
             var expandedIndexPath = [IndexPath]()
@@ -1078,13 +1077,13 @@ public class NewRavePayViewController: UITableViewController {
             for item in self.expandables{
                 if item.isExpanded == true{
                     expandedIndexPath.append(IndexPath(row: 0, section: item.section))
-                    self.headers[section]?.arrowButton.setImage(UIImage(named: "rave_up_arrow"), for: .normal)
+                    self.headers[section]?.arrowButton.setImage(UIImage(named: "rave_up_arrow",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
                 }
             }
             
             for item in self.expandables{
                 newExpandables.append(Expandables(isExpanded: false, section: item.section))
-                self.headers[item.section]?.arrowButton.setImage(UIImage(named: "rave_up_arrow"), for: .normal)
+                self.headers[item.section]?.arrowButton.setImage(UIImage(named: "rave_up_arrow",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
             }
             self.expandables = newExpandables
             
@@ -1094,7 +1093,7 @@ public class NewRavePayViewController: UITableViewController {
             
             
             self.expandables[section].isExpanded = true
-            self.headers[section]?.arrowButton.setImage(UIImage(named: "rave_down_arrow"), for: .normal)
+            self.headers[section]?.arrowButton.setImage(UIImage(named: "rave_down_arrow",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
             self.tableView.insertRows(at: [IndexPath(row: 0, section: section)], with: .fade)
             //Check if selected tab is Bank Account and Country is US
             if section == 2{
@@ -1879,7 +1878,7 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
         UIView.animate(withDuration: 0.6, animations: {
             self.accountFormContainer.alpha = 1
             self.accountFormContainer.backgroundColor = UIColor(hex: "#f2f2f2")
-            self.accountFormContainer.accountImageView.image = UIImage(named: imageName)
+            self.accountFormContainer.accountImageView.image = UIImage(named: imageName,in: Bundle.getResourcesBundle(), compatibleWith: nil)
             self.accountFormContainer.dobTextField.isHidden = dobFieldHidden
             self.accountFormContainer.accountBvn.isHidden = bvnFieldHidden
             self.selectBankAccountView.alpha = 0

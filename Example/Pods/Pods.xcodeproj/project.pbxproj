@@ -10,7 +10,7 @@
 		0030DABADE75E256C094D06CBE3C26BF /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A9C737156FE69DA9F3304374A2213 /* Marker.swift */; };
 		00322FBF9E1F5FEB8F782060E6634A77 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A29A93539BBF7C5B4A2B956E2088186 /* Alamofire.framework */; };
 		027849A9363C62140BAACDF20FA52623 /* UKAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4E0CDBCD3398A415A799CF94B0D4D /* UKAccountView.swift */; };
-		0279BD0ACCE9B3E7FBC58FC2A26BA845 /* rave_arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F1BA0046DDE95B614F188F26B85D8 /* rave_arrow_up@2x.png */; };
+		0279BD0ACCE9B3E7FBC58FC2A26BA845 /* rave_up_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F1BA0046DDE95B614F188F26B85D8 /* rave_up_arrow@2x.png */; };
 		0368A1A567BF145C96D38B88591B67E8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1CEFBB50DED4405F91A21CCE9F5B26 /* ColorExtension.swift */; };
 		03CC37128FAADD76A275A38703821E73 /* UKAccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E302F98155A0C72203C162A7A99D01 /* UKAccountDetailsView.swift */; };
 		049208BE485227C4A0DE6B9E7A69E8CB /* GroupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4F620C5EBE674F65ADF6C8BF6345E /* GroupNode.swift */; };
@@ -80,7 +80,7 @@
 		354D7EE9B4C452DD10AACFD211C340DB /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32985FE18D15DA999380F741A50B006 /* Interpolatable.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A93AF8659C463955F70BBDEA2B32A4 /* NetworkReachabilityManager.swift */; };
 		361B77EA491A6D2EA9053D734B8FA5BA /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D5E168DF527DE40D1A700320BBDA58 /* IQNSArray+Sort.swift */; };
-		36A42BC196626EF8C46C03E924051A89 /* rave_dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = CFBDE9E967B953B95BDD43AE268764C1 /* rave_dropdown.png */; };
+		36A42BC196626EF8C46C03E924051A89 /* rave_down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFBDE9E967B953B95BDD43AE268764C1 /* rave_down_arrow.png */; };
 		37396B483B537F3ADB0EE13CFAE90FBB /* FillI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673E5BFD7DAAD6C533910D9E70C97A1 /* FillI.swift */; };
 		38E167AC6D652B79203963B23A2DD223 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A1D78B20F316F818A8BE1392A7418D /* Lottie.framework */; };
 		39D7B9946FA54D7761A108B724145863 /* Keyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81B9225D73827125B0399F46F9C70B /* Keyframe.swift */; };
@@ -98,7 +98,7 @@
 		46D021D0082451781D23D99AB5892046 /* EllipseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348638DA910B17B08B7E67A139E13B8 /* EllipseNode.swift */; };
 		474BD176D99232B052652223E9CE4BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CA472AECDBE826366C95209CA12668 /* Foundation.framework */; };
 		48214700FA13FA46210B36E6D936FDFC /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0058F86FD7F0E897C13CE4540A72C0 /* RaveAccountClient.swift */; };
-		48F81FEB2E6DE0057BCF2BDB8C326C0D /* rave_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C4551CFC35B431DFE7A035219A68 /* rave_arrow_up.png */; };
+		48F81FEB2E6DE0057BCF2BDB8C326C0D /* rave_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C4551CFC35B431DFE7A035219A68 /* rave_up_arrow.png */; };
 		498B4091801EBE91E101DD59C4918943 /* rave_zenith@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB06B39E13A3BA371486043E69B620D /* rave_zenith@3x.png */; };
 		49ABA3456FD58A7CCECF9AC6FFDDC762 /* MathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0387ACD042C82206244F009AA6B1C3 /* MathKit.swift */; };
 		49C4AFD449CE40CCBAE17BF164C26C21 /* AnimationViewInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DBE74DA09891E093982BFE113E5216 /* AnimationViewInitializers.swift */; };
@@ -117,7 +117,7 @@
 		5330A87ABE084E3B4F0086DFC9E99770 /* ShapeTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1213F1EB57E507119D78E70A7EB3 /* ShapeTransform.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A93A4D7CFB75FF95034104E554DD6F7 /* Validation.swift */; };
 		58EAE227316B7C8926C1A121391CF27E /* TrimPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EFDCCD2B95DC09C8F152ECB31DE43 /* TrimPathNode.swift */; };
-		598EC67AF237B87DACE61134B4DBBF8B /* rave_dropdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0801793BF41DA49205075C33DA8D2F29 /* rave_dropdown@2x.png */; };
+		598EC67AF237B87DACE61134B4DBBF8B /* rave_down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0801793BF41DA49205075C33DA8D2F29 /* rave_down_arrow@2x.png */; };
 		5A3A73EB6AB631DE68DF52659C2948DB /* rave_padlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBA9E695BC22209941D017D45F8E27E /* rave_padlock@2x.png */; };
 		5AC93AF8FD1A624CDEF7F4167BA6957B /* SavedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193A15F638AA86FF0B6E0FD005105FD2 /* SavedCardsView.swift */; };
 		5B218CE1CD4D71F3D42CED3333F01609 /* GroupInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4E95A6245D3BE04530E7156CAC435F /* GroupInterpolator.swift */; };
@@ -211,7 +211,7 @@
 		A6ACF3873DCAD3FCF1A773074ED922FC /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD86DB87546F89A2A9AFC7316F71D6DE /* IQKeyboardManager.bundle */; };
 		A9D626145BEA2B8E43964E60973FD7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CA472AECDBE826366C95209CA12668 /* Foundation.framework */; };
 		AAE1BE083067A7B1FC0BF8AB0540625B /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3403B6EFE73BFF7DA4C7E8D601FD4C /* RaveMobileMoneyClient.swift */; };
-		AAF540D03FB8CD0F370272D0B77E6604 /* rave_dropdown@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1316911133109A0B3E2F7541D13C9B /* rave_dropdown@3x.png */; };
+		AAF540D03FB8CD0F370272D0B77E6604 /* rave_down_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1316911133109A0B3E2F7541D13C9B /* rave_down_arrow@3x.png */; };
 		AB9CB067EB45D1B0476B649DA1A17313 /* MpesaPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFAB59C7DFA00401671D60D02D4777 /* MpesaPendingView.swift */; };
 		ABA7507753619735895FB722F9240841 /* rave_providus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E46D7A237B44953E547CE9CEFE0002 /* rave_providus@2x.png */; };
 		AC1351EA71C2772987F17C328AFD54E1 /* LayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E988BAD511D4EDD791DA65ACBF6491F /* LayerModel.swift */; };
@@ -227,7 +227,7 @@
 		B49D19C5718BDEE880FE408ADFFE2D58 /* SelectBankAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D93E94376A5D71D878884EF591DDE6 /* SelectBankAccountView.swift */; };
 		B6DE1DF30A0C29641A5E5C418268D5A1 /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B932CC095BF3D9D438A6F9B99FBC0C /* Trim.swift */; };
 		B78956F70D23DF37E4858B51F4C7220A /* KeyedDecodingContainerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BF331849A5ED8EA60BB057E236C43E /* KeyedDecodingContainerExtensions.swift */; };
-		B78EE89574B8F88CB8D2C2BF1A95A6EA /* rave_arrow_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609EFFDA776944DDFBBF3E6F001DC483 /* rave_arrow_up@3x.png */; };
+		B78EE89574B8F88CB8D2C2BF1A95A6EA /* rave_up_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609EFFDA776944DDFBBF3E6F001DC483 /* rave_up_arrow@3x.png */; };
 		B7D788D9B38702B152EDABC6A5E4E4DA /* RavePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6520D062B73700B02D5B155BB00820AC /* RavePayHeaderView.swift */; };
 		BC9F76A949A2B4B760BC606E9483875D /* rave_ecobank.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2F386D7E134299CCF2EACB426CE7A9 /* rave_ecobank.png */; };
 		BCBE5DDEC212E65D1BD7680286EB8258 /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA02B62BFC7730730A82F41CBC5EB2F /* RavePayService.swift */; };
@@ -371,20 +371,20 @@
 /* Begin PBXFileReference section */
 		00CE3FDE10B875269F1FF5999F09EF55 /* Mask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mask.swift; path = "lottie-swift/src/Private/Model/Objects/Mask.swift"; sourceTree = "<group>"; };
 		02784E48387FC357534AD48AEB1994CC /* AnimationSubview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationSubview.swift; path = "lottie-swift/src/Public/iOS/AnimationSubview.swift"; sourceTree = "<group>"; };
-		039B4CDB97128E64547F4A2CFEBA45B9 /* Pods_RaveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RaveSDK_Tests.framework; path = "Pods-RaveSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		039B4CDB97128E64547F4A2CFEBA45B9 /* Pods_RaveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A93AF8659C463955F70BBDEA2B32A4 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		05D4E0CDBCD3398A415A799CF94B0D4D /* UKAccountView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UKAccountView.swift; sourceTree = "<group>"; };
 		05F2DDAE6FE451C1226B0C74D8B6D342 /* Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Rectangle.swift"; sourceTree = "<group>"; };
 		05FC9E53AB5DBD6746C6CDFC2CD2958F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		06653B09A5898895DBFE0626BD2029F5 /* rave_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_close@2x.png"; path = "RaveSDK/Assets/rave_close@2x.png"; sourceTree = "<group>"; };
 		07902A0F61FD9B604F8EA09F51369B42 /* rave_check_box@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_check_box@3x.png"; path = "RaveSDK/Assets/rave_check_box@3x.png"; sourceTree = "<group>"; };
-		0801793BF41DA49205075C33DA8D2F29 /* rave_dropdown@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_dropdown@2x.png"; path = "RaveSDK/Assets/rave_dropdown@2x.png"; sourceTree = "<group>"; };
+		0801793BF41DA49205075C33DA8D2F29 /* rave_down_arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_down_arrow@2x.png"; path = "RaveSDK/Assets/rave_down_arrow@2x.png"; sourceTree = "<group>"; };
 		09A1D78B20F316F818A8BE1392A7418D /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A23E088EE563BCDAFCB421C4C47125C /* RaveSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaveSDK.xcconfig; sourceTree = "<group>"; };
-		0AA93424912CF68F713DB0038C4543CE /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Loader_WY.json; path = RaveSDK/Assets/Loader_WY.json; sourceTree = "<group>"; };
-		0CB0D383791B813D674C1E4CDDB20F5B /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Loader_YB.json; sourceTree = "<group>"; };
+		0AA93424912CF68F713DB0038C4543CE /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Loader_WY.json; path = RaveSDK/Assets/Loader_WY.json; sourceTree = "<group>"; };
+		0CB0D383791B813D674C1E4CDDB20F5B /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
 		0CCE9F1EFFA7BEE61335BDF9E29E57D3 /* SizeValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeValueProvider.swift; path = "lottie-swift/src/Public/DynamicProperties/ValueProviders/SizeValueProvider.swift"; sourceTree = "<group>"; };
-		0CEBA17E33DBA5EE4D9EEA788EAE6CE4 /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Loader_YB.json; path = RaveSDK/Assets/Loader_YB.json; sourceTree = "<group>"; };
+		0CEBA17E33DBA5EE4D9EEA788EAE6CE4 /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Loader_YB.json; path = RaveSDK/Assets/Loader_YB.json; sourceTree = "<group>"; };
 		0FCF25C57125B4020DDF90FA789493A2 /* ImageCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/ImageCompositionLayer.swift"; sourceTree = "<group>"; };
 		10E1F4206AB745FB50A263CA82EEB6C6 /* rave_fcmb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_fcmb@2x.png"; path = "RaveSDK/Assets/rave_fcmb@2x.png"; sourceTree = "<group>"; };
 		10FFAB59C7DFA00401671D60D02D4777 /* MpesaPendingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MpesaPendingView.swift; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 		1E7F356E7CFEDAA3817E7E85A8DB2885 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		20ED6616BB5FC64AD2D6D9A8F926420D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		2267A246561B43BB4A78C55D21D618EE /* CompatibleAnimationKeypath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompatibleAnimationKeypath.swift; path = "lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift"; sourceTree = "<group>"; };
-		22FB7470545D8488FED4C08C4D543CC7 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Loader_YW.json; path = RaveSDK/Assets/Loader_YW.json; sourceTree = "<group>"; };
+		22FB7470545D8488FED4C08C4D543CC7 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Loader_YW.json; path = RaveSDK/Assets/Loader_YW.json; sourceTree = "<group>"; };
 		2363593F7037A079851754B05C8D3385 /* PathElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathElement.swift; path = "lottie-swift/src/Private/Utility/Primitives/PathElement.swift"; sourceTree = "<group>"; };
 		246BA8754FBDD949B57695B330C07413 /* AnimatedSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedSwitch.swift; path = "lottie-swift/src/Public/iOS/AnimatedSwitch.swift"; sourceTree = "<group>"; };
 		248CD9FCEC349E8203C5EE42BA8F51C9 /* MpesaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MpesaView.swift; sourceTree = "<group>"; };
@@ -456,11 +456,11 @@
 		4A6E48586C8672418BC99889C8A5A28E /* Pods-RaveSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RaveSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A76160F829D91E9A150DC45832041A8 /* ShapeRenderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeRenderLayer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift"; sourceTree = "<group>"; };
 		4A93A4D7CFB75FF95034104E554DD6F7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		4B6097516B8A317E94C48C0EF695CE8B /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Loader_WY.json; sourceTree = "<group>"; };
+		4B6097516B8A317E94C48C0EF695CE8B /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
 		4B65550DBABBAF3B1C93954F24ADEC73 /* NewRavePayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewRavePayViewController.swift; sourceTree = "<group>"; };
 		4C127E97F4FA84FE12F0DA498516E8E5 /* lottie-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lottie-ios.xcconfig"; sourceTree = "<group>"; };
 		50B997FCBEA0A19F0CBA652A75612D9E /* AccountForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AccountForm.swift; sourceTree = "<group>"; };
-		51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lottie.framework; path = "lottie-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538013718A1E954764135CFB7684A6DF /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		53AC19BC3A85DE69C2600B81DFC4EABA /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = "lottie-swift/src/Private/Model/Assets/Asset.swift"; sourceTree = "<group>"; };
 		53EAC4FDEB67F980A64AC5C0EE52801B /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
@@ -476,11 +476,11 @@
 		59EA7C3E7CE1486B7D33BB7309F58EA9 /* StrokeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrokeRenderer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift"; sourceTree = "<group>"; };
 		5A9A5BA72E25B3A97BAB3A29696785AE /* rave_zenith@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_zenith@2x.png"; path = "RaveSDK/Assets/rave_zenith@2x.png"; sourceTree = "<group>"; };
 		5B20468802940483C2A52477364CBB2C /* FillNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift"; sourceTree = "<group>"; };
-		5B8791697AC5413463F8D88F3F356E07 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Loader_YW.json; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8791697AC5413463F8D88F3F356E07 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8624F27B04383D65CD7E54EB6DCB5F /* rave_fsdh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_fsdh.png; path = RaveSDK/Assets/rave_fsdh.png; sourceTree = "<group>"; };
 		5FB30259472E16926C1BBFE5A032E861 /* RaveExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RaveExtension.swift; sourceTree = "<group>"; };
-		609EFFDA776944DDFBBF3E6F001DC483 /* rave_arrow_up@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_arrow_up@3x.png"; path = "RaveSDK/Assets/rave_arrow_up@3x.png"; sourceTree = "<group>"; };
+		609EFFDA776944DDFBBF3E6F001DC483 /* rave_up_arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_up_arrow@3x.png"; path = "RaveSDK/Assets/rave_up_arrow@3x.png"; sourceTree = "<group>"; };
 		60EF7803CD75A509885E8A877245B4CF /* Pods-RaveSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RaveSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		62B404B1293704810ADDD4850DCE8BB0 /* rave_unity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_unity@3x.png"; path = "RaveSDK/Assets/rave_unity@3x.png"; sourceTree = "<group>"; };
 		63AB475C465068EC6F5922EBF8AB1A23 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -535,7 +535,7 @@
 		8E93BBE090B55FD27FC5CEDF54E2B38F /* AnimatorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatorNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Protocols/AnimatorNode.swift"; sourceTree = "<group>"; };
 		8F50C7E9BBF0844B67924A897AD90887 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		91835C1B2BC7F38FA02117E521186784 /* Pods-RaveSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RaveSDK_Example.modulemap"; sourceTree = "<group>"; };
-		9217FBED4CF48E1C60417AE9CBCC2209 /* RaveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RaveSDK.framework; path = RaveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9217FBED4CF48E1C60417AE9CBCC2209 /* RaveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RaveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926BD12A9BAFE2BA2B9F5F409927560C /* Ellipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ellipse.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Ellipse.swift"; sourceTree = "<group>"; };
 		94092BA84293C5A9D4036B5885BB4E33 /* rave_mastercard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_mastercard.png; path = RaveSDK/Assets/rave_mastercard.png; sourceTree = "<group>"; };
 		94D93E94376A5D71D878884EF591DDE6 /* SelectBankAccountView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectBankAccountView.swift; sourceTree = "<group>"; };
@@ -549,13 +549,13 @@
 		9A8DCB80D4206EF6DA5452F2033F373B /* Pods-RaveSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RaveSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9AA02B62BFC7730730A82F41CBC5EB2F /* RavePayService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RavePayService.swift; sourceTree = "<group>"; };
 		9B9565B63159FFA4F538ACC4BE759C93 /* Rectangle 4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Rectangle 4@2x.png"; path = "RaveSDK/Assets/Rectangle 4@2x.png"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA866679F46EAF7337161A6C2C79822 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		9E988BAD511D4EDD791DA65ACBF6491F /* LayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerModel.swift; path = "lottie-swift/src/Private/Model/Layers/LayerModel.swift"; sourceTree = "<group>"; };
 		9F4E95A6245D3BE04530E7156CAC435F /* GroupInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupInterpolator.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift"; sourceTree = "<group>"; };
 		A195E80A098074E86F13A4D5255AAEE9 /* AnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = "lottie-swift/src/Public/Animation/AnimationView.swift"; sourceTree = "<group>"; };
 		A1D43F46796ACEE20919667303FD84BF /* SavedCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
-		A1DD29E0D3ACF200B9E02E4FABEA987C /* RaveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RaveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1DD29E0D3ACF200B9E02E4FABEA987C /* RaveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RaveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26552F345FE455C2AD7DFB926EA1B48 /* ShapeItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeItem.swift; path = "lottie-swift/src/Private/Model/ShapeItems/ShapeItem.swift"; sourceTree = "<group>"; };
 		A2A3A1766E66CEE5861395B761341A6A /* Repeater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeater.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Repeater.swift"; sourceTree = "<group>"; };
 		A49C17FB55FF13BE41F24C483442A05B /* TripleDES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TripleDES.swift; sourceTree = "<group>"; };
@@ -566,7 +566,7 @@
 		A5D390D40B0133E426F3853F7A2BA232 /* SaveCardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaveCardViewController.swift; sourceTree = "<group>"; };
 		A7B65451392839E21AB8A9A2AAD70F72 /* KeyframeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyframeExtensions.swift; path = "lottie-swift/src/Private/Utility/Interpolatable/KeyframeExtensions.swift"; sourceTree = "<group>"; };
 		A8DFA5F25ACCB7D2ACC12BFA9F4590AA /* TextDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextDocument.swift; path = "lottie-swift/src/Private/Model/Text/TextDocument.swift"; sourceTree = "<group>"; };
-		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94779980673F520C772F714A7923EF1 /* Glyph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Glyph.swift; path = "lottie-swift/src/Private/Model/Text/Glyph.swift"; sourceTree = "<group>"; };
 		AA1CEFBB50DED4405F91A21CCE9F5B26 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "lottie-swift/src/Private/Utility/Primitives/ColorExtension.swift"; sourceTree = "<group>"; };
 		AA7BCDA020988C56ECE4D9912CB9CE42 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -584,7 +584,7 @@
 		ADDFBE5C6C9B7293B9EBDD071E7991FD /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		ADEC065DBB16E9606B485C3947A9FE36 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		AE103EA7DEBF92EC523883BA8F50A4EC /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
-		AE4F1BA0046DDE95B614F188F26B85D8 /* rave_arrow_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_arrow_up@2x.png"; path = "RaveSDK/Assets/rave_arrow_up@2x.png"; sourceTree = "<group>"; };
+		AE4F1BA0046DDE95B614F188F26B85D8 /* rave_up_arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_up_arrow@2x.png"; path = "RaveSDK/Assets/rave_up_arrow@2x.png"; sourceTree = "<group>"; };
 		AE81B9225D73827125B0399F46F9C70B /* Keyframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyframe.swift; path = "lottie-swift/src/Private/Model/Keyframes/Keyframe.swift"; sourceTree = "<group>"; };
 		AEB1B93299CEAAED53F7B44828733035 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		AFDE8B352C585EF369CE2BE401966E17 /* RaveMpesaClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RaveMpesaClient.swift; sourceTree = "<group>"; };
@@ -595,13 +595,13 @@
 		B43604F8498BFB9A4A2542DB92AD41AD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		B4F80B6E9EED9F0F6F34B1D77EC140E9 /* MobileMoneyGHPendingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MobileMoneyGHPendingView.swift; sourceTree = "<group>"; };
 		B586BBA84389050439CDCE0ACE224952 /* TextAnimatorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAnimatorNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift"; sourceTree = "<group>"; };
-		B6AFF66A92E9F8E1DB1D84DE7AE65304 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B6AFF66A92E9F8E1DB1D84DE7AE65304 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B80FF6BB66D0A09974449C70C1331B66 /* rave_providus2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_providus2@2x.png"; path = "RaveSDK/Assets/rave_providus2@2x.png"; sourceTree = "<group>"; };
 		BAD2E451EF802DBBDF56AF0D454570C7 /* Pods-RaveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BB1316911133109A0B3E2F7541D13C9B /* rave_dropdown@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_dropdown@3x.png"; path = "RaveSDK/Assets/rave_dropdown@3x.png"; sourceTree = "<group>"; };
+		BB1316911133109A0B3E2F7541D13C9B /* rave_down_arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_down_arrow@3x.png"; path = "RaveSDK/Assets/rave_down_arrow@3x.png"; sourceTree = "<group>"; };
 		BC56BF132BC2FCF93D519108BFD8A18B /* MobileMoneyUganda.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MobileMoneyUganda.swift; sourceTree = "<group>"; };
 		BC8D09CE62B8FDF05E5DA6B08E1A3BC3 /* rave_access2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_access2@3x.png"; path = "RaveSDK/Assets/rave_access2@3x.png"; sourceTree = "<group>"; };
-		BCBBBEA9CC790EC41A87BB1FB5278D9C /* Pods_RaveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RaveSDK_Example.framework; path = "Pods-RaveSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBBBEA9CC790EC41A87BB1FB5278D9C /* Pods_RaveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD86DB87546F89A2A9AFC7316F71D6DE /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BE68A0523D9CADBEA7CBD0D5C3D84E0E /* KeyframeInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyframeInterpolator.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/KeyframeInterpolator.swift"; sourceTree = "<group>"; };
 		BFC8D96CE71B4A8622836CF91C5D72E5 /* rave_fcmb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_fcmb.png; path = RaveSDK/Assets/rave_fcmb.png; sourceTree = "<group>"; };
@@ -627,9 +627,9 @@
 		CC6FD57B860ECE7473F5960D1A1F724B /* AnyValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueContainer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift"; sourceTree = "<group>"; };
 		CC7E832182E3369CA198B97FE569C78A /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		CCEE410A799F789DFA2B405DEC7C979B /* StarNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/StarNode.swift"; sourceTree = "<group>"; };
-		CDB9C4551CFC35B431DFE7A035219A68 /* rave_arrow_up.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_arrow_up.png; path = RaveSDK/Assets/rave_arrow_up.png; sourceTree = "<group>"; };
+		CDB9C4551CFC35B431DFE7A035219A68 /* rave_up_arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_up_arrow.png; path = RaveSDK/Assets/rave_up_arrow.png; sourceTree = "<group>"; };
 		CEB0B43389F896817E681A927DF0394A /* rave_providus.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_providus.png; path = RaveSDK/Assets/rave_providus.png; sourceTree = "<group>"; };
-		CFBDE9E967B953B95BDD43AE268764C1 /* rave_dropdown.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_dropdown.png; path = RaveSDK/Assets/rave_dropdown.png; sourceTree = "<group>"; };
+		CFBDE9E967B953B95BDD43AE268764C1 /* rave_down_arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_down_arrow.png; path = RaveSDK/Assets/rave_down_arrow.png; sourceTree = "<group>"; };
 		D0BD4B0C3E33EADE944472BB18D93F1B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		D1B932CC095BF3D9D438A6F9B99FBC0C /* Trim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trim.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Trim.swift"; sourceTree = "<group>"; };
 		D49B86C1D39CC357C327DD7C6E224830 /* RaveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaveSDK-prefix.pch"; sourceTree = "<group>"; };
@@ -655,7 +655,7 @@
 		E5DBE74DA09891E093982BFE113E5216 /* AnimationViewInitializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationViewInitializers.swift; path = "lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"; sourceTree = "<group>"; };
 		E6789E35C20547EB8FD8D4C398E1553A /* rave_unity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_unity@2x.png"; path = "RaveSDK/Assets/rave_unity@2x.png"; sourceTree = "<group>"; };
 		E68633D57CDF468A9BBDED6B4D4210BD /* AnyValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueProvider.swift; path = "lottie-swift/src/Public/DynamicProperties/AnyValueProvider.swift"; sourceTree = "<group>"; };
-		E75DDCFB45D6A06F9A2C05D62BF551C1 /* RaveSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RaveSDK.bundle; path = "RaveSDK-RaveSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75DDCFB45D6A06F9A2C05D62BF551C1 /* RaveSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaveSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8539B0C5F0C04C9FA9C82F2E171F347 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		EA0387ACD042C82206244F009AA6B1C3 /* MathKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathKit.swift; path = "lottie-swift/src/Private/Utility/Extensions/MathKit.swift"; sourceTree = "<group>"; };
 		EB99467184F87F1C4BFB2C53E7847CB3 /* Pods-RaveSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaveSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -681,7 +681,7 @@
 		F7F278A498109F3C42C2616159898A59 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		F82F34AEE8308AA461408C30740F48AC /* rave_padlock.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_padlock.png; path = RaveSDK/Assets/rave_padlock.png; sourceTree = "<group>"; };
 		F8570296611E892F14B8555A201A1590 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = "lottie-swift/src/Private/Utility/Extensions/CGFloatExtensions.swift"; sourceTree = "<group>"; };
-		F9D21BD8D0421CE73227F78AA99FB212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F9D21BD8D0421CE73227F78AA99FB212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9DA8B92082841595B3761792CB67A6D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		FA095779835316EA3EB7BA0A92386185 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
 		FAF4D3CA312AAB33E987579B52586D48 /* DebitCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebitCardView.swift; sourceTree = "<group>"; };
@@ -934,7 +934,6 @@
 				2BEDC0DB5543A80135AB5A2ED0F864EA /* VectorsExtensions.swift */,
 				83B85A4F273D1C8FD151B9DF925D979A /* Support Files */,
 			);
-			name = "lottie-ios";
 			path = "lottie-ios";
 			sourceTree = "<group>";
 		};
@@ -960,7 +959,6 @@
 				24084ACA56222D7D600B15BCAEA3E696 /* Resources */,
 				65444CC7EC5F24C4C62B232078A08D16 /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -1006,18 +1004,18 @@
 				BC8D09CE62B8FDF05E5DA6B08E1A3BC3 /* rave_access2@3x.png */,
 				CA9E94F12444DCBA922E61A12AF0B0AE /* rave_access@2x.png */,
 				2998A72B66AAE5EABCD4765ECF29EA73 /* rave_access@3x.png */,
-				CDB9C4551CFC35B431DFE7A035219A68 /* rave_arrow_up.png */,
-				AE4F1BA0046DDE95B614F188F26B85D8 /* rave_arrow_up@2x.png */,
-				609EFFDA776944DDFBBF3E6F001DC483 /* rave_arrow_up@3x.png */,
+				CDB9C4551CFC35B431DFE7A035219A68 /* rave_up_arrow.png */,
+				AE4F1BA0046DDE95B614F188F26B85D8 /* rave_up_arrow@2x.png */,
+				609EFFDA776944DDFBBF3E6F001DC483 /* rave_up_arrow@3x.png */,
 				30A07305675C3F7FD6ED22D0F2E63F08 /* rave_check_box.png */,
 				CA14EDB6ACB443F8E9E6BDBB1EF922CA /* rave_check_box@2x.png */,
 				07902A0F61FD9B604F8EA09F51369B42 /* rave_check_box@3x.png */,
 				C396785B2DEB10E5E52557FA9BE30FDF /* rave_close.png */,
 				06653B09A5898895DBFE0626BD2029F5 /* rave_close@2x.png */,
 				8947E5C957774347C4AA30D3EC6DA192 /* rave_close@3x.png */,
-				CFBDE9E967B953B95BDD43AE268764C1 /* rave_dropdown.png */,
-				0801793BF41DA49205075C33DA8D2F29 /* rave_dropdown@2x.png */,
-				BB1316911133109A0B3E2F7541D13C9B /* rave_dropdown@3x.png */,
+				CFBDE9E967B953B95BDD43AE268764C1 /* rave_down_arrow.png */,
+				0801793BF41DA49205075C33DA8D2F29 /* rave_down_arrow@2x.png */,
+				BB1316911133109A0B3E2F7541D13C9B /* rave_down_arrow@3x.png */,
 				EE2F386D7E134299CCF2EACB426CE7A9 /* rave_ecobank.png */,
 				BFC8D96CE71B4A8622836CF91C5D72E5 /* rave_fcmb.png */,
 				10E1F4206AB745FB50A263CA82EEB6C6 /* rave_fcmb@2x.png */,
@@ -1176,7 +1174,6 @@
 				4A93A4D7CFB75FF95034104E554DD6F7 /* Validation.swift */,
 				DE0D03C8B24C35B2E9651C941E05FEDD /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1560,18 +1557,18 @@
 				879513920A56CC91F1A5C4823A395952 /* rave_access2@3x.png in Resources */,
 				7761710CCE30E59C1D0A7C19F9B0295E /* rave_access@2x.png in Resources */,
 				62D90488F87FDC0EFA1FAFF550179A4B /* rave_access@3x.png in Resources */,
-				48F81FEB2E6DE0057BCF2BDB8C326C0D /* rave_arrow_up.png in Resources */,
-				0279BD0ACCE9B3E7FBC58FC2A26BA845 /* rave_arrow_up@2x.png in Resources */,
-				B78EE89574B8F88CB8D2C2BF1A95A6EA /* rave_arrow_up@3x.png in Resources */,
+				48F81FEB2E6DE0057BCF2BDB8C326C0D /* rave_up_arrow.png in Resources */,
+				0279BD0ACCE9B3E7FBC58FC2A26BA845 /* rave_up_arrow@2x.png in Resources */,
+				B78EE89574B8F88CB8D2C2BF1A95A6EA /* rave_up_arrow@3x.png in Resources */,
 				93262DC385ABAD7E11AB4AAB5ADA0983 /* rave_check_box.png in Resources */,
 				4F94EE1421054F99C6452E610A2DDCBE /* rave_check_box@2x.png in Resources */,
 				0B2AEBBE88E69EE289C81E897CC2B598 /* rave_check_box@3x.png in Resources */,
 				30537F6F494DAAD084702F3B2DC6BFC3 /* rave_close.png in Resources */,
 				2F844638BD7C7D6D26F8763747955EEF /* rave_close@2x.png in Resources */,
 				74EF3181F14313B36B0B586CD06CDEE9 /* rave_close@3x.png in Resources */,
-				36A42BC196626EF8C46C03E924051A89 /* rave_dropdown.png in Resources */,
-				598EC67AF237B87DACE61134B4DBBF8B /* rave_dropdown@2x.png in Resources */,
-				AAF540D03FB8CD0F370272D0B77E6604 /* rave_dropdown@3x.png in Resources */,
+				36A42BC196626EF8C46C03E924051A89 /* rave_down_arrow.png in Resources */,
+				598EC67AF237B87DACE61134B4DBBF8B /* rave_down_arrow@2x.png in Resources */,
+				AAF540D03FB8CD0F370272D0B77E6604 /* rave_down_arrow@3x.png in Resources */,
 				BC9F76A949A2B4B760BC606E9483875D /* rave_ecobank.png in Resources */,
 				40ABB6F126D4E23F7014D8D192259105 /* rave_fcmb.png in Resources */,
 				701DF89A8E5C98E06E3EE728BEBF628B /* rave_fcmb@2x.png in Resources */,
@@ -2085,8 +2082,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

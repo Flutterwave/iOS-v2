@@ -12,7 +12,7 @@ class DebitCardView: UIView {
 
     lazy var titleInfo: UILabel = {
         let label = UILabel()
-        label.text = "Enter your card information to fund\nyour barter wallet"
+        label.text = "Enter your card information."
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center
         label.numberOfLines = 0
@@ -90,7 +90,7 @@ class DebitCardView: UIView {
     }()
     lazy var rememberCardCheck: UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "rave_check_box"), for: .normal)
+        button.setImage(UIImage(named: "rave_check_box",in: Bundle.getResourcesBundle(), compatibleWith: nil), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -124,6 +124,8 @@ class DebitCardView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+		let bundle = Bundle.getResourcesBundle()
+		print(bundle)
         backgroundColor = UIColor(hex: "#F2F2F2")
         addSubview(titleInfo)
         addSubview(cardfieldContainer)

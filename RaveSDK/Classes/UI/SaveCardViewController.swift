@@ -73,7 +73,7 @@ extension SaveCardViewController:UITableViewDataSource,UITableViewDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "saveCard") as! SaveCardCell
         let card =  self.savedCards?[indexPath.row]
         cell.maskCardLabel.text = card?.card?.maskedPan
-        cell.brandImage.image = card?.card?.cardBrand?.lowercased() == .some("visa") ? UIImage(named: "rave_visa") : UIImage(named: "rave_mastercard")
+        cell.brandImage.image = card?.card?.cardBrand?.lowercased() == .some("visa") ? UIImage(named: "rave_visa",in: Bundle.getResourcesBundle(), compatibleWith: nil) : UIImage(named: "rave_mastercard",in: Bundle.getResourcesBundle(), compatibleWith: nil)
         cell.contentContainer.layer.cornerRadius = 8
     
         return cell
