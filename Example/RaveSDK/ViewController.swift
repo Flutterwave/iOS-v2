@@ -37,7 +37,7 @@ class ViewController: UIViewController ,RavePayProtocol {
         
         let controller = NewRavePayViewController()
         let nav = UINavigationController(rootViewController: controller)
-        controller.amount = "10" // Amount
+        controller.amount = "[AMOUNT]" // Amount
         controller.delegate = self
         self.present(nav, animated: true)
     }

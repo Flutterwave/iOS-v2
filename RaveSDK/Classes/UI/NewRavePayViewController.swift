@@ -1679,8 +1679,13 @@ public class NewRavePayViewController: UITableViewController {
         }
         
     }
-    func showMobileMoneyPendingZM(mesage:String){
+    func showMobileMoneyPendingZM(mesage:String) {
         mobileMoneyZMContainer.addSubview(mobileMoneyPendingView)
+		NSLayoutConstraint.activate([
+			mobileMoneyPendingView.mobileMoneyPendingLabel.leadingAnchor.constraint(equalTo: mobileMoneyZMContainer.leadingAnchor, constant:20),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.topAnchor.constraint(equalTo: mobileMoneyZMContainer.topAnchor, constant:71),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.trailingAnchor.constraint(equalTo: mobileMoneyZMContainer.trailingAnchor, constant:-20),
+		])
         mobileMoneyPendingView.frame = mobileMoneyZMContainer.frame
         mobileMoneyPendingView.isHidden = false
         mobileMoneyPendingView.alpha = 0
@@ -1694,6 +1699,11 @@ public class NewRavePayViewController: UITableViewController {
     }
     func showMobileMoneyPendingFR(mesage:String){
         mobileMoneyFRContainer.addSubview(mobileMoneyPendingView)
+		NSLayoutConstraint.activate([
+			mobileMoneyPendingView.mobileMoneyPendingLabel.leadingAnchor.constraint(equalTo: mobileMoneyFRContainer.leadingAnchor, constant:20),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.topAnchor.constraint(equalTo: mobileMoneyFRContainer.topAnchor, constant:71),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.trailingAnchor.constraint(equalTo: mobileMoneyFRContainer.trailingAnchor, constant:-20),
+		])
         mobileMoneyPendingView.frame = mobileMoneyFRContainer.frame
         mobileMoneyPendingView.isHidden = false
         mobileMoneyPendingView.alpha = 0
@@ -1708,6 +1718,11 @@ public class NewRavePayViewController: UITableViewController {
     }
     func showMobileMoneyPendingRW(mesage:String){
         mobileMoneyRWContainer.addSubview(mobileMoneyPendingView)
+		NSLayoutConstraint.activate([
+			mobileMoneyPendingView.mobileMoneyPendingLabel.leadingAnchor.constraint(equalTo: mobileMoneyRWContainer.leadingAnchor, constant:20),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.topAnchor.constraint(equalTo: mobileMoneyRWContainer.topAnchor, constant:71),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.trailingAnchor.constraint(equalTo: mobileMoneyRWContainer.trailingAnchor, constant:-20),
+		])
         mobileMoneyPendingView.frame = mobileMoneyRWContainer.frame
         mobileMoneyPendingView.isHidden = false
         mobileMoneyPendingView.alpha = 0
@@ -1723,6 +1738,11 @@ public class NewRavePayViewController: UITableViewController {
     
     func showMobileMoneyPendingUG(mesage:String){
         mobileMoneyUgandaContainer.addSubview(mobileMoneyPendingView)
+		NSLayoutConstraint.activate([
+			mobileMoneyPendingView.mobileMoneyPendingLabel.leadingAnchor.constraint(equalTo: mobileMoneyUgandaContainer.leadingAnchor, constant:20),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.topAnchor.constraint(equalTo: mobileMoneyUgandaContainer.topAnchor, constant:71),
+			mobileMoneyPendingView.mobileMoneyPendingLabel.trailingAnchor.constraint(equalTo: mobileMoneyUgandaContainer.trailingAnchor, constant:-20),
+		])
         mobileMoneyPendingView.frame = mobileMoneyUgandaContainer.frame
         mobileMoneyPendingView.isHidden = false
         mobileMoneyPendingView.alpha = 0

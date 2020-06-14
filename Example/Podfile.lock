@@ -1,8 +1,8 @@
 PODS:
-  - Alamofire (4.9.0)
-  - IQKeyboardManagerSwift (6.5.1)
+  - Alamofire (5.2.1)
+  - IQKeyboardManagerSwift (6.5.5)
   - lottie-ios (3.0.7)
-  - RaveSDK (2.0.1):
+  - RaveSDK (2.0.6):
     - Alamofire
     - IQKeyboardManagerSwift
     - lottie-ios (~> 3.0.2)
@@ -24,11 +24,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
-  IQKeyboardManagerSwift: 9ac7524fad9f9fe9a3b98c927e7772471ca546d2
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   lottie-ios: c38c3178ae8c4a8f200661aa5f80b9f1ca7f56b3
-  RaveSDK: 6bc87659e90bcd471e7fc43f979bc1b8b7552224
+  RaveSDK: 5c5d95ef48229e33e0c2a4ff53bc269cf1de9fd8
 
 PODFILE CHECKSUM: f1bcbf0178b99b16df462e51edd978e6ec5e61f4
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.2
