@@ -692,6 +692,7 @@ public class NewRavePayViewController: UITableViewController {
          mobileMoneyZMContentContainer.mobileMoneyChooseNetwork.layer.cornerRadius = 5
         
         raveMobileMoneyZM.amount = self.amount
+		raveMobileMoneyZM.selectedMobileNetwork = self.mobileMoneyZMContentContainer.mobileMoneyChooseNetwork.text
         raveMobileMoneyZM.email = RaveConfig.sharedConfig().email
         raveMobileMoneyZM.getFee()
     }

@@ -26,6 +26,7 @@ class MobileMoneyZM: UIView {
            text.placeholder = "Choose Network"
            text.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 1))
            text.leftViewMode = .always
+		   text.text = "MTN"
            text.heightAnchor.constraint(equalToConstant: 57).isActive = true
            text.translatesAutoresizingMaskIntoConstraints = false
            return text
