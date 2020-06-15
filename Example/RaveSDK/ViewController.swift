@@ -22,7 +22,7 @@ class ViewController: UIViewController ,RavePayProtocol {
     @IBAction func showAction(_ sender: Any) {
         let config = RaveConfig.sharedConfig()
         config.country = "NG" // Country Code
-        config.currencyCode = "ZMW" // Currency
+        config.currencyCode = "NGN" // Currency
         config.email = "test@email.com"
         config.isStaging = false // Toggle this for staging and live environment
         config.phoneNumber = "260967101211" //Phone number
@@ -31,13 +31,13 @@ class ViewController: UIViewController ,RavePayProtocol {
         config.lastName = "TEST" //lastname
         config.meta = [["metaname":"sdk", "metavalue":"ios"]]
         
-        config.publicKey = "FLWPUBK-1b8e026a1bd9adef61ae05ead9075ac3-X" //Public key
-        config.encryptionKey = "db608b47440adbd4b9da53b3" //Encryption key
+        config.publicKey = "[PUB_KEY]" //Public key
+        config.encryptionKey = "[ENCRYPTION_KEY]" //Encryption key
 
         
         let controller = NewRavePayViewController()
         let nav = UINavigationController(rootViewController: controller)
-        controller.amount = "5" // Amount
+        controller.amount = "[Amount]" // Amount
         controller.delegate = self
         self.present(nav, animated: true)
     }
