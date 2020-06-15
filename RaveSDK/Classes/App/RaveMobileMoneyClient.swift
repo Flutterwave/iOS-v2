@@ -151,46 +151,52 @@ class RaveMobileMoneyClient {
             ]
             RavePayService.charge(reqbody, resultCallback: { (res) in
                 if let status = res?["status"] as? String{
-                    if status == "success"{
-                        let result = res?["data"] as? Dictionary<String,AnyObject>
-                        let flwTransactionRef = result?["flwRef"] as? String
-                        if let chargeResponse = result?["chargeResponseCode"] as? String{
-                            switch chargeResponse{
-                            case "00":
-                                self.chargeSuccess?(flwTransactionRef!,res)
-                                
-                            case "02":
-                                    if let authURL = result?["authurl"] as? String, authURL != "NO-URL", authURL != "N/A" {
-                                        // Show Web View
-                                        self.chargeWebAuth?(flwTransactionRef!,authURL)
-                                        if let txRef = result?["flwRef"] as? String{
-                                            self.queryMpesaTransaction(txRef: txRef)
-                                        }
-                                        
-                                    }else{
-                                        
-                                        if let type =  result?["paymentType"] as? String,let currency = result?["currency"] as? String {
-                                            print(type)
-                                            if (type.containsIgnoringCase(find: "mpesa") || type.containsIgnoringCase(find: "mobilemoneygh") || type.containsIgnoringCase(find: "mobilemoneyzm") ||  currency.containsIgnoringCase(find: "UGX")) {
-                                                if let status =  result?["status"] as? String{
-                                                    if (status.containsIgnoringCase(find: "pending")){
-                                                        
-                                                        self.chargePending?("Transaction Processing","A push notification has been sent to your phone, please complete the transaction by entering your pin.\n Please do not close this page until transaction is completed")
-                                                        if let txRef = result?["flwRef"] as? String{
-                                                            self.queryMpesaTransaction(txRef: txRef)
-                                                        }
-                                                        
-                                                        
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                            
-                            default:
-                                break
-                            }
-                        }
+					if status == "success"{
+						let result = res?["data"] as? Dictionary<String,AnyObject>
+						if let code = result?["code"] as? String, code == "02"{
+							if let authURL = result?["link"] as? String {
+								self.chargeWebAuth?("",authURL)
+							}
+						}else{
+							let flwTransactionRef = result?["flwRef"] as? String
+							if let chargeResponse = result?["chargeResponseCode"] as? String{
+								switch chargeResponse{
+								case "00":
+									self.chargeSuccess?(flwTransactionRef!,res)
+									
+								case "02":
+									if let authURL = result?["authurl"] as? String, authURL != "NO-URL", authURL != "N/A" {
+										// Show Web View
+										self.chargeWebAuth?(flwTransactionRef!,authURL)
+										if let txRef = result?["flwRef"] as? String{
+											self.queryMpesaTransaction(txRef: txRef)
+										}
+										
+									}else{
+										
+										if let type =  result?["paymentType"] as? String,let currency = result?["currency"] as? String {
+											print(type)
+											if (type.containsIgnoringCase(find: "mpesa") || type.containsIgnoringCase(find: "mobilemoneygh") || type.containsIgnoringCase(find: "mobilemoneyzm") ||  currency.containsIgnoringCase(find: "UGX")) {
+												if let status =  result?["status"] as? String{
+													if (status.containsIgnoringCase(find: "pending")){
+														
+														self.chargePending?("Transaction Processing","A push notification has been sent to your phone, please complete the transaction by entering your pin.\n Please do not close this page until transaction is completed")
+														if let txRef = result?["flwRef"] as? String{
+															self.queryMpesaTransaction(txRef: txRef)
+														}
+														
+														
+													}
+												}
+											}
+										}
+									}
+									
+								default:
+									break
+								}
+							}
+						}
                     }else{
                         if let message = res?["message"] as? String{
                             print(message)
