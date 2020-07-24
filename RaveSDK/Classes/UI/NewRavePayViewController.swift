@@ -913,7 +913,7 @@ public class NewRavePayViewController: UITableViewController {
              return 0
         case 1:
             //||  RaveConfig.sharedConfig().country == "UG"
-            return RaveConfig.sharedConfig().currencyCode == "KES" || RaveConfig.sharedConfig().country == "GHS"  ? 0 :  65
+            return  65
         case 2:
             return RaveConfig.sharedConfig().currencyCode == "NGN" || RaveConfig.sharedConfig().currencyCode == "USD" || RaveConfig.sharedConfig().currencyCode == "ZAR" ? 65 : 0
         case 3:
