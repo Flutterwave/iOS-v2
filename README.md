@@ -1,3 +1,9 @@
+<p align="center">
+    <img title="Flutterwave" height="200" src="https://flutterwave.com/images/logo-colored.svg" width="50%"/>
+</p>
+
+
+
 # RaveSDK
 
 [![CI Status](https://img.shields.io/travis/solejay/RaveSDK.svg?style=flat)](https://travis-ci.org/solejay/RaveSDK)
