@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'IQKeyboardManagerSwift'
-   s.dependency 'lottie-ios','~>3.0.2'
+   s.dependency 'lottie-ios'
    s.dependency 'Alamofire','5.2.1'
 end
