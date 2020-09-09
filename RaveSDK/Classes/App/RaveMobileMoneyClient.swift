@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 
-enum MobileMoneyType{
+public enum MobileMoneyType{
     case ghana
     case uganda
     case rwanda
@@ -30,13 +30,13 @@ public class RaveMobileMoneyClient {
     typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
     typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
     typealias WebAuthHandler = ((String,String) -> Void)
-    public var error:ErrorHandler?
-    public var feeSuccess:FeeSuccessHandler?
-    public var transactionReference:String?
-    public var chargeSuccess: SuccessHandler?
-    public var chargePending: PendingHandler?
-    public var chargeWebAuth: WebAuthHandler?
-    public var mobileMoneyType:MobileMoneyType = .ghana
+	var error:ErrorHandler?
+	var feeSuccess:FeeSuccessHandler?
+	var transactionReference:String?
+	var chargeSuccess: SuccessHandler?
+	var chargePending: PendingHandler?
+	var chargeWebAuth: WebAuthHandler?
+	var mobileMoneyType:MobileMoneyType = .ghana
     
     //MARK: Get transaction Fee
     public func getFee(){
