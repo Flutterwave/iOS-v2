@@ -36,7 +36,7 @@ public class NSRave: UIViewController, RavePayProtocol {
         self.delegate?.onError(flwRef ?? "", data)
     }
 
-    public func initRave(view: UIViewController) -> NSRaveConfig {
+    public func initRave(view: UIViewController) -> NSRave {
 
         let config = RaveConfig.sharedConfig()
         config.country = self.country
