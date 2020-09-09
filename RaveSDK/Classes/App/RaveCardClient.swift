@@ -27,31 +27,31 @@ public class RaveCardClient{
     public var transactionReference:String?
     public var bodyParam:[String:Any]? = [:]
     
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias SuggestedAuthHandler = ((SuggestedAuthModel,[String:Any]?, String?) -> Void)
-    typealias OTPAuthHandler = ((String,String) -> Void)
-    typealias WebAuthHandler = ((String,String) -> Void)
-    typealias SaveCardSuccessHandler = (([SavedCard]?) -> Void)
-    typealias SaveCardErrorHandler = ((String?) -> Void)
-    typealias RemoveSavedCardSuccessHandler = (() -> Void)
-    typealias RemoveSavedCardErrorHandler = ((String?) -> Void)
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias SuggestedAuthHandler = ((SuggestedAuthModel,[String:Any]?, String?) -> Void)
+    public typealias OTPAuthHandler = ((String,String) -> Void)
+    public typealias WebAuthHandler = ((String,String) -> Void)
+    public typealias SaveCardSuccessHandler = (([SavedCard]?) -> Void)
+    public typealias SaveCardErrorHandler = ((String?) -> Void)
+    public typealias RemoveSavedCardSuccessHandler = (() -> Void)
+    public typealias RemoveSavedCardErrorHandler = ((String?) -> Void)
     
-	var error:ErrorHandler?
-	var saveCardError:SaveCardErrorHandler?
-	var saveCardSuccess:SaveCardSuccessHandler?
-	var removesavedCardError:RemoveSavedCardErrorHandler?
-	var removesavedCardSuccess:RemoveSavedCardSuccessHandler?
-	var validateError:ErrorHandler?
-	var feeSuccess:FeeSuccessHandler?
-	var chargeSuggestedAuth: SuggestedAuthHandler?
-	var chargeOTPAuth: OTPAuthHandler?
-	var chargeWebAuth: WebAuthHandler?
-	var chargeSuccess: SuccessHandler?
-	var sendOTPSuccess:SaveCardErrorHandler?
-	var sendOTPError:SaveCardErrorHandler?
-	var selectedCard:SavedCard?
+	public var error:ErrorHandler?
+	public var saveCardError:SaveCardErrorHandler?
+	public var saveCardSuccess:SaveCardSuccessHandler?
+	public var removesavedCardError:RemoveSavedCardErrorHandler?
+	public var removesavedCardSuccess:RemoveSavedCardSuccessHandler?
+	public var validateError:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var chargeSuggestedAuth: SuggestedAuthHandler?
+	public var chargeOTPAuth: OTPAuthHandler?
+	public var chargeWebAuth: WebAuthHandler?
+	public var chargeSuccess: SuccessHandler?
+	public var sendOTPSuccess:SaveCardErrorHandler?
+	public var sendOTPError:SaveCardErrorHandler?
+	public var selectedCard:SavedCard?
     
     private var isRetryCharge = false
     private var retryChargeValue:String?

@@ -25,18 +25,18 @@ public class RaveMobileMoneyClient {
     public var voucher:String?
     public var network:String?
     public var selectedMobileNetwork:String?
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias PendingHandler = ((String?,String?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-    typealias WebAuthHandler = ((String,String) -> Void)
-	var error:ErrorHandler?
-	var feeSuccess:FeeSuccessHandler?
-	var transactionReference:String?
-	var chargeSuccess: SuccessHandler?
-	var chargePending: PendingHandler?
-	var chargeWebAuth: WebAuthHandler?
-	var mobileMoneyType:MobileMoneyType = .ghana
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias PendingHandler = ((String?,String?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+    public typealias WebAuthHandler = ((String,String) -> Void)
+	public var error:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var transactionReference:String?
+	public var chargeSuccess: SuccessHandler?
+	public var chargePending: PendingHandler?
+	public var chargeWebAuth: WebAuthHandler?
+	public var mobileMoneyType:MobileMoneyType = .ghana
 	
 	public init() {}
     

@@ -19,22 +19,22 @@ public class RaveAccountClient {
     public var blacklistedBankCodes:[String]?
     public var isUSBankAccount =  false
     
-    typealias BanksHandler = (([Bank]?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-	var banks: BanksHandler?
-	var error:ErrorHandler?
-	var validateError:ErrorHandler?
-	var feeSuccess:FeeSuccessHandler?
-	var chargeSuccess: SuccessHandler?
-    typealias OTPAuthHandler = ((String,String) -> Void)
-    typealias WebAuthHandler = ((String,String) -> Void)
-     typealias GBPOTPAuthHandler = ((String,String,String) -> Void)
-     var chargeOTPAuth: OTPAuthHandler?
-     var redoChargeOTPAuth: OTPAuthHandler?
-	var chargeGBPOTPAuth: GBPOTPAuthHandler?
-     var chargeWebAuth: WebAuthHandler?
+    public typealias BanksHandler = (([Bank]?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+	public var banks: BanksHandler?
+	public var error:ErrorHandler?
+	public var validateError:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var chargeSuccess: SuccessHandler?
+    public typealias OTPAuthHandler = ((String,String) -> Void)
+    public typealias WebAuthHandler = ((String,String) -> Void)
+    public typealias GBPOTPAuthHandler = ((String,String,String) -> Void)
+    public var chargeOTPAuth: OTPAuthHandler?
+    public var redoChargeOTPAuth: OTPAuthHandler?
+	public var chargeGBPOTPAuth: GBPOTPAuthHandler?
+    public var chargeWebAuth: WebAuthHandler?
     public var otp:String?
     public var transactionReference:String?
     var txRef:String?

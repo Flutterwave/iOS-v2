@@ -7,14 +7,14 @@
 //
 
 import Foundation
-struct SavedCard: Codable {
+public struct SavedCard: Codable {
     var device:String?
     var mobileNumber:String?
     var email:String?
     var cardHash:String?
     var card:Card?
     
-    init(from decoder: Decoder) throws {
+	public init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         device = try values.decodeIfPresent(String?.self, forKey: .device) ?? nil
         mobileNumber = try values.decodeIfPresent(String?.self, forKey: .mobileNumber) ?? nil

@@ -13,15 +13,15 @@ public class RaveMpesaClient {
     public var amount:String?
     public var phoneNumber:String?
     public var email:String? = ""
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias PendingHandler = ((String?,String?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-	var error:ErrorHandler?
-	var feeSuccess:FeeSuccessHandler?
-	var transactionReference:String?
-	var chargeSuccess: SuccessHandler?
-	var chargePending: PendingHandler?
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias PendingHandler = ((String?,String?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+	public var error:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var transactionReference:String?
+	public var chargeSuccess: SuccessHandler?
+	public var chargePending: PendingHandler?
     public var businessNumber:String?
     public var accountNumber:String?
 	
