@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class RaveMpesaClient {
+public class RaveMpesaClient {
     public var amount:String?
     public var phoneNumber:String?
     public var email:String? = ""

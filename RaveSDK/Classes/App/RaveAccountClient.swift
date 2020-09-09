@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class RaveAccountClient {
+public class RaveAccountClient {
     public var amount:String?
     public var accountNumber:String?
     public var bankCode:String?
@@ -349,7 +349,7 @@ class RaveAccountClient {
     }
     
     
-  public  func queryTransaction(txRef:String?){
+  public func queryTransaction(txRef:String?){
            if let secret = RaveConfig.sharedConfig().publicKey ,let  ref = txRef{
                let param = ["PBFPubKey":secret,"flw_ref":ref]
                RavePayService.mpesaQueryTransaction(param, resultCallback: { (result) in

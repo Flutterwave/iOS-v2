@@ -18,7 +18,7 @@ enum MobileMoneyType{
     case franco
 }
 
-class RaveMobileMoneyClient {
+public class RaveMobileMoneyClient {
     public var amount:String?
     public var phoneNumber:String?
     public var email:String? = ""

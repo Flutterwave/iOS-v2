@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class RaveCardClient{
+public class RaveCardClient{
     public var cardNumber:String?
     public var cardfirst6:String?
     public var cvv:String?
