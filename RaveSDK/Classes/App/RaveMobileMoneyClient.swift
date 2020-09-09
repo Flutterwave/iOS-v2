@@ -37,6 +37,8 @@ public class RaveMobileMoneyClient {
 	var chargePending: PendingHandler?
 	var chargeWebAuth: WebAuthHandler?
 	var mobileMoneyType:MobileMoneyType = .ghana
+	
+	public init() {}
     
     //MARK: Get transaction Fee
     public func getFee(){

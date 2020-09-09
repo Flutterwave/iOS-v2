@@ -39,6 +39,8 @@ public class RaveAccountClient {
     public var transactionReference:String?
     var txRef:String?
     var chargeAmount:String?
+	
+	public init() {}
     //MARK: Fee
     public func getFee(){
         if let pubkey = RaveConfig.sharedConfig().publicKey{

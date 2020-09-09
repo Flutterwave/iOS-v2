@@ -24,6 +24,8 @@ public class RaveMpesaClient {
 	var chargePending: PendingHandler?
     public var businessNumber:String?
     public var accountNumber:String?
+	
+	public init() {}
     
     //MARK: Transaction Fee
     public func getFee(){

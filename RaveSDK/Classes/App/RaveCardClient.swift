@@ -55,6 +55,8 @@ public class RaveCardClient{
     
     private var isRetryCharge = false
     private var retryChargeValue:String?
+	
+	public init() {}
     
     //MARK: Transaction Fee
     public func getFee(){
