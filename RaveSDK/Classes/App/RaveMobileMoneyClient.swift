@@ -202,7 +202,7 @@ public class RaveMobileMoneyClient {
                     }else{
                         if let message = res?["message"] as? String{
                             print(message)
-                            self.error?(message, nil)
+                            self.error?(message, res)
                         }
                     }
                 }

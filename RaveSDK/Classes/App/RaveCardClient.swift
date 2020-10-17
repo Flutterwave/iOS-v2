@@ -412,7 +412,7 @@ public class RaveCardClient{
                         }
                     }else{
                         if let message = res?["message"] as? String{
-                            strongSelf.error?(message,nil)
+                            strongSelf.error?(message,res)
                         }
                     }
                 }

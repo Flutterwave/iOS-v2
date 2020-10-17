@@ -284,7 +284,7 @@ public class RaveAccountClient {
                     }else{
                         if let message = res?["message"] as? String{
                             
-                            self.error?(message, nil)
+                            self.error?(message, res)
                             
                         }
                     }
@@ -338,7 +338,7 @@ public class RaveAccountClient {
                     }
                 }else{
                         let message = res ["message"] as? String
-                        self.validateError?(message, nil)
+                        self.validateError?(message, res)
                 }
             }
         }) { (err) in

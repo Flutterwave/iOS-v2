@@ -155,7 +155,7 @@ public class RaveMpesaClient {
                         }
                     }else{
                         if let message = res?["message"] as? String{
-                           self.error?(message, nil)
+                           self.error?(message, res)
                         }
                     }
                 }
