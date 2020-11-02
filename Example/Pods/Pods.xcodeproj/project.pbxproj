@@ -389,8 +389,8 @@
 /* Begin PBXFileReference section */
 		004733DD98461F5F2381802B07ED43B9 /* AnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationContext.swift; path = "lottie-swift/src/Private/Utility/Helpers/AnimationContext.swift"; sourceTree = "<group>"; };
 		0159B70A26EE587CBE43BDA4B1CF07B5 /* CompositionLayersInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositionLayersInitializer.swift; path = "lottie-swift/src/Private/LayerContainers/Utility/CompositionLayersInitializer.swift"; sourceTree = "<group>"; };
-		017CC632D6E7579CAA7D134DEA2CD5BC /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Loader_YB.json; path = RaveSDK/Assets/Loader_YB.json; sourceTree = "<group>"; };
-		039B4CDB97128E64547F4A2CFEBA45B9 /* Pods_RaveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RaveSDK_Tests.framework; path = "Pods-RaveSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017CC632D6E7579CAA7D134DEA2CD5BC /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Loader_YB.json; path = RaveSDK/Assets/Loader_YB.json; sourceTree = "<group>"; };
+		039B4CDB97128E64547F4A2CFEBA45B9 /* Pods_RaveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05360C4D9C63495BDB4D49547DFFF5E9 /* ImageCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/ImageCompositionLayer.swift"; sourceTree = "<group>"; };
 		0601A7640560895A0133C75B9EC8BF7E /* AnimationPublic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationPublic.swift; path = "lottie-swift/src/Public/Animation/AnimationPublic.swift"; sourceTree = "<group>"; };
 		06C5A1A43D274397631268B9A038C7C8 /* RaveAccountClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RaveAccountClient.swift; sourceTree = "<group>"; };
@@ -415,8 +415,8 @@
 		19789CD1E05FD56011012F04E6EDED4A /* OTPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
 		19B64AFABECD0F4E38BD6814119A03EF /* rave_mastercard@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_mastercard@3x.png"; path = "RaveSDK/Assets/rave_mastercard@3x.png"; sourceTree = "<group>"; };
 		1B70B30E01163D82FF4EE22AAB17373A /* LayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerModel.swift; path = "lottie-swift/src/Private/Model/Layers/LayerModel.swift"; sourceTree = "<group>"; };
-		1C1BDA2CB537A836A62E0157CA11B8D9 /* RaveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RaveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1D31164A2DFA15C52587161E4FD601C7 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Loader_YW.json; path = RaveSDK/Assets/Loader_YW.json; sourceTree = "<group>"; };
+		1C1BDA2CB537A836A62E0157CA11B8D9 /* RaveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RaveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D31164A2DFA15C52587161E4FD601C7 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Loader_YW.json; path = RaveSDK/Assets/Loader_YW.json; sourceTree = "<group>"; };
 		1D320021383581F1910DD1D6111C8748 /* MPesaBusinessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MPesaBusinessView.swift; sourceTree = "<group>"; };
 		1D684FE32CF5BEC44727B97AAB82F00E /* AnyValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueProvider.swift; path = "lottie-swift/src/Public/DynamicProperties/AnyValueProvider.swift"; sourceTree = "<group>"; };
 		1DA57BC7113F720D1774E70BF376D201 /* PinView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
@@ -440,7 +440,7 @@
 		2B5893BFF7DED3E624C59D676BE2B182 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		2BC8AD35257C7D85C9392053F045A7B2 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		2BE9244C804A8A4ECF020B507277DF43 /* GroupInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupInterpolator.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift"; sourceTree = "<group>"; };
-		2CC375D4124F7D1B693B6B22B383C1F7 /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Loader_YB.json; sourceTree = "<group>"; };
+		2CC375D4124F7D1B693B6B22B383C1F7 /* Loader_YB.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
 		2D63B2E3CB94A84D33ECCB4487771F5A /* MpesaPendingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MpesaPendingView.swift; sourceTree = "<group>"; };
 		2DFA614388A77683D5CFA88D8D94BEF6 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = "lottie-swift/src/Private/Utility/Extensions/CGFloatExtensions.swift"; sourceTree = "<group>"; };
 		2E0446320995A424E0278F7A43829C91 /* InvertedMatteLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvertedMatteLayer.swift; path = "lottie-swift/src/Private/LayerContainers/Utility/InvertedMatteLayer.swift"; sourceTree = "<group>"; };
@@ -449,7 +449,7 @@
 		2EA42BDF3C924021C01232C31CC0BD5C /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		2FBC97A859885D03335D3DC5B7F2974C /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		303AC5904C020418F7CBF582D383FBA6 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		312979C1EF6DC065C4F5A86368B1F9B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		312979C1EF6DC065C4F5A86368B1F9B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		33C7F71DA971C7C3EC154524320709C5 /* NodePropertyMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodePropertyMap.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift"; sourceTree = "<group>"; };
 		349B91207915B6CD207CE88B12D265AD /* rave_firstbank@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_firstbank@3x.png"; path = "RaveSDK/Assets/rave_firstbank@3x.png"; sourceTree = "<group>"; };
 		373C4F2156400D648247CE909011E03A /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
@@ -483,7 +483,7 @@
 		503D2278809077636754D010A7A5ECFE /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = "lottie-swift/src/Private/Model/Objects/Transform.swift"; sourceTree = "<group>"; };
 		517850E5CABDB0E17AFF915B60EE9ABA /* rave_uba.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_uba.png; path = RaveSDK/Assets/rave_uba.png; sourceTree = "<group>"; };
 		519B98784AE068652D2FFBEBBAF61E0F /* CurveVertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurveVertex.swift; path = "lottie-swift/src/Private/Utility/Primitives/CurveVertex.swift"; sourceTree = "<group>"; };
-		51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lottie.framework; path = "lottie-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5319B843837F83F7FAFEC6AC40F82CDB /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = "lottie-swift/src/Private/Model/Assets/Asset.swift"; sourceTree = "<group>"; };
 		54D292CFCEE27BCCCCE67E65AB09EF54 /* rave_check_box@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_check_box@3x.png"; path = "RaveSDK/Assets/rave_check_box@3x.png"; sourceTree = "<group>"; };
 		55952D74FE24ACBE08A4A2B9DDAA6701 /* rave_up_arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_up_arrow@3x.png"; path = "RaveSDK/Assets/rave_up_arrow@3x.png"; sourceTree = "<group>"; };
@@ -502,7 +502,7 @@
 		5CAF9EB4B1102311E2EE1941C801B463 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
 		5CE4B7C09407636A3DABCBC3673363D9 /* rave_ecobank.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_ecobank.png; path = RaveSDK/Assets/rave_ecobank.png; sourceTree = "<group>"; };
 		5D7570FB11507934E1C906741811AAC6 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7E7309DE1E38E581897BDF56C6F05B /* lottie-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lottie-ios-umbrella.h"; sourceTree = "<group>"; };
 		600C9E7999E310EECD3D9CF0181B5437 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		6022B41866FCDDA32963AA4D484A1717 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -546,7 +546,7 @@
 		81F467C6546605C6AF66EC1125DE5E60 /* GradientFillNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientFillNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/GradientFillNode.swift"; sourceTree = "<group>"; };
 		824E957EF1205C3B476B96BAADF361E3 /* rave_unchecked_box@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_unchecked_box@3x.png"; path = "RaveSDK/Assets/rave_unchecked_box@3x.png"; sourceTree = "<group>"; };
 		832B460A55521B1C1F197898BF7C090E /* rave_providus2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_providus2@2x.png"; path = "RaveSDK/Assets/rave_providus2@2x.png"; sourceTree = "<group>"; };
-		83728F108C0D58967B7D516FEDD791FF /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Loader_WY.json; path = RaveSDK/Assets/Loader_WY.json; sourceTree = "<group>"; };
+		83728F108C0D58967B7D516FEDD791FF /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Loader_WY.json; path = RaveSDK/Assets/Loader_WY.json; sourceTree = "<group>"; };
 		842C1A3C625F326A0687666DD8A9AEEF /* Pods-RaveSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaveSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		84D8F624059D3353732F77C968CD2EB0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		852E30ACD2084E1ECDBA10F560D927D4 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
@@ -574,7 +574,7 @@
 		914E3214919BED6DC67528635BD09475 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
 		91835C1B2BC7F38FA02117E521186784 /* Pods-RaveSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RaveSDK_Example.modulemap"; sourceTree = "<group>"; };
 		91E65B1D8A353C59735A745E19FCAD07 /* rave_padlock.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_padlock.png; path = RaveSDK/Assets/rave_padlock.png; sourceTree = "<group>"; };
-		9217FBED4CF48E1C60417AE9CBCC2209 /* RaveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RaveSDK.framework; path = RaveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9217FBED4CF48E1C60417AE9CBCC2209 /* RaveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RaveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9284CBBE8C7B49711A68CF8A17571F9F /* RaveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaveSDK-umbrella.h"; sourceTree = "<group>"; };
 		93E7C42B69DA8267C27382F05688060F /* AnimatedSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedSwitch.swift; path = "lottie-swift/src/Public/iOS/AnimatedSwitch.swift"; sourceTree = "<group>"; };
 		944265E3258B9CB65A59E2974F2A6309 /* AnyValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueContainer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift"; sourceTree = "<group>"; };
@@ -594,9 +594,9 @@
 		99C9306F3D4A237378F2DA3DC91FF5C4 /* ShapeCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/ShapeCompositionLayer.swift"; sourceTree = "<group>"; };
 		9A84225A0DA93A1656E3668FA6F6BDB0 /* Pods-RaveSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RaveSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		9A8DCB80D4206EF6DA5452F2033F373B /* Pods-RaveSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RaveSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D0439A57A6800425C6C25F859BA45F8 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Loader_YW.json; sourceTree = "<group>"; };
+		9D0439A57A6800425C6C25F859BA45F8 /* Loader_YW.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
 		9D89F86B1E15A28152F8B65302817417 /* MobileMoneyFR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MobileMoneyFR.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E275F80B3246E6D548ED3CCE33AEF8F /* RaveURLHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RaveURLHelper.swift; sourceTree = "<group>"; };
 		9E2CC24F74A4B82B8AAECB87143074CE /* LayerDebugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerDebugging.swift; path = "lottie-swift/src/Private/Utility/Debugging/LayerDebugging.swift"; sourceTree = "<group>"; };
 		9FAEC626D1E3D14ED21A5BE4541BAE03 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -612,7 +612,7 @@
 		A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A81A6B0F40ECF6222E69C7FC93B68BA9 /* SnackBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
 		A894C8576041CF62EC5DA345B69DEB99 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99586E03184513C073FEC4075F2AF56 /* RaveSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RaveSDK-Info.plist"; sourceTree = "<group>"; };
 		A9B24FB571698988D1A62EC06A6BE001 /* rave_gtb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_gtb@3x.png"; path = "RaveSDK/Assets/rave_gtb@3x.png"; sourceTree = "<group>"; };
 		AACF9400BF83DA941816B50D2BA4222A /* Pods-RaveSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaveSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -645,7 +645,7 @@
 		BAD2E451EF802DBBDF56AF0D454570C7 /* Pods-RaveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BB268DDD5B1DD2B3CA869FBC04EDB0D3 /* MpesaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MpesaView.swift; sourceTree = "<group>"; };
 		BBD2375F47B02BF67B9BEF5BAA6F2D73 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		BCBBBEA9CC790EC41A87BB1FB5278D9C /* Pods_RaveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RaveSDK_Example.framework; path = "Pods-RaveSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBBBEA9CC790EC41A87BB1FB5278D9C /* Pods_RaveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD4936177546B6A62055FC48CB59F77 /* CompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/CompositionLayer.swift"; sourceTree = "<group>"; };
 		C07776E397221FBBAFFFF1D949A546CB /* lottie-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lottie-ios-prefix.pch"; sourceTree = "<group>"; };
 		C0D6486357ECD71525FA4C7FB356A626 /* rave_providus2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_providus2.png; path = RaveSDK/Assets/rave_providus2.png; sourceTree = "<group>"; };
@@ -681,7 +681,7 @@
 		D55B149E3D10081C2227D3833981366A /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		D56997DE7DA9FE3D2CA47A55C95E7B45 /* LottieView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LottieView.swift; path = "lottie-swift/src/Public/iOS/LottieView.swift"; sourceTree = "<group>"; };
 		D7090079C52A263FD7E29094D975D47A /* HowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HowView.swift; sourceTree = "<group>"; };
-		D7D80C8E3689614839DE399073953286 /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Loader_WY.json; sourceTree = "<group>"; };
+		D7D80C8E3689614839DE399073953286 /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
 		D7F39BDACFCE48F16CF77E10E6646E5E /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		D9B9B8EA55B95D6CC82A9D0E4AA1D5F2 /* DebitCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebitCardView.swift; sourceTree = "<group>"; };
 		DA17E380CEC9C8815BFDFAF27CD4F41B /* RaveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaveSDK-dummy.m"; sourceTree = "<group>"; };
@@ -701,7 +701,7 @@
 		E66670CBCA629326E481FF62BE6FD2DA /* rave_mastercard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_mastercard.png; path = RaveSDK/Assets/rave_mastercard.png; sourceTree = "<group>"; };
 		E71531A9113B218601B8B94CE3804CFE /* rave_firstbank.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rave_firstbank.png; path = RaveSDK/Assets/rave_firstbank.png; sourceTree = "<group>"; };
 		E73926CA17A0EA9A1DACD94D4A44E2B6 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		E75DDCFB45D6A06F9A2C05D62BF551C1 /* RaveSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RaveSDK.bundle; path = "RaveSDK-RaveSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75DDCFB45D6A06F9A2C05D62BF551C1 /* RaveSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaveSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A6E9C173BA2EB062F0F46BBAC8FF44 /* lottie-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lottie-ios-Info.plist"; sourceTree = "<group>"; };
 		E7BC827A5C0285AE113EFCA159B5D742 /* Trim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trim.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Trim.swift"; sourceTree = "<group>"; };
 		E9543D01ED4F58784967864D294FB1FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -716,7 +716,7 @@
 		F212B1CE0E1CFFF6A31F8C93CC7E65E8 /* GradientFillRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientFillRenderer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientFillRenderer.swift"; sourceTree = "<group>"; };
 		F26225C55B0E25D985F0DF3821668E77 /* LRUAnimationCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LRUAnimationCache.swift; path = "lottie-swift/src/Public/AnimationCache/LRUAnimationCache.swift"; sourceTree = "<group>"; };
 		F297A15E97F6B8A52D7EB09DB3083F92 /* EllipseNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EllipseNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/EllipseNode.swift"; sourceTree = "<group>"; };
-		F30C2D109E208DB22CA0CC8D58CC433A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F30C2D109E208DB22CA0CC8D58CC433A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4C09157FD89C62D02AA24C68F82D57B /* GradientStroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStroke.swift; path = "lottie-swift/src/Private/Model/ShapeItems/GradientStroke.swift"; sourceTree = "<group>"; };
 		F516A95732ECEB10B34C12F311788344 /* rave_firstbank@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rave_firstbank@2x.png"; path = "RaveSDK/Assets/rave_firstbank@2x.png"; sourceTree = "<group>"; };
 		F5774A22B053954F13CF00E8528058F9 /* MobileMoneyRW.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MobileMoneyRW.swift; sourceTree = "<group>"; };
@@ -843,7 +843,6 @@
 				2E29F3383C485F5C88CDE36BDC848B7F /* IQUIViewController+Additions.swift */,
 				AF1A3E350C51B3AC0B6B12D2E65796ED /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -1032,7 +1031,6 @@
 				7D684674E476BD15A6760F236E7B9C08 /* VectorsExtensions.swift */,
 				0B67747F6AC2E7E8246E4205096734ED /* Support Files */,
 			);
-			name = "lottie-ios";
 			path = "lottie-ios";
 			sourceTree = "<group>";
 		};
@@ -1345,7 +1343,6 @@
 				852E30ACD2084E1ECDBA10F560D927D4 /* Validation.swift */,
 				AEC75E2CCB0E2E06F1F059B99F7B3BC9 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -2142,8 +2139,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2456,6 +2452,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.0;
 				MODULEMAP_FILE = "Target Support Files/RaveSDK/RaveSDK.modulemap";
 				PRODUCT_MODULE_NAME = RaveSDK;
 				PRODUCT_NAME = RaveSDK;
@@ -2587,6 +2584,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.0;
 				MODULEMAP_FILE = "Target Support Files/RaveSDK/RaveSDK.modulemap";
 				PRODUCT_MODULE_NAME = RaveSDK;
 				PRODUCT_NAME = RaveSDK;

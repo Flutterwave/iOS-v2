@@ -256,21 +256,21 @@ public class NewRavePayViewController: UITableViewController {
         mobileMoneyFR.backgroundColor = .clear
         mobileMoneyZM.backgroundColor = .clear
         
-        ukAccountCell.addSubview(ukContentContainer)
-        howCell.addSubview(howView)
-        cardCell.addSubview(debitCardContentContainer)
-        accountCell.addSubview(accountContentContainer)
-        mpesaCell.addSubview(mpesaContentContainer)
+        ukAccountCell.contentView.addSubview(ukContentContainer)
+        howCell.contentView.addSubview(howView)
+        cardCell.contentView.addSubview(debitCardContentContainer)
+        accountCell.contentView.addSubview(accountContentContainer)
+        mpesaCell.contentView.addSubview(mpesaContentContainer)
         
         ukContentContainer.addSubview(ukViewContainer)
         ukContentContainer.addSubview(ukDetailsViewContainer)
         
-        mobileMoneyRW.addSubview(mobileMoneyRWContainer)
-        mobileMoneyFR.addSubview(mobileMoneyFRContainer)
+        mobileMoneyRW.contentView.addSubview(mobileMoneyRWContainer)
+        mobileMoneyFR.contentView.addSubview(mobileMoneyFRContainer)
         mobileMoneyRWContainer.addSubview(mobileMoneyRWContentContainer)
         mobileMoneyFRContainer.addSubview(mobileMoneyFRContentContainer)
         
-        mobileMoneyZM.addSubview(mobileMoneyZMContainer)
+        mobileMoneyZM.contentView.addSubview(mobileMoneyZMContainer)
         mobileMoneyZMContainer.addSubview(mobileMoneyZMContentContainer)
         
         debitCardContentContainer.addSubview(debitCardView)
@@ -289,11 +289,11 @@ public class NewRavePayViewController: UITableViewController {
         mpesaContentContainer.addSubview(mpesaBusinessView)
         mpesaContentContainer.addSubview(mpesaPendingView)
         
-        mobileMoneyGH.addSubview(mobileMoneyContainer)
+        mobileMoneyGH.contentView.addSubview(mobileMoneyContainer)
         mobileMoneyContainer.addSubview(mobileMoneyContentView)
         mobileMoneyContainer.addSubview(mobileMoneyPendingView)
         
-        mobileMoneyUG.addSubview(mobileMoneyUgandaContainer)
+        mobileMoneyUG.contentView.addSubview(mobileMoneyUgandaContainer)
         mobileMoneyUgandaContainer.addSubview(mobileMoneyUgandaContentContainer)
         
         NSLayoutConstraint.activate([
