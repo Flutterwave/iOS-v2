@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RaveSDK'
-  s.version          = '2.1.9'
+  s.version          = '2.2.0'
   s.summary          = 'RaveSDK'
 
 # This description is used to generate tags and improve search results.
