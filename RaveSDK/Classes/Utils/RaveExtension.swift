@@ -38,20 +38,47 @@ func showSnackBarWithMessage(msg: String, style:Style = .success,autoComplete:Bo
     snack.show()
 }
 
-public enum SubAccountChargeType:String {
-    case flat = "flat" , percentage = "percentage"
+@objc(SubAccountChargeType)
+public enum SubAccountChargeType: Int, RawRepresentable  {
+    public typealias RawValue = String
+    
+    case flat
+    case percentage
+    
+    public var rawValue: RawValue {
+        switch self {
+        case .flat:
+            return "flat"
+        case .percentage:
+            return "percentage"
+        }
+    }
+    
+    public init(rawValue: RawValue){
+        switch rawValue {
+        case "flat":
+            self = .flat
+        case "percentage":
+            self = .percentage
+        default:
+            self = .flat
+        }
+    }
 }
-public class SubAccount{
+
+@objcMembers
+@objc(SubAccount)
+public class SubAccount: NSObject {
     public let id:String
-    public let ratio:Double?
+    public let ratio:NSNumber?
     public let charge_type:SubAccountChargeType?
-    public let charge:Double?
+    public let charge:NSNumber?
     
     public init(id:String , ratio:Double?, charge_type:SubAccountChargeType? ,charge:Double?) {
         self.id = id
-        self.ratio = ratio
+        self.ratio = NSNumber(nonretainedObject: ratio)
         self.charge_type = charge_type
-        self.charge = charge
+        self.charge = NSNumber(nonretainedObject: charge)
     }
 }
 

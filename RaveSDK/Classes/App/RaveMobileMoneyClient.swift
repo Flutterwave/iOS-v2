@@ -128,7 +128,7 @@ public class RaveMobileMoneyClient {
                         case .percentage:
                             dict.merge(["transaction_charge_type":"percentage"])
                             if let charge = subAccount.charge{
-                                dict.merge(["transaction_charge":"\((charge / 100))"])
+                                dict.merge(["transaction_charge":"\((charge as! Decimal / 100))"])
                             }
                         }
                     }

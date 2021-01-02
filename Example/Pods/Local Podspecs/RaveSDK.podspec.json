@@ -1,6 +1,6 @@
 {
   "name": "RaveSDK",
-  "version": "2.0.6",
+  "version": "2.2.0",
   "summary": "RaveSDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Flutterwave/RaveSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Flutterwave/RaveSDK.git",
-    "tag": "2.0.6"
+    "tag": "2.2.0"
   },
   "platforms": {
     "ios": "11.0"
@@ -31,10 +31,10 @@
 
     ],
     "lottie-ios": [
-      "~>3.0.2"
+
     ],
     "Alamofire": [
-
+      "5.2.1"
     ]
   },
   "swift_version": "5.0"
