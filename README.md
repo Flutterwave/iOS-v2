@@ -73,7 +73,7 @@ pod 'RaveSDK'
 
 ## Author
 
-solejay, segun.solaja@flutterwavego.com
+developers@flutterwavego.com
 
 ## License
 
