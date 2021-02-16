@@ -41,32 +41,32 @@ class RaveMobileMoneyClient {
     //MARK: Get transaction Fee
     public func getFee(){
         if RaveConfig.sharedConfig().currencyCode == "GHS" || RaveConfig.sharedConfig().currencyCode == "UGX"
-        || RaveConfig.sharedConfig().currencyCode == "RWF" || RaveConfig.sharedConfig().currencyCode == "XAF"
+            || RaveConfig.sharedConfig().currencyCode == "RWF" || RaveConfig.sharedConfig().currencyCode == "XAF"
             || RaveConfig.sharedConfig().currencyCode == "XOF" || RaveConfig.sharedConfig().currencyCode == "ZMW"{
-        if let pubkey = RaveConfig.sharedConfig().publicKey{
-            let param = [
-                "PBFPubKey": pubkey,
-                "amount": amount!,
-                "currency": RaveConfig.sharedConfig().currencyCode,
-                "ptype": "2"]
-            RavePayService.getFee(param, resultCallback: { (result) in
-                let data = result?["data"] as? [String:AnyObject]
-                if let _fee =  data?["fee"] as? Double{
-                    let fee = "\(_fee)"
-                    let chargeAmount = data?["charge_amount"] as? String
-                    self.feeSuccess?(fee,chargeAmount)
-                }else{
-                    if let err = result?["message"] as? String{
-                        self.error?(err,nil)
+            if let pubkey = RaveConfig.sharedConfig().publicKey{
+                let param = [
+                    "PBFPubKey": pubkey,
+                    "amount": amount!,
+                    "currency": RaveConfig.sharedConfig().currencyCode,
+                    "ptype": "2"]
+                RavePayService.getFee(param, resultCallback: { (result) in
+                    let data = result?["data"] as? [String:AnyObject]
+                    if let _fee =  data?["fee"] as? Double{
+                        let fee = "\(_fee)"
+                        let chargeAmount = data?["charge_amount"] as? String
+                        self.feeSuccess?(fee,chargeAmount)
+                    }else{
+                        if let err = result?["message"] as? String{
+                            self.error?(err,nil)
+                        }
                     }
-                }
-            }, errorCallback: { (err) in
-                
-                self.error?(err,nil)
-            })
-        }else{
-            self.error?("Public Key is not specified",nil)
-        }
+                }, errorCallback: { (err) in
+                    
+                    self.error?(err,nil)
+                })
+            }else{
+                self.error?("Public Key is not specified",nil)
+            }
         }
     }
     
@@ -74,11 +74,11 @@ class RaveMobileMoneyClient {
     public func chargeMobileMoney(_ type:MobileMoneyType = .ghana){
         var country :String = ""
         switch RaveConfig.sharedConfig().currencyCode {
-                   case "KES","TZS","GHS","KES","ZAR":
-                       country = RaveConfig.sharedConfig().country
-                   default:
-                       country = "NG"
-                   }
+        case "KES","TZS","GHS","KES","ZAR":
+            country = RaveConfig.sharedConfig().country
+        default:
+            country = "NG"
+        }
         if let pubkey = RaveConfig.sharedConfig().publicKey{
             var param:[String:Any] = [
                 "PBFPubKey": pubkey,
@@ -93,7 +93,8 @@ class RaveMobileMoneyClient {
                 "IP": getIFAddresses().first!,
                 "txRef": transactionReference!,
                 "orderRef": transactionReference!,
-                "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!
+                "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!,
+                "redirect_url": "https://webhook.site/finish"
             ]
             switch type{
             case .ghana :
@@ -151,52 +152,52 @@ class RaveMobileMoneyClient {
             ]
             RavePayService.charge(reqbody, resultCallback: { (res) in
                 if let status = res?["status"] as? String{
-					if status == "success"{
-						let result = res?["data"] as? Dictionary<String,AnyObject>
-						if let code = result?["code"] as? String, code == "02"{
-							if let authURL = result?["link"] as? String {
-								self.chargeWebAuth?("",authURL)
-							}
-						}else{
-							let flwTransactionRef = result?["flwRef"] as? String
-							if let chargeResponse = result?["chargeResponseCode"] as? String{
-								switch chargeResponse{
-								case "00":
-									self.chargeSuccess?(flwTransactionRef!,res)
-									
-								case "02":
-									if let authURL = result?["authurl"] as? String, authURL != "NO-URL", authURL != "N/A" {
-										// Show Web View
-										self.chargeWebAuth?(flwTransactionRef!,authURL)
-										if let txRef = result?["flwRef"] as? String{
-											self.queryMpesaTransaction(txRef: txRef)
-										}
-										
-									}else{
-										
-										if let type =  result?["paymentType"] as? String,let currency = result?["currency"] as? String {
-											print(type)
-											if (type.containsIgnoringCase(find: "mpesa") || type.containsIgnoringCase(find: "mobilemoneygh") || type.containsIgnoringCase(find: "mobilemoneyzm") ||  currency.containsIgnoringCase(find: "UGX")) {
-												if let status =  result?["status"] as? String{
-													if (status.containsIgnoringCase(find: "pending")){
-														
-														self.chargePending?("Transaction Processing","A push notification has been sent to your phone, please complete the transaction by entering your pin.\n Please do not close this page until transaction is completed")
-														if let txRef = result?["flwRef"] as? String{
-															self.queryMpesaTransaction(txRef: txRef)
-														}
-														
-														
-													}
-												}
-											}
-										}
-									}
-									
-								default:
-									break
-								}
-							}
-						}
+                    if status == "success"{
+                        let result = res?["data"] as? Dictionary<String,AnyObject>
+                        if let code = result?["code"] as? String, code == "02"{
+                            if let authURL = result?["link"] as? String {
+                                self.chargeWebAuth?("",authURL)
+                            }
+                        }else{
+                            let flwTransactionRef = result?["flwRef"] as? String
+                            if let chargeResponse = result?["chargeResponseCode"] as? String{
+                                switch chargeResponse{
+                                case "00":
+                                    self.chargeSuccess?(flwTransactionRef!,res)
+                                    
+                                case "02":
+                                    if let authURL = result?["authurl"] as? String, authURL != "NO-URL", authURL != "N/A" {
+                                        // Show Web View
+                                        self.chargeWebAuth?(flwTransactionRef!,authURL)
+                                        if let txRef = result?["flwRef"] as? String{
+                                            self.queryMpesaTransaction(txRef: txRef)
+                                        }
+                                        
+                                    }else{
+                                        
+                                        if let type =  result?["paymentType"] as? String,let currency = result?["currency"] as? String {
+                                            print(type)
+                                            if (type.containsIgnoringCase(find: "mpesa") || type.containsIgnoringCase(find: "mobilemoneygh") || type.containsIgnoringCase(find: "mobilemoneyzm") ||  currency.containsIgnoringCase(find: "UGX")) {
+                                                if let status =  result?["status"] as? String{
+                                                    if (status.containsIgnoringCase(find: "pending")){
+                                                        
+                                                        self.chargePending?("Transaction Processing","A push notification has been sent to your phone, please complete the transaction by entering your pin.\n Please do not close this page until transaction is completed")
+                                                        if let txRef = result?["flwRef"] as? String{
+                                                            self.queryMpesaTransaction(txRef: txRef)
+                                                        }
+                                                        
+                                                        
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                default:
+                                    break
+                                }
+                            }
+                        }
                     }else{
                         if let message = res?["message"] as? String{
                             print(message)

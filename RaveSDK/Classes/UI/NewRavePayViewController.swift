@@ -28,6 +28,7 @@ enum OTPType {
 public protocol  RavePayProtocol : class{
     func tranasctionSuccessful(flwRef:String?, responseData:[String:Any]?)
     func tranasctionFailed(flwRef:String?,responseData:[String:Any]?)
+    func onDismiss()
 }
 
 
@@ -49,7 +50,7 @@ public class NewRavePayViewController: UITableViewController {
     var expandables = [Expandables(isExpanded: true, section: 0),Expandables(isExpanded: false, section: 1),Expandables(isExpanded: false, section: 2),Expandables(isExpanded: false, section: 3),Expandables(isExpanded: false, section: 4),Expandables(isExpanded: false, section: 5),Expandables(isExpanded: false, section: 6),Expandables(isExpanded: false, section: 7),Expandables(isExpanded: false, section: 8),Expandables(isExpanded: false, section: 9)]
     
     var headers = [RavePayHeaderView?]()
-    public weak var delegate: RavePayProtocol?
+    public var delegate: RavePayProtocol?
     lazy var howView: HowView = {
         let b = HowView()
         b.translatesAutoresizingMaskIntoConstraints = false
@@ -444,7 +445,11 @@ public class NewRavePayViewController: UITableViewController {
         ])
     }
     
-    
+    func modalSwipeDisabled(){
+        if #available(iOS 13.0, *) {
+            self.isModalInPresentation = true
+        }
+    }
     
     
     override public func viewDidLoad() {
@@ -459,6 +464,7 @@ public class NewRavePayViewController: UITableViewController {
         mobileMoneyRwandaCallbacks()
         mobileMoneyFrancoCallbacks()
         mobileMoneyZambiaCallbacks()
+        modalSwipeDisabled()
 
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -906,6 +912,11 @@ public class NewRavePayViewController: UITableViewController {
         }
     }
    
+    func checkIfPaymentOptionIsExcluded(paymentOption:PaymentOption) -> Bool{
+        return RaveConfig.sharedConfig().paymentOptionsToExclude.filter{ currentPaymentOption in
+            currentPaymentOption == paymentOption
+        }.count > 0
+    }
     
     override  public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         switch section {
@@ -913,24 +924,24 @@ public class NewRavePayViewController: UITableViewController {
              return 0
         case 1:
             //||  RaveConfig.sharedConfig().country == "UG"
-            return RaveConfig.sharedConfig().currencyCode == "KES" || RaveConfig.sharedConfig().country == "GHS"  ? 0 :  65
+            return RaveConfig.sharedConfig().currencyCode == "KES" || RaveConfig.sharedConfig().country == "GHS" || checkIfPaymentOptionIsExcluded(paymentOption: .debitCard) ? 0 :  65
         case 2:
-            return RaveConfig.sharedConfig().currencyCode == "NGN" || RaveConfig.sharedConfig().currencyCode == "USD" || RaveConfig.sharedConfig().currencyCode == "ZAR" ? 65 : 0
+            return (RaveConfig.sharedConfig().currencyCode == "NGN" || RaveConfig.sharedConfig().currencyCode == "USD" || RaveConfig.sharedConfig().currencyCode == "ZAR") && !checkIfPaymentOptionIsExcluded(paymentOption: .bankAccount) ? 65 : 0
         case 3:
-            return RaveConfig.sharedConfig().currencyCode == "KES" ? 65 : 0
+            return RaveConfig.sharedConfig().currencyCode == "KES" && !checkIfPaymentOptionIsExcluded(paymentOption: .mobileMoney) ? 65 : 0
         case 4:
-            return RaveConfig.sharedConfig().currencyCode == "GHS" ? 65 : 0
+            return RaveConfig.sharedConfig().currencyCode == "GHS" && !checkIfPaymentOptionIsExcluded(paymentOption: .mobileMoney) ?  65 : 0
         case 5:
-            return RaveConfig.sharedConfig().currencyCode == "UGX" ? 65 : 0
+            return RaveConfig.sharedConfig().currencyCode == "UGX" && !checkIfPaymentOptionIsExcluded(paymentOption: .mobileMoney) ? 65 : 0
         case 6:
-            return RaveConfig.sharedConfig().currencyCode == "RWF" ? 65 : 0
+            return RaveConfig.sharedConfig().currencyCode == "RWF" && !checkIfPaymentOptionIsExcluded(paymentOption: .mobileMoney) ? 65 : 0
         case 7:
            // return RaveConfig.sharedConfig().currencyCode == "XAF" || RaveConfig.sharedConfig().currencyCode == "XOF" ? 65 : 0
             return 0
         case 8:
-            return RaveConfig.sharedConfig().currencyCode == "ZMW" ? 65 : 0
+            return RaveConfig.sharedConfig().currencyCode == "ZMW" && !checkIfPaymentOptionIsExcluded(paymentOption: .mobileMoney) ? 65 : 0
         case 9:
-            return RaveConfig.sharedConfig().currencyCode == "GBP" ? 65 : 0
+            return RaveConfig.sharedConfig().currencyCode == "GBP" && !checkIfPaymentOptionIsExcluded(paymentOption: .bankAccount) ? 65 : 0
         default:
             return 0
         }
@@ -1106,9 +1117,10 @@ public class NewRavePayViewController: UITableViewController {
     
     
     @objc func closeView(){
-        self.view.endEditing(true)
-        self.dismiss(animated: true)
-    }
+            self.view.endEditing(true)
+            self.delegate?.onDismiss()
+            self.dismiss(animated: true)
+        }
 
     @objc func cardPayButtonTapped(){
         guard let cardNumber = self.debitCardView.cardNumberTextField.text, cardNumber != "" else
@@ -1151,7 +1163,7 @@ public class NewRavePayViewController: UITableViewController {
             }
         }
         raveCardClient.sendOTPError = {(message) in
-            
+
             DispatchQueue.main.async {
                 LoadingHUD.shared().hide()
                 showSnackBarWithMessage(msg: message ?? "An error occured while sending OTP")
@@ -1768,51 +1780,58 @@ public class NewRavePayViewController: UITableViewController {
             
         }
     }
+
     func mobileMobileCallbacks(){
-        raveMobileMoney.feeSuccess = {[weak self](fee, chargeAmount) in
-            if let amount = chargeAmount, amount != "" {
-                DispatchQueue.main.async {
-                    self?.mobileMoneyContentView.mobileMoneyPay.setTitle("Pay \(amount.toCountryCurrency(code: RaveConfig.sharedConfig().currencyCode) )", for: .normal)
-                }
-            }
-        }
-        
-        raveMobileMoney.chargePending = {[weak self] (title,message) in
-            LoadingHUD.shared().hide()
-            DispatchQueue.main.async {
-                let customMessage = RaveConstants.ghsMobileNetworks.filter({ (it) -> Bool in
-                    return it.0 == self?.raveMobileMoney.selectedMobileNetwork!
-                }).first?.2
-                
-                print(customMessage ?? "")
-                self?.showMobileMoneyPending(mesage: customMessage ?? "")
-            }
-            
-        }
-        raveMobileMoney.chargeSuccess = {[weak self](flwRef,data) in
-            self?.delegate?.tranasctionSuccessful(flwRef: flwRef, responseData: data)
-            self?.dismiss(animated: true)
-        }
-        raveMobileMoney.error = {[weak self](message,data) in
-            LoadingHUD.shared().hide()
-            DispatchQueue.main.async {
-                if let msg = message{
-                    if msg.containsIgnoringCase(find: "timeout"){
-                        showSnackBarWithMessage(msg:  message ?? "The request timed out", style: .error, autoComplete: true, completion: {
-                            self?.delegate?.tranasctionFailed(flwRef: nil,responseData: data)
-                            self?.dismiss(animated: true)
-                        })
-                    }else{
-                        showSnackBarWithMessage(msg:  message ?? "An error occurred", style: .error, autoComplete: true, completion: {
-                            self?.delegate?.tranasctionFailed(flwRef: nil,responseData: data)
-                            self?.dismiss(animated: true)
-                        })
+            raveMobileMoney.feeSuccess = {[weak self](fee, chargeAmount) in
+                if let amount = chargeAmount, amount != "" {
+                    DispatchQueue.main.async {
+                        self?.mobileMoneyContentView.mobileMoneyPay.setTitle("Pay \(amount.toCountryCurrency(code: RaveConfig.sharedConfig().currencyCode) )", for: .normal)
                     }
                 }
             }
+            
+            raveMobileMoney.chargeWebAuth = {[weak self](flwRef, authURL) in
+                LoadingHUD.shared().hide()
+                self?.showWebView(url: authURL,ref:flwRef)
+            }
+            
+            raveMobileMoney.chargePending = {[weak self] (title,message) in
+                LoadingHUD.shared().hide()
+                DispatchQueue.main.async {
+                    let customMessage = RaveConstants.ghsMobileNetworks.filter({ (it) -> Bool in
+                        return it.0 == self?.raveMobileMoney.selectedMobileNetwork!
+                    }).first?.2
+                    
+                    print(customMessage ?? "")
+                    self?.showMobileMoneyPending(mesage: customMessage ?? "")
+                }
+                
+            }
+            raveMobileMoney.chargeSuccess = {[weak self](flwRef,data) in
+                self?.delegate?.tranasctionSuccessful(flwRef: flwRef, responseData: data)
+                self?.dismiss(animated: true)
+            }
+            raveMobileMoney.error = {[weak self](message,data) in
+                LoadingHUD.shared().hide()
+                DispatchQueue.main.async {
+                    if let msg = message{
+                        if msg.containsIgnoringCase(find: "timeout"){
+                            showSnackBarWithMessage(msg:  message ?? "The request timed out", style: .error, autoComplete: true, completion: {
+                                self?.delegate?.tranasctionFailed(flwRef: nil,responseData: data)
+                                self?.dismiss(animated: true)
+                            })
+                        }else{
+                            showSnackBarWithMessage(msg:  message ?? "An error occurred", style: .error, autoComplete: true, completion: {
+                                self?.delegate?.tranasctionFailed(flwRef: nil,responseData: data)
+                                self?.dismiss(animated: true)
+                            })
+                        }
+                    }
+                }
+            }
+            
         }
-        
-    }
+    
     func cardPayAction(){
         self.view.endEditing(true)
         LoadingHUD.shared().show()
@@ -1840,6 +1859,7 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
         raveCardClient.selectedCard = card
         if let card =  raveCardClient.selectedCard{
             LoadingHUD.shared().show()
+
             raveCardClient.sendOTP(card: card)
         }
     }
@@ -1977,7 +1997,7 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
         self.accountOtpContentContainer.isHidden = false
         switch otpType {
         case .savedCard:
-            
+           
             otpContentContainer.alpha = 0
             otpContentContainer.otpMessage.text = message
             otpContentContainer.otpButton.removeTarget(self, action: #selector(accountOTPButtonTapped), for: .touchUpInside)

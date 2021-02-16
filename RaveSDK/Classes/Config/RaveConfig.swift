@@ -30,6 +30,7 @@ public class RaveConfig {
     public var meta:[[String:String]]?
     public var subAccounts:[SubAccount]?
     public var whiteListedBanksOnly:[String]?
+    public var paymentOptionsToExclude:[PaymentOption] = []
 
     public class func sharedConfig() -> RaveConfig {
         struct Static {

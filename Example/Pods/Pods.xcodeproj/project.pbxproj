@@ -7,382 +7,383 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0030DABADE75E256C094D06CBE3C26BF /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB47B2855487418BF2EF86D76621A2 /* Marker.swift */; };
-		00322FBF9E1F5FEB8F782060E6634A77 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98E695796574C1377ADAB0937124B5C /* Alamofire.framework */; };
-		00D1CCD07FE5FBD84A90DA2D0909FC43 /* rave_down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E40131DBB103D56D1A82274A28B5CC0 /* rave_down_arrow@2x.png */; };
+		006BA215FEA40267BBAAB0C4FF902169 /* StrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390EDD3EA0064A46E3399E43371E12B /* StrokeNode.swift */; };
 		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B08E2E14FA75C27B661AAAFB533FE8 /* HTTPMethod.swift */; };
-		027849A9363C62140BAACDF20FA52623 /* UKAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C369B7E347A54BEF85E2FFB1AFBF27C /* UKAccountView.swift */; };
-		0368A1A567BF145C96D38B88591B67E8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46CC887D17A35E1BF163AF67368F24F /* ColorExtension.swift */; };
-		03CC37128FAADD76A275A38703821E73 /* UKAccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34E6B19F7EC4DADEB1115C86F57B12 /* UKAccountDetailsView.swift */; };
-		049208BE485227C4A0DE6B9E7A69E8CB /* GroupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCAA458075575810EDB362E086FD45 /* GroupNode.swift */; };
-		04CB4C7420F2A2C9C735C1CE501A4F3B /* AnimatedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2C595C7662C4072EBF497118A88D6 /* AnimatedControl.swift */; };
+		03B96462600D5574D0E9F6CD340E2A6A /* rave_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEE23C69B428D879F5CB9323B7F666 /* rave_close@3x.png */; };
+		047DAD5A237DA87E61C000B8284C7D15 /* rave_unity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C20D6A01B43288114DB626BCDE73F58 /* rave_unity@2x.png */; };
 		0564E54A6F03094F6F39F7D2325CE0D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34FFC859B63A4B7CA5CA9F3AABBD7DF /* CoreGraphics.framework */; };
-		059761D04F8C67DD3E40AA61E68C57B0 /* rave_access2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B78CD73DDCE8BF443C904096A2707228 /* rave_access2@2x.png */; };
-		05C5E1204249D9D386295F0C1089F38D /* CompoundBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815862A306E0BD32569A993FE1F515 /* CompoundBezierPath.swift */; };
-		0648689E4D6F3D075AAC31C404BE6937 /* PointValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB898A056D37B0C15C7D37E75D2F124 /* PointValueProvider.swift */; };
-		0656B6CDEEACF6C52BD9645B7AC5E06B /* Loader_YB.json in Sources */ = {isa = PBXBuildFile; fileRef = 2CC375D4124F7D1B693B6B22B383C1F7 /* Loader_YB.json */; };
-		06F35051251755371FFF2D40C0F69E28 /* SaveCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798EB48C539DAE1C3E20482A26FB8BB /* SaveCardViewController.swift */; };
-		094ECB05561E11DF3884F84053DC7543 /* RaveSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E75DDCFB45D6A06F9A2C05D62BF551C1 /* RaveSDK.bundle */; };
+		05A7FC202D27088412248DB7B591CFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
+		0688A03A9027757B0860A53E77BF9FF3 /* PassThroughOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E2E8C84B42472B1719AC6B70EE0259 /* PassThroughOutputNode.swift */; };
+		07CCC32EE85E60FCB2E24AE48CF0C46B /* RectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB15F2DEE6216A5F5ABEAE0D581488 /* RectNode.swift */; };
+		0825C425AC294C20A528AF5F23609727 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E66A7F73036EAFA9EFDF605283D3E1 /* Ellipse.swift */; };
+		08F88B34E5D602785B90197D4D171E6B /* AnimationImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CD529DEAE8DEE53723E39EB3321B3C /* AnimationImageProvider.swift */; };
+		093D78B477AF368B403EC979B65BF268 /* rave_providus.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1A9CCAC1D6FE34564B5393CA32ED6D /* rave_providus.png */; };
 		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0016BBBF6DC465CBDA39800340D8CE8 /* Combine.swift */; };
-		0A1E7F564D07404139CDE1BF2BBA5CB1 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319B843837F83F7FAFEC6AC40F82CDB /* Asset.swift */; };
-		0A33D100CB1B15E40BC92847CF2E2731 /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6644DAA49720735EB718A932535D9EF /* TripleDES.swift */; };
 		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F39BDACFCE48F16CF77E10E6646E5E /* OperationQueue+Alamofire.swift */; };
-		0AE44666A6C8754A7F03C828B77E1AA8 /* rave_fcmb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9139A350CD544BCE0AA876D02BE2CE1 /* rave_fcmb@3x.png */; };
-		0BE8365C3EC65D244DABB6676B14977F /* ShapeRenderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A188763CBB1BF52033BCBF63FDFF1768 /* ShapeRenderLayer.swift */; };
-		0E752A17C1767A89E5A2A3A0349208C7 /* AnimationKeypathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A717AEF77B14D9038EE6F91ABBD936A /* AnimationKeypathExtension.swift */; };
-		0EAF287F5AA59CF6AC0E04A156129ABD /* ShapeCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9306F3D4A237378F2DA3DC91FF5C4 /* ShapeCompositionLayer.swift */; };
+		0AB7E1247A70CE6C95B537DA3AD18AB7 /* rave_mastercard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B64AFABECD0F4E38BD6814119A03EF /* rave_mastercard@3x.png */; };
+		0AFAFFE46813E69644E85132E403AD12 /* rave_zenith@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8B2ABD1225AAFD622790DC6B6FD46B /* rave_zenith@2x.png */; };
+		0B21CC11097EEA6DF6CD5D2620E45D37 /* rave_unchecked_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D4F6C8C1448B015F64691CA2512092 /* rave_unchecked_box.png */; };
+		0B25E489271976BA7BF319C4A1FFEA2C /* rave_check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9232D72AEC622BE4949AA69CD6296E /* rave_check_box.png */; };
+		0B79C063682631282CD6172F27290458 /* rave_firstbank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F516A95732ECEB10B34C12F311788344 /* rave_firstbank@2x.png */; };
+		0BE23EA3879F67DC4D048DCF0E45AAE9 /* rave_sterling@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D76AB5A9B59598C3F1A67BAA28349B /* rave_sterling@2x.png */; };
+		0F2B938EFE99BD4AE48613527A44ED7E /* AnimatedSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7C42B69DA8267C27382F05688060F /* AnimatedSwitch.swift */; };
 		102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BF75154E94B483D6B09FE2EBF8E68 /* IQKeyboardManagerConstantsInternal.swift */; };
-		105D64E6B6BFCF4A8390A7F49B7F8139 /* rave_access2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC3D17E9D68F371EA62CD1476FA7DE /* rave_access2@3x.png */; };
-		1121ADD5FBFB1A855FEBC35EC58FC7D4 /* PrecompAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF3E2A83E31F321D943B068842E369 /* PrecompAsset.swift */; };
-		1129FB12E6F6CAF80CF112CADAE93304 /* ShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907CB904EE7FC76EE880CC089C9F70B /* ShapeNode.swift */; };
-		11FA9005750EDEE65727FB908DBD95A6 /* Rectangle 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410AB0BBA9A72C772C6FFA6E90EFCA22 /* Rectangle 4@2x.png */; };
+		115CDCB9332A91751995AE45644814E2 /* MobileMoneyZM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E27BE1EC6E5D59376016F8BACFDF58 /* MobileMoneyZM.swift */; };
 		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA42BDF3C924021C01232C31CC0BD5C /* AFError.swift */; };
-		139DE806A6AA044201854DDEF0171A4E /* TextLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437F90E46348EB04CFA3CFB8AEC0737 /* TextLayerModel.swift */; };
-		13F3B0AB12867E888086FAAB9D481E8C /* FilepathImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3B35AEC7646BB61500B63D30E88FD /* FilepathImageProvider.swift */; };
-		167050C27D9680B7396234305AA2C2AB /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509E0B289931BB8D28897A235D1F05 /* SavedCard.swift */; };
-		1737FC144C171DBF3AB193F4F3D45A19 /* CompatibleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAC80272E0C24A68B5FDE0D9AD1A9D /* CompatibleAnimationView.swift */; };
-		182306D427D822A341D6C976C993C09C /* rave_providus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6756C0D2ECCC55DA5D5E6C04D335A6 /* rave_providus@3x.png */; };
-		18F68F8325C281B14967D62909EA3E0E /* rave_ecobank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4B7C09407636A3DABCBC3673363D9 /* rave_ecobank.png */; };
+		12B66BE163C46EC1EA0C20723C6BAC74 /* ShapeRenderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A188763CBB1BF52033BCBF63FDFF1768 /* ShapeRenderLayer.swift */; };
+		12F1C3813540171DC054D220C98E2384 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE210B99A35345A960C2599BDCF972 /* TextAnimatorNode.swift */; };
+		166AAC3A93823F08842C1A863391F57C /* AnimationSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB1338D036266B63F8D3ABEF97283B /* AnimationSubview.swift */; };
+		1724F0A69A88292D40E717F25F7D3D75 /* Keyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93515CEF4E21CFED43571770ACD9818 /* Keyframe.swift */; };
+		1876E7E11FD4445A391F1A73E834B57B /* AnimationTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF92865052FD843FB8D59C029719E74 /* AnimationTime.swift */; };
+		18C571920EC95D48F69F04BB3D50DBB1 /* VectorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D684674E476BD15A6760F236E7B9C08 /* VectorsExtensions.swift */; };
 		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AC36826C8E1CC006799C812E93B74E /* NetworkReachabilityManager.swift */; };
-		1A46352E83A6A22F10E4C15F2102C1A6 /* rave_uba.png in Resources */ = {isa = PBXBuildFile; fileRef = 517850E5CABDB0E17AFF915B60EE9ABA /* rave_uba.png */; };
-		1A49BA1391D08DD8D145E3CB3B6B0361 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA614388A77683D5CFA88D8D94BEF6 /* CGFloatExtensions.swift */; };
-		1AA916C863B845AB2E969C8E2691DA94 /* StrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDE20A7503581EC2E78D49CE891425 /* StrokeRenderer.swift */; };
-		1B0460BEB83242770025319E74797306 /* GradientFillNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F467C6546605C6AF66EC1125DE5E60 /* GradientFillNode.swift */; };
-		1B7E63741F5ABF544F38BEC4DFA00E65 /* rave_unity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C20D6A01B43288114DB626BCDE73F58 /* rave_unity@2x.png */; };
-		1CA8056B3796C09E610CD311DFA6E4B5 /* rave_down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 07028BA13BBBE35707FAC219516A59E8 /* rave_down_arrow.png */; };
-		1E33F071C68F4CA458EBB6FB80CC1006 /* rave_providus.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1A9CCAC1D6FE34564B5393CA32ED6D /* rave_providus.png */; };
-		1EC176BC3A1FD86643C3FE3781708609 /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D31164A2DFA15C52587161E4FD601C7 /* Loader_YW.json */; };
-		1F72838DCC53DDAA081849F877E5F5AD /* rave_firstbank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F516A95732ECEB10B34C12F311788344 /* rave_firstbank@2x.png */; };
+		19F2D7A72CE6806DB1657BA50F969E6A /* MobileMoneyGHPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A058B2C87084E73B3FBF6565E2FCB /* MobileMoneyGHPendingView.swift */; };
+		1BECE6909DAB1739635943A84E2BEC6E /* PolygonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A45E1913766A08BE70604A7E77C1D /* PolygonNode.swift */; };
+		1D5CB46AC645095A1655A3AE287391E1 /* rave_access2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B78CD73DDCE8BF443C904096A2707228 /* rave_access2@2x.png */; };
+		1E42E398B26C221FBA2CDF66F2C24688 /* KeyframeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6791BCAFC3F6ED70F7B52FFC64E8A /* KeyframeGroup.swift */; };
+		2002CBE398F72FB822F171D1790B5E3C /* GroupInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9244C804A8A4ECF020B507277DF43 /* GroupInterpolator.swift */; };
 		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA555E1C4EEDC2E19F62A84A5CAB2A0C /* StringEncoding+Alamofire.swift */; };
-		215AEAD3419A3ACF2C0221613E9E70C1 /* AnyValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D684FE32CF5BEC44727B97AAB82F00E /* AnyValueProvider.swift */; };
 		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955DE3746A9A436A811561E6CB69E3A6 /* Protected.swift */; };
-		230EC68413854E92B20124A950C47036 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5BCBFFC7BFD812B001EFDF4F96339 /* Bank.swift */; };
-		24644CE725F009E9A8CDF9C5722826CF /* ImageLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F328304DCBFCCA195720B6819AB7779 /* ImageLayerModel.swift */; };
-		24E73652A234A60A5934E67403BE1C2B /* KeypathSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C7C4942F5E5463C59E90F5DB72F0C /* KeypathSearchable.swift */; };
+		21C62BE06A4A3A4F3C80FBFB1536BB9B /* GroupOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC3468BEF1CAE0B2C7553FF408BC2 /* GroupOutputNode.swift */; };
 		259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D6978419026C3259D6779DA4CD3CB /* IQNSArray+Sort.swift */; };
-		2619E6A78A7FB6940ABA9C8878F4D029 /* MobileMoneyFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89F86B1E15A28152F8B65302817417 /* MobileMoneyFR.swift */; };
-		2679BAD1E9C6FE892B943014883E9B3E /* AnimationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A0B714264873FCD9BDB6C5487119E /* AnimationContainer.swift */; };
-		271AFD4AA0BCA8EC2DBE75C8B422D6FD /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81A6B0F40ECF6222E69C7FC93B68BA9 /* SnackBar.swift */; };
+		264B35672746A4F6B58143285B6AAC5F /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42BAF3FD8ED7365A47CD14344C7A1A /* Vectors.swift */; };
+		26E2F95A24FF1B436B3D196E2CD1CFA5 /* rave_access@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66488E0B030B63AA3B8ABFBF37CCCA6D /* rave_access@3x.png */; };
+		2721FA1DC51CCAC247B5C12A780DEB38 /* ColorValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58761EE38997B40D94200CD40AA3F71F /* ColorValueProvider.swift */; };
 		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8A44E806CEBD9E8FBEADCB773CEBB /* DispatchQueue+Alamofire.swift */; };
-		280CDE9F7880D9E463129EA2E85CEFB3 /* PathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0E2E44880691AE5A0E6D7202026F6 /* PathNode.swift */; };
-		280D779B6989A701673E9CDFA444F38D /* MobileMoneyUganda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F125682AC01C527F5146A0191F10F24 /* MobileMoneyUganda.swift */; };
-		28A4FE87CFE9086A4989CB58E01E6BB2 /* MobileMoneyRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5774A22B053954F13CF00E8528058F9 /* MobileMoneyRW.swift */; };
-		28C229878148DBFA8CD67F90F20647D0 /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6B2F40EAF5B2EB93E2D9007CA6364 /* TextDocument.swift */; };
+		291055F80C68F4D86F644FC87CDDD121 /* PointValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB898A056D37B0C15C7D37E75D2F124 /* PointValueProvider.swift */; };
 		2964A4832ED09F9CB441D25FB2F7B76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
-		29BBB28517B300E462E01552C02F3885 /* Pods-RaveSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6E48586C8672418BC99889C8A5A28E /* Pods-RaveSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B0A52CAEBDE0DF9F726ABB551574C4A /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150339B9DE47C31F8B210A13D066BAE5 /* Repeater.swift */; };
-		2CD59B728427D7A3795FB5758EF765F6 /* AnimationImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CD529DEAE8DEE53723E39EB3321B3C /* AnimationImageProvider.swift */; };
-		2D1D745CF9250A148655A004E70DCBF3 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D2278809077636754D010A7A5ECFE /* Transform.swift */; };
-		2D231EAA068A211022C26DFC80815C54 /* rave_fsdh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7854EA06D9883E7293267EC7F6B6B73D /* rave_fsdh.png */; };
-		2D8C8A89183005AA430E69B5DBCAB5D4 /* rave_gtb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58505D3992B444CE825C3A9962BB0DBE /* rave_gtb@2x.png */; };
-		2EFAFAB1644CA4702EA4DA05FBF2E6F6 /* rave_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEE23C69B428D879F5CB9323B7F666 /* rave_close@3x.png */; };
-		2F258D3D7248BF8151808EE4D1EE9C68 /* rave_down_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B8F0493AC2C8155F8D2C1CA7CAF3D1 /* rave_down_arrow@3x.png */; };
-		2FA3D88D23D8DE8CDAB423AD48A5597D /* GradientStrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4556002841DB6B8DB67429D89CCCBB7E /* GradientStrokeNode.swift */; };
-		2FD4DA6D083BDE1A18DC9484EC965458 /* GradientFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F67C96753C7E04B317DB70C9D4B0E /* GradientFill.swift */; };
-		335A190B97C8ACA59943BCA89A9A020E /* NodeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAFB993F8074F0C3BFCE12CBDE3A8F /* NodeProperty.swift */; };
-		34D38CFDC1011FAF13EBAD8B167E3047 /* lottie-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7E7309DE1E38E581897BDF56C6F05B /* lottie-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		354D7EE9B4C452DD10AACFD211C340DB /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BEF52B9F7B652C2F0A0FEE0A0CB3E /* Interpolatable.swift */; };
-		363F548596EC074C68C29EEC519AF303 /* rave_zenith.png in Resources */ = {isa = PBXBuildFile; fileRef = B20809ACF7D7C5D95697466EAB28E548 /* rave_zenith.png */; };
-		37396B483B537F3ADB0EE13CFAE90FBB /* FillI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946BDECEE5D70A7D3A54C7C7007CD8E4 /* FillI.swift */; };
+		2969B22FC9BFFB0C748095CDD3D86BB2 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953839E8D97785C9B5CF8B28B00651E /* PathElement.swift */; };
+		29D50B95E9DAEEE9FE75AFF2D8F47D08 /* RaveMpesaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B14C610E18719B51F00AC7CCD37B635 /* RaveMpesaClient.swift */; };
+		2B7180A94AF6DD52F8E83A986CBDBD59 /* AnimationCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D20732D9DDD5967A348F31FF48F731 /* AnimationCacheProvider.swift */; };
+		2E0C12056B3515EDC58EFAB4F484E0D3 /* rave_sterling.png in Resources */ = {isa = PBXBuildFile; fileRef = B65383207114B7CA56A14C547966819B /* rave_sterling.png */; };
+		2EF023992C45B4F859461682DA68AD84 /* Loader_WY.json in Sources */ = {isa = PBXBuildFile; fileRef = D7D80C8E3689614839DE399073953286 /* Loader_WY.json */; };
+		3020339EF3C4570079FD8341F3C2F39D /* rave_skye.png in Resources */ = {isa = PBXBuildFile; fileRef = 68359FA9D050932B061E2098FD323E16 /* rave_skye.png */; };
+		302B23AFCF0FBB1ECD53E6564DAF69FC /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF246DBABB308B52B76C5A9FF887838B /* Shape.swift */; };
+		306C0CC3446A57FB89CA64AB9E14B4FF /* rave_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 70D3571573277DD837C8FE9B03BA1B9B /* rave_visa.png */; };
+		32799C3603590EE55E0A04C0C091BB0E /* FillRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD63A7243A1E4F51E4311F177E417A /* FillRenderer.swift */; };
+		32D4F39D9E3FE8CAC05254B0BF958380 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40727513CD0FACB2C2E11285D6B1BBA8 /* TextCompositionLayer.swift */; };
+		3379F6E8DD3C7E0762A3AA8249DD7E5E /* ItemsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6EE63845FAC04464AAA3DC8E5BCC2 /* ItemsExtension.swift */; };
+		33AC72AD6FFF1F1A68D7EDC6BB652EDC /* rave_polaris.png in Resources */ = {isa = PBXBuildFile; fileRef = B8308D0170437AB482099FDD19FFC51E /* rave_polaris.png */; };
+		3597B8CF5762DF1D3E4B17F6B8F5E9CF /* LayerDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CC24F74A4B82B8AAECB87143074CE /* LayerDebugging.swift */; };
+		36095F2DB8A346EE4AFDDE953BE9A9E3 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048303C2A1DFA79383285CD13FFA1C2 /* Animation.swift */; };
+		3648E2DFC0BEE589B05E06A1B2E058EA /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC827A5C0285AE113EFCA159B5D742 /* Trim.swift */; };
+		37D8403F03C35B5AE5AFBC3049FC5F33 /* rave_fcmb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6292197D50FC3D7083557EFFC62D6476 /* rave_fcmb@2x.png */; };
+		37F218C397187647AAFE64F1782F1D6F /* AnimatorNodeDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA42ABC7CCC911BCBDF0E10FC9FE8C /* AnimatorNodeDebugging.swift */; };
 		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4032AD9FEC72030A5C0F185AEF0E8 /* SessionDelegate.swift */; };
-		38E167AC6D652B79203963B23A2DD223 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18783687B4D7BC3B31973549342ACB5 /* Lottie.framework */; };
-		39D7B9946FA54D7761A108B724145863 /* Keyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93515CEF4E21CFED43571770ACD9818 /* Keyframe.swift */; };
-		3ABD41AF4D6CF24B3DCB0ECED2E22F06 /* NewRavePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF8399B2988DF768469325607E6984 /* NewRavePayViewController.swift */; };
-		3B625181D2B1B64C1B9717158DBC93B2 /* RenderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBE9EF2D868F842A589D6DC695B02 /* RenderNode.swift */; };
-		3C3E5D86F968C5F1127918D38660A6F0 /* rave_padlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 725F07703D202687C0C2AAC17757430A /* rave_padlock@2x.png */; };
+		38367E5A09979C633CA11EC28E572169 /* AnimationKeypathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A717AEF77B14D9038EE6F91ABBD936A /* AnimationKeypathExtension.swift */; };
+		3A36AA643DC4599990546F1F0D6C0AC3 /* FloatValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29720557ACDCE3C0269F1ADE07E2EFAA /* FloatValueProvider.swift */; };
+		3B8D440D86C47B121DC425618186AC74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34FFC859B63A4B7CA5CA9F3AABBD7DF /* CoreGraphics.framework */; };
+		3CBE13A8BDDF710509668AD28A1F6725 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C203E039D0232910D01BD05D49232BB0 /* Glyph.swift */; };
 		3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D116F7ED13A9643A786A74356727256 /* IQKeyboardManager.swift */; };
-		3FAE6D80C32DE445DC23328E1653FC00 /* Loader_WY.json in Sources */ = {isa = PBXBuildFile; fileRef = D7D80C8E3689614839DE399073953286 /* Loader_WY.json */; };
-		41B3F871ADE77F2498200BCC03CDF3D6 /* AnimationCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D20732D9DDD5967A348F31FF48F731 /* AnimationCacheProvider.swift */; };
-		43C6F20186F5AD5A9ED0797BB9025C3E /* rave_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 70D3571573277DD837C8FE9B03BA1B9B /* rave_visa.png */; };
-		4422242108A61B6CC1D7D23490B8D3FD /* CompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4936177546B6A62055FC48CB59F77 /* CompositionLayer.swift */; };
+		3F872E5B1CC4742FFB33BDCBA3AD435A /* rave_up_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE59B7E577591759A8905E864272621E /* rave_up_arrow@2x.png */; };
+		3F928332FB50735E09799FF9FFA8266B /* rave_ecobank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4B7C09407636A3DABCBC3673363D9 /* rave_ecobank.png */; };
+		412733A12906C54B9326C999B9BB9DE1 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B1C29CA6FBD589BAFB0B432748614 /* AnimationView.swift */; };
+		42D039E35243548085E93D64E1FD5A10 /* rave_mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9958D9EDD9F80298F5DA583F165D9EB /* rave_mastercard@2x.png */; };
+		4319CBABBDD2910F44E8874C1EC5040D /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19789CD1E05FD56011012F04E6EDED4A /* OTPView.swift */; };
+		447295A9CA07E76FAE4AF8D11A6DE036 /* Pods-RaveSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B6816A80D40950A59219B3E5E015A3 /* Pods-RaveSDK_Example-dummy.m */; };
 		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C275D795DBC20245A22089D6BA2711A9 /* MultipartFormData.swift */; };
-		45CA9B47F22E9D0591DABC66BDE24616 /* MpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB268DDD5B1DD2B3CA869FBC04EDB0D3 /* MpesaView.swift */; };
-		46A1CB6FFAED99B70796DF4FB25739A0 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B206A106D2802CD9D4EBD2179A7F0AD /* StringExtensions.swift */; };
-		46D021D0082451781D23D99AB5892046 /* EllipseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297A15E97F6B8A52D7EB09DB3083F92 /* EllipseNode.swift */; };
+		462B6191F12114B4C442502D3BFE3780 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004733DD98461F5F2381802B07ED43B9 /* AnimationContext.swift */; };
+		464D0A74C84D528006DEEB40CFCFCA18 /* RavePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F4C9FB2A8A66E0D146C576E1D51A3 /* RavePayHeaderView.swift */; };
+		4669672F1425BA978A765EDFCFF4847B /* ImageLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F328304DCBFCCA195720B6819AB7779 /* ImageLayerModel.swift */; };
+		46A174383B9AA79C11CA9C92678FE159 /* UKAccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34E6B19F7EC4DADEB1115C86F57B12 /* UKAccountDetailsView.swift */; };
 		4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DF88FEFFBF344D18D97B3ACDC77077 /* IQKeyboardReturnKeyHandler.swift */; };
 		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2427C1667FA48ACD8E823A39BB90E /* ServerTrustEvaluation.swift */; };
-		48214700FA13FA46210B36E6D936FDFC /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5A1A43D274397631268B9A038C7C8 /* RaveAccountClient.swift */; };
-		49ABA3456FD58A7CCECF9AC6FFDDC762 /* MathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089D8E45E0BAC2DA1755EEAD0B5083F /* MathKit.swift */; };
-		49C4AFD449CE40CCBAE17BF164C26C21 /* AnimationViewInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CB02C8D1B518BF5BE33372D8E4D02 /* AnimationViewInitializers.swift */; };
-		4A932D54640498A22A4755D4D47597C7 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DE41F2B1FFF18989E6C8AC4D5B7F4C /* IQKeyboardManagerSwift.framework */; };
-		4AD74EF519A13E76ADFBC9C7424EE0E0 /* rave_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B5206DC863101C5E497CD5BD96067FE /* rave_close@2x.png */; };
-		4AE789B581759C82B73C90BEED01C04D /* AnimatedSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7C42B69DA8267C27382F05688060F /* AnimatedSwitch.swift */; };
+		482054202225E91A1D6A53FC5EED1E05 /* AnimatedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2C595C7662C4072EBF497118A88D6 /* AnimatedControl.swift */; };
+		48254A984ED91129394647BE8AB30702 /* GroupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCAA458075575810EDB362E086FD45 /* GroupNode.swift */; };
+		494F89CAAB610CE59C1C90813D4A15DB /* rave_providus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6756C0D2ECCC55DA5D5E6C04D335A6 /* rave_providus@3x.png */; };
 		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7570FB11507934E1C906741811AAC6 /* ParameterEncoder.swift */; };
-		4AF2672D4EB6CCF0B9C01A79B67B7ADF /* GradientStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C09157FD89C62D02AA24C68F82D57B /* GradientStroke.swift */; };
-		4BCAE2CD1E007B0232F9006E72BDC819 /* FillRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD63A7243A1E4F51E4311F177E417A /* FillRenderer.swift */; };
+		4B51EC0BF79BC3F005A4FC7B061654D5 /* ShapeLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AFCC637B42F6B705588965F03DECE /* ShapeLayerModel.swift */; };
+		4BD9733F70D0967C674113CE80B2DA52 /* rave_padlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42600C048BA6EB0D68C9074FFBE1E0FD /* rave_padlock@3x.png */; };
 		4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA1F4C11743B213C406A41124E97D2 /* IQUITextFieldView+Additions.swift */; };
-		4CAC5627B3082E071745D2DC74300529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34FFC859B63A4B7CA5CA9F3AABBD7DF /* CoreGraphics.framework */; };
-		4E3A5C655C03B7211DD3759C466DB551 /* MobileMoneyGHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61401C8F176B930005323B73A8D633 /* MobileMoneyGHView.swift */; };
-		4EA12FAD16E7F22C9FD6FBB2974A6ECE /* KeyframeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6791BCAFC3F6ED70F7B52FFC64E8A /* KeyframeGroup.swift */; };
+		4D4E5AF5E892E11F01B7A722562659C5 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC98AA0FEFCC54C44E28BF0D84E09BD /* Mask.swift */; };
+		4D66C969B77D9719B4D374791F5A01AA /* rave_gtb.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6FBFE44984C360160FAAC7E4091EE8 /* rave_gtb.png */; };
+		4EF722374C1A75DED6B02E719EC6E68F /* SelectBankAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934DA49A0E2C6DD204EA53FCECF868F /* SelectBankAccountView.swift */; };
 		4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0FDA95E0D682595AEE7C1B23C7A208 /* IQInvocation.swift */; };
-		5015F052D9C3A3A709AEE7C38004F029 /* StarNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A7EE79644383E617189E716C2CCDC0 /* StarNode.swift */; };
+		4F237FA4AEBAF701D7C0EA1F9C401729 /* Rectangle 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E78D7CAA97A2B3EEA1EC9526046586 /* Rectangle 4.png */; };
+		503427359108CEA289658EE9E4016B97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9543D01ED4F58784967864D294FB1FE /* UIKit.framework */; };
 		5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B77C8C878ECE8E3071AF7EE4A849D /* IQPreviousNextView.swift */; };
-		5330A87ABE084E3B4F0086DFC9E99770 /* ShapeTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A135F7908B785A7AAE586A7159AE3 /* ShapeTransform.swift */; };
-		5547103A3AA5E9CF1CE597330A985A23 /* rave_padlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42600C048BA6EB0D68C9074FFBE1E0FD /* rave_padlock@3x.png */; };
-		5696788AC7538472A1147670B90BBE2D /* rave_skye.png in Resources */ = {isa = PBXBuildFile; fileRef = 68359FA9D050932B061E2098FD323E16 /* rave_skye.png */; };
-		56E165C9C5411D61750F4B7CFAF8BEF1 /* rave_zenith@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB38B6F418545AB2DFAF4CACCB53646 /* rave_zenith@3x.png */; };
-		58EAE227316B7C8926C1A121391CF27E /* TrimPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412DFC593DFA01C33189C08A06F0F36 /* TrimPathNode.swift */; };
-		5AC93AF8FD1A624CDEF7F4167BA6957B /* SavedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91C7C6163A1CC01418E0CE171CD44A /* SavedCardsView.swift */; };
-		5B218CE1CD4D71F3D42CED3333F01609 /* GroupInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9244C804A8A4ECF020B507277DF43 /* GroupInterpolator.swift */; };
-		5D3F5657C82524B0EB01938028BFEFFE /* RavePayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136779F654E13BBF3200A5B956E20469 /* RavePayWebViewController.swift */; };
-		6136A2C6D55AA3F5E4533864DC6BCE79 /* rave_unity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9785BC49076C956739C2BD40F59ADFC0 /* rave_unity@3x.png */; };
+		50B43A83B5CAFAF1F6218BE5F8077228 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150339B9DE47C31F8B210A13D066BAE5 /* Repeater.swift */; };
+		50B994B8351A524689B9E97D0885AD2F /* UKAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C369B7E347A54BEF85E2FFB1AFBF27C /* UKAccountView.swift */; };
+		50EAAA44509699AEF0A6EBFACA1417FF /* rave_access@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86889071F2F84A01CA5AED6D018EF9CB /* rave_access@2x.png */; };
+		512F536AAF47F13EFE9FC245FF91388F /* rave_zenith@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB38B6F418545AB2DFAF4CACCB53646 /* rave_zenith@3x.png */; };
+		51ACA437D619D45C238E0850D27F1B5D /* rave_sterling@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B81AE32F178CA2AE927C8439681A08 /* rave_sterling@3x.png */; };
+		5293A9F8A40C76DE2FD539BB123F0378 /* rave_down_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B8F0493AC2C8155F8D2C1CA7CAF3D1 /* rave_down_arrow@3x.png */; };
+		532B2CF0C3682E77FB8865355ABFBD19 /* rave_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B5206DC863101C5E497CD5BD96067FE /* rave_close@2x.png */; };
+		581504946B49E1BBBFA0180C673381D0 /* InterpolatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70632160F6400AF63D3FDC1047A317CF /* InterpolatableExtensions.swift */; };
+		585B891BAEA4B21DEC3D0A6F95E3E35A /* AnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8906622EEAF4EBDA50EF17C0F4827 /* AnimationKeypath.swift */; };
+		58F05E1BDDF70BCA20031293F29F7340 /* CompatibleAnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAD35AEF183DC43AB89834ECABC103 /* CompatibleAnimationKeypath.swift */; };
+		5A3CEAAC04A07590BFAFFC8590AA881D /* AnyValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D684FE32CF5BEC44727B97AAB82F00E /* AnyValueProvider.swift */; };
+		5B18CB10804778BAD1553153AD4471B7 /* NodeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAFB993F8074F0C3BFCE12CBDE3A8F /* NodeProperty.swift */; };
+		5B2F05C6DF9E4FD4EA91FA8C19DBDBEA /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6B2F40EAF5B2EB93E2D9007CA6364 /* TextDocument.swift */; };
+		5B7E7974646E37FDDB63444330B4DFF4 /* RaveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17E380CEC9C8815BFDFAF27CD4F41B /* RaveSDK-dummy.m */; };
+		5DF890399BA7D27941CCDE5E64AD0F7A /* rave_unchecked_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D4605C2F15BEDBD29F40C6AE3F74BB /* rave_unchecked_box@2x.png */; };
+		602665651552857ADBAB80149DBB5D9D /* rave_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37634F3CED777DDEDF81F5932D1A6727 /* rave_up_arrow.png */; };
+		60BFB371A8B4CB2A72EB49919F5D7738 /* AnyNodeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58016248337E6746F99C276B68692F27 /* AnyNodeProperty.swift */; };
+		6111C5538EFDD2C8E9667190594279A5 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319B843837F83F7FAFEC6AC40F82CDB /* Asset.swift */; };
 		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAF9EB4B1102311E2EE1941C801B463 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62FEB55C8B40025489FE701DF8E4B536 /* NullCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075A9B661022E4E5EF7C80D4DDF76A7A /* NullCompositionLayer.swift */; };
-		643B20E2CA49DC78203E2D5ACB5AAEF0 /* rave_zenith@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8B2ABD1225AAFD622790DC6B6FD46B /* rave_zenith@2x.png */; };
-		64FF0152E769206515EB8111F73B739B /* FloatValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29720557ACDCE3C0269F1ADE07E2EFAA /* FloatValueProvider.swift */; };
+		6300684E15FC9412524BA58FCE5A56CD /* GradientStrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4556002841DB6B8DB67429D89CCCBB7E /* GradientStrokeNode.swift */; };
+		6316BEAF20D71D13805314FC25332DAE /* ShapeContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD96D3C42A137FC461971DCC0B0F7F4 /* ShapeContainerLayer.swift */; };
+		631776FAC00559DD88535C32D0461A25 /* rave_fsdh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7854EA06D9883E7293267EC7F6B6B73D /* rave_fsdh.png */; };
+		6378995E716BBE329BAE1623D93C2DF0 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA57BC7113F720D1774E70BF376D201 /* PinView.swift */; };
+		648DCC11FEBF41AEA5835DA21DE6F068 /* InvertedMatteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0446320995A424E0278F7A43829C91 /* InvertedMatteLayer.swift */; };
 		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B149E3D10081C2227D3833981366A /* EventMonitor.swift */; };
+		656DD087CE66765F04B62C9D9594EA93 /* Loader_YW.json in Sources */ = {isa = PBXBuildFile; fileRef = 9D0439A57A6800425C6C25F859BA45F8 /* Loader_YW.json */; };
 		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C4F2156400D648247CE909011E03A /* RedirectHandler.swift */; };
 		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D761B0655854B0C7A8BF444BC3E775 /* Result+Alamofire.swift */; };
-		693E76E0E7261CF4102A6B36ECE1DFEF /* PreCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC87E3724632D00FBC551D80B2EC9 /* PreCompositionLayer.swift */; };
-		69C1D8927C5F8A375F91C39E39FC85FE /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19789CD1E05FD56011012F04E6EDED4A /* OTPView.swift */; };
-		69FC91BA39DBED3BDBFC3F9D19871155 /* rave_providus2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 263AF0BF2DBFC8CA0BA766A9BF24D0E3 /* rave_providus2@3x.png */; };
+		6A1E30133A53BC73F3B9312C187CDCE4 /* rave_check_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D292CFCEE27BCCCCE67E65AB09EF54 /* rave_check_box@3x.png */; };
 		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8AD35257C7D85C9392053F045A7B2 /* Session.swift */; };
+		6B0C61857599A0B2635DF981F7D7E797 /* ShapeCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9306F3D4A237378F2DA3DC91FF5C4 /* ShapeCompositionLayer.swift */; };
+		6BAEDC7EAA8BAB4FCDF914E6699511E9 /* ImageCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05360C4D9C63495BDB4D49547DFFF5E9 /* ImageCompositionLayer.swift */; };
+		6BBDE28D7928A5880B786B3234FA79C6 /* rave_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = E66670CBCA629326E481FF62BE6FD2DA /* rave_mastercard.png */; };
+		6BC3C6A562A88353511FF0051612BB86 /* ShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907CB904EE7FC76EE880CC089C9F70B /* ShapeNode.swift */; };
+		6BC7376CBAD0D4FC56032E12338D79BC /* RaveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9284CBBE8C7B49711A68CF8A17571F9F /* RaveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E74353F949A8E0391F23379F21F09CA /* RequestTaskMap.swift */; };
-		6D93DAD4565E9E9B4B4C8164BDCC2E5D /* BillingAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA07C98A1420ECD62C11ED88990E366 /* BillingAddress.swift */; };
 		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A0AED95B60056A37C95085ECD5FCB /* RequestInterceptor.swift */; };
-		6FCC8648CFF17D86A6D1B68BD26FC001 /* Pods-RaveSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B6816A80D40950A59219B3E5E015A3 /* Pods-RaveSDK_Example-dummy.m */; };
-		704C36F3F37760C86B731BF5D3BAE6EC /* rave_check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9232D72AEC622BE4949AA69CD6296E /* rave_check_box.png */; };
-		70ADF3683237C7064445113A949C37A3 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321960B3947EDDBA0A3849FA40ACCC1 /* ImageAsset.swift */; };
-		70D499569298C96955FDF3FDE6A66D06 /* rave_unity.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FCA319518F53E62E1ABF0938F3087 /* rave_unity.png */; };
-		70EC6643CAF29A0D174A5F679547A483 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49556E3A4F4EECD7C4886E3AD05D0706 /* Rectangle.swift */; };
-		72C902C26CA753A9FEAE533FA25DEF2B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5FEF4155C66A84EA222ACA4755A47 /* UIColorExtension.swift */; };
+		6EDBC7C72CEF2D84100318C7AF51337F /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81A6B0F40ECF6222E69C7FC93B68BA9 /* SnackBar.swift */; };
+		6F4A990B419986C4E4806BAEBCB9C896 /* PathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0E2E44880691AE5A0E6D7202026F6 /* PathNode.swift */; };
+		6FA1DFE92555ED9050B62B3382D855E6 /* TextLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437F90E46348EB04CFA3CFB8AEC0737 /* TextLayerModel.swift */; };
+		707F9F10EB8F7F53BDB6CCAF088235AB /* Pods-RaveSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C599BDEEF3C9BED19261E57CD395884E /* Pods-RaveSDK_Tests-dummy.m */; };
+		70AECBF285FBBBD1A66A33AAF16B8427 /* PreCompLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80C7C2061AADEE3E42E94B5CBD313A /* PreCompLayerModel.swift */; };
+		7121D7CCB58B74713CFE5D0C1D8A5A59 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965ACE02C1079BA33F1566C511E5991A /* Font.swift */; };
 		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894C8576041CF62EC5DA345B69DEB99 /* AlamofireExtended.swift */; };
-		730B1D584A6A6A5C6A3318CB04625D51 /* InterpolatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70632160F6400AF63D3FDC1047A317CF /* InterpolatableExtensions.swift */; };
-		732F063E15BE3DC79D8098BF8BC81B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
+		737716CFD60D9DCDF92BD71F887C5A3A /* RaveSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E75DDCFB45D6A06F9A2C05D62BF551C1 /* RaveSDK.bundle */; };
+		73DC2A4D90D90F330BD751402B1D4F4E /* KeyframeInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EEF51347AB723136539C28CA7BEBC /* KeyframeInterpolator.swift */; };
 		74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29F3383C485F5C88CDE36BDC848B7F /* IQUIViewController+Additions.swift */; };
-		749A783926FE3AA1F559AD2366DBCD35 /* lottie-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D352FA1D9C7791D455A52825691ED527 /* lottie-ios-dummy.m */; };
-		7618A1C903962345AED43AB0ED821689 /* rave_gtb.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6FBFE44984C360160FAAC7E4091EE8 /* rave_gtb.png */; };
-		7650D38F2EB46AD53A9FDD99047952C6 /* KeyframeInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EEF51347AB723136539C28CA7BEBC /* KeyframeInterpolator.swift */; };
-		769FA8061BF8C9A40423DEEF116DAA17 /* HowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7090079C52A263FD7E29094D975D47A /* HowView.swift */; };
-		76FE727E8D019052C241C74D074F2050 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5C5A8AD2873D2415B72955BE421887 /* AnimatedButton.swift */; };
-		78B36A2D61060C1CDEB07652C8278B07 /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 017CC632D6E7579CAA7D134DEA2CD5BC /* Loader_YB.json */; };
-		793331DE97A5C36E2DCF364965410AF7 /* LRUAnimationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26225C55B0E25D985F0DF3821668E77 /* LRUAnimationCache.swift */; };
-		79A2DD0ED41D7531DB6EF4BD80F589AF /* GradientFillRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212B1CE0E1CFFF6A31F8C93CC7E65E8 /* GradientFillRenderer.swift */; };
+		753AA1F6B870BEC1957431673E1243F3 /* AnimationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A0B714264873FCD9BDB6C5487119E /* AnimationContainer.swift */; };
+		7B9C8F093A52ABFC3002A42F0EBC4B97 /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5A1A43D274397631268B9A038C7C8 /* RaveAccountClient.swift */; };
 		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD2375F47B02BF67B9BEF5BAA6F2D73 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D721747FFE5A41BBBAEE7457CA4742E /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7DBD3DD1EA7271EF5CC733081E025 /* RaveCardClient.swift */; };
-		7DB977EF2C373038AC5418B39F5BE722 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41211B98A671B78E89D97209A7C3AE /* Color.swift */; };
-		7EA78743630E098C0776F618B271A599 /* CompositionLayersInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159B70A26EE587CBE43BDA4B1CF07B5 /* CompositionLayersInitializer.swift */; };
+		7D6EF1411FB1F8B083007EBB5730EB46 /* DashPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4423AA0739716053648298D0710B65B /* DashPattern.swift */; };
 		7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C76E50CC358ED5055A82E1EE8D8FC /* IQTextView.swift */; };
-		82E8E0BD5E2988E2481A7F2C608E3BFA /* Pods-RaveSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EF7803CD75A509885E8A877245B4CF /* Pods-RaveSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		836DBA279DB86ADA821BBD0F737A33AA /* InvertedMatteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0446320995A424E0278F7A43829C91 /* InvertedMatteLayer.swift */; };
-		838FC8B981056E88E056A06D95BFB57F /* ShapeContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD96D3C42A137FC461971DCC0B0F7F4 /* ShapeContainerLayer.swift */; };
-		847F8324FA34414ED56B340369A64E79 /* rave_firstbank.png in Resources */ = {isa = PBXBuildFile; fileRef = E71531A9113B218601B8B94CE3804CFE /* rave_firstbank.png */; };
-		84E02324F9DC76488E44AFC4D7B00B95 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BB3C99ED297433AB37AFF9C7CC2D3 /* Star.swift */; };
-		8916F1B59B1E619FCC4E358C92C20D8D /* rave_unchecked_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824E957EF1205C3B476B96BAADF361E3 /* rave_unchecked_box@3x.png */; };
+		8027DEA6AD98F5DF2AE6D8A379D9A817 /* EllipseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297A15E97F6B8A52D7EB09DB3083F92 /* EllipseNode.swift */; };
+		82148ACA39DB743A2611CF12901DA8A6 /* StrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDE20A7503581EC2E78D49CE891425 /* StrokeRenderer.swift */; };
+		8291F7977913D1361C76759F16183416 /* SavedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91C7C6163A1CC01418E0CE171CD44A /* SavedCardsView.swift */; };
+		831EA861F896261BB917B840408E1CEE /* AccountForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DD4145E196AAC088AD993311E7075 /* AccountForm.swift */; };
+		844511BD0AEC00F2663179C62CB07B6D /* KeypathSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C7C4942F5E5463C59E90F5DB72F0C /* KeypathSearchable.swift */; };
+		8573A91522BB9E8CA1BDE56BB8216DED /* ShapeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6114AC0880845103D6EA2972D7B70B24 /* ShapeItem.swift */; };
+		86225E8E6D86885750A722ABCA5DD6DF /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6644DAA49720735EB718A932535D9EF /* TripleDES.swift */; };
+		8646886FF62DD3B3C2CB121294136FF8 /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 017CC632D6E7579CAA7D134DEA2CD5BC /* Loader_YB.json */; };
+		8750561AD9586FC08267DDA50F1609BC /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5C5A8AD2873D2415B72955BE421887 /* AnimatedButton.swift */; };
+		8784F40014A00E650D8C42465CFBEC46 /* StarNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A7EE79644383E617189E716C2CCDC0 /* StarNode.swift */; };
+		87BA604688FA58CA6FB520F2AAB4D9E9 /* RaveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A3E86206E5CCAA8132219759D8774 /* RaveExtension.swift */; };
+		8832F6726D62E0C8295328B41EC120A9 /* GradientStrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8449DC7D4D3B4637A68EDF1EC32E3FA /* GradientStrokeRenderer.swift */; };
+		8962EFBE9E0E1004C125547E605A006B /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5BCBFFC7BFD812B001EFDF4F96339 /* Bank.swift */; };
+		8A00DAB4B3E41EE4C38D67AC5926DBD0 /* Rectangle 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D0ABF9B7690A2EDB7C44E36D773290 /* Rectangle 4@3x.png */; };
+		8A3177331816A47BD99B5D7EDCDECCA3 /* FillI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946BDECEE5D70A7D3A54C7C7007CD8E4 /* FillI.swift */; };
 		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12F4248941380B3DF7E214298BE3C6 /* Notifications.swift */; };
+		8B2538689D4169CB1B029726DBC3368E /* rave_unchecked_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824E957EF1205C3B476B96BAADF361E3 /* rave_unchecked_box@3x.png */; };
+		8B349AA73953140C2EB6F6672F0D951A /* MPesaBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D320021383581F1910DD1D6111C8748 /* MPesaBusinessView.swift */; };
 		8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76E14C16A5A8CCC53C525EBD2D1E3DB /* IQUIView+Hierarchy.swift */; };
-		8B9150ECD8BFBC65680E08090B6F375C /* ShapeLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AFCC637B42F6B705588965F03DECE /* ShapeLayerModel.swift */; };
-		8DC079BA439F5B8142A2CF94875C948C /* Loader_YW.json in Sources */ = {isa = PBXBuildFile; fileRef = 9D0439A57A6800425C6C25F859BA45F8 /* Loader_YW.json */; };
-		8E49D8191901E4D61D3F157D19BD67A0 /* AnimationTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF92865052FD843FB8D59C029719E74 /* AnimationTime.swift */; };
+		8D42C64F2086ECCA5FA3DBCBFC8D2FF8 /* SolidLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DE7D2D20EE1E8A55EBF6C807CF35B /* SolidLayerModel.swift */; };
 		8F92DE493E66A26C230C75F95BEB6C77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BF5F1D286348132F2019C488CCA4F9 /* QuartzCore.framework */; };
-		8F951264D22184ACCD45DE56B62301DD /* MaskContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945AEDE1327FFB9A4F3F54F321AF251 /* MaskContainerLayer.swift */; };
-		905D92E61752C330D97F66479E928E19 /* rave_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C463A7FD06903C065C00D2682968281 /* rave_close.png */; };
+		8FB596234B7EEC8B944F2C6F15023E84 /* LayerImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C963E244D731D24B326AE14BADAC479 /* LayerImageProvider.swift */; };
 		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577A2945A77CF97463FA0812851754DE /* ResponseSerialization.swift */; };
-		914B9883CEA7F85BA07551C97032B163 /* PreCompLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80C7C2061AADEE3E42E94B5CBD313A /* PreCompLayerModel.swift */; };
 		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDFF0D9F40B82E0571E1B8B0AE89AD7 /* HTTPHeaders.swift */; };
-		91E77796B19470ADDA83878E82865BAE /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E66A7F73036EAFA9EFDF605283D3E1 /* Ellipse.swift */; };
-		923736BD95F0A97F0F24D35359359E7C /* PathOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F01C907C3698CBCD83B1420AC4737 /* PathOutputNode.swift */; };
-		92A41CA88B8DD208C9A4C4C4220EF75A /* RaveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17E380CEC9C8815BFDFAF27CD4F41B /* RaveSDK-dummy.m */; };
-		92FD6D68AFF0FD14665489EFFAB2E804 /* GroupOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC3468BEF1CAE0B2C7553FF408BC2 /* GroupOutputNode.swift */; };
-		9339D3B13D5997332C5F9988BD3F45AD /* rave_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = E66670CBCA629326E481FF62BE6FD2DA /* rave_mastercard.png */; };
-		9432DE76D082A4816A414AD023428B13 /* ColorValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58761EE38997B40D94200CD40AA3F71F /* ColorValueProvider.swift */; };
-		9495C4C0A17383026D55A19AAB5D9232 /* AnimationSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB1338D036266B63F8D3ABEF97283B /* AnimationSubview.swift */; };
-		950DBE01357D80BD706CF6B75830260E /* LayerImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C963E244D731D24B326AE14BADAC479 /* LayerImageProvider.swift */; };
-		956177002FFDF51E5AEF0C572F5038A8 /* rave_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37634F3CED777DDEDF81F5932D1A6727 /* rave_up_arrow.png */; };
-		958FE12BE0BA9E2529E70281B78D0D9A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56997DE7DA9FE3D2CA47A55C95E7B45 /* LottieView.swift */; };
-		964209FC817692034D8735FB47FA1DCA /* RavePayNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9F7EF45395778A3FF8227673F0A452 /* RavePayNavTitle.swift */; };
-		975F7CA36A42DD15C59405C345CE7894 /* StrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390EDD3EA0064A46E3399E43371E12B /* StrokeNode.swift */; };
-		97D0999C89FD6C18EDF2CA33AEAFFCF6 /* BundleImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7B1A209FFCB4F520D653E3E4CB3DB /* BundleImageProvider.swift */; };
+		922DD2CA829EC9A660FBBA055CAC38E3 /* rave_firstbank.png in Resources */ = {isa = PBXBuildFile; fileRef = E71531A9113B218601B8B94CE3804CFE /* rave_firstbank.png */; };
+		9234A1CF585A4840DBB040B4B2FB198F /* CompoundBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22815862A306E0BD32569A993FE1F515 /* CompoundBezierPath.swift */; };
+		92B8171D7045B50D68F2C19DCFAD33AB /* Rectangle 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410AB0BBA9A72C772C6FFA6E90EFCA22 /* Rectangle 4@2x.png */; };
+		93E4449A8F2516E7C84BF77D876F6F63 /* BillingAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA07C98A1420ECD62C11ED88990E366 /* BillingAddress.swift */; };
+		94922B696F297931C7E0C2B5D9A73787 /* SaveCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C746709BC52396B88FA8DA9ED3B919 /* SaveCardCell.swift */; };
+		97A2B1DA77696FDB1E1A88F9946D4212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
 		980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D8A35C359191C6DD4681B9BA00663 /* IQToolbar.swift */; };
-		9829849A69BF8E42F6564EFD1AE28456 /* RaveMpesaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B14C610E18719B51F00AC7CCD37B635 /* RaveMpesaClient.swift */; };
-		98AAA17ED65EE7C69093F9A5E22062BA /* rave_check_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCBFD32EB9CF0A9E29F981B00163F /* rave_check_box@2x.png */; };
-		993DD5ED7C5B1BBD7EB2B4095E73F006 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953839E8D97785C9B5CF8B28B00651E /* PathElement.swift */; };
+		981260276729B7B250333E746E9BD963 /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509E0B289931BB8D28897A235D1F05 /* SavedCard.swift */; };
+		98DACFF563D6B21AF0443F3339892A37 /* rave_fcmb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9139A350CD544BCE0AA876D02BE2CE1 /* rave_fcmb@3x.png */; };
+		99493CFEC4B78578D264C156CA1E031F /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D31164A2DFA15C52587161E4FD601C7 /* Loader_YW.json */; };
+		9A73694B53849C9523850C3D4B4DE029 /* rave_gtb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B24FB571698988D1A62EC06A6BE001 /* rave_gtb@3x.png */; };
 		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8898A06085368A4BC0703DDAEB673B7B /* URLConvertible+URLRequestConvertible.swift */; };
-		9B5DABD805AE7C5AAE9D73BEE1976FE3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BF5F1D286348132F2019C488CCA4F9 /* QuartzCore.framework */; };
-		9B73739AF4147E195DBEB494BB84C127 /* LayerTransformNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4AED5523F34E3AC39635EAAD0E9C /* LayerTransformNode.swift */; };
-		9DAFF59F6364E168D386D1A160EFC7B0 /* AnimationPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0601A7640560895A0133C75B9EC8BF7E /* AnimationPublic.swift */; };
-		9F0398D867ADBEE766C6AB4CCAC0CF48 /* DebitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B9B8EA55B95D6CC82A9D0E4AA1D5F2 /* DebitCardView.swift */; };
-		9FA5EA6531138503E3E72EDAA4127991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
-		9FA842328BB0C02CA91CC268BE34F575 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C203E039D0232910D01BD05D49232BB0 /* Glyph.swift */; };
+		9B27F84BC2D974B48A37B8FE03EA2B92 /* MathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089D8E45E0BAC2DA1755EEAD0B5083F /* MathKit.swift */; };
+		9BA52477900FAB21D2DC82AABB470C84 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B206A106D2802CD9D4EBD2179A7F0AD /* StringExtensions.swift */; };
+		9BCA807B9B99D7D727BB1236F54E0E0A /* rave_access.png in Resources */ = {isa = PBXBuildFile; fileRef = 94500DB4970781714C823D77A72A691A /* rave_access.png */; };
+		9D0306A1F0B39AF6DAF39603DD4609F4 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BB3C99ED297433AB37AFF9C7CC2D3 /* Star.swift */; };
+		9D79FC6B631809113C853BEE36802AF2 /* rave_check_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BFCBFD32EB9CF0A9E29F981B00163F /* rave_check_box@2x.png */; };
+		9D9F25AC82B6030EAEF530B8CB17329D /* rave_up_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55952D74FE24ACBE08A4A2B9DDAA6701 /* rave_up_arrow@3x.png */; };
+		9E2ABDEAA16C7762A8ED0173EAFF68F9 /* NullCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075A9B661022E4E5EF7C80D4DDF76A7A /* NullCompositionLayer.swift */; };
+		9E415B13E68343D57CB9B15DE253E029 /* RaveURLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E275F80B3246E6D548ED3CCE33AEF8F /* RaveURLHelper.swift */; };
+		9E70FC40215132CDF0E63668A84ECFA3 /* Pods-RaveSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EF7803CD75A509885E8A877245B4CF /* Pods-RaveSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E89F45E1D73C30F08B4726789560BC3 /* rave_gtb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58505D3992B444CE825C3A9962BB0DBE /* rave_gtb@2x.png */; };
 		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C480FB48FE362E5C4FC3B0863298D /* RetryPolicy.swift */; };
-		A0067D663FF5446800CD07953C82FFC3 /* SolidLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DE7D2D20EE1E8A55EBF6C807CF35B /* SolidLayerModel.swift */; };
-		A025DBD521D4A10A5A21D5B313AA9375 /* rave_sterling@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B81AE32F178CA2AE927C8439681A08 /* rave_sterling@3x.png */; };
-		A03550AC20AF003783CF5CAEDE68F263 /* PassThroughOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E2E8C84B42472B1719AC6B70EE0259 /* PassThroughOutputNode.swift */; };
-		A0ED3A505EABF9E711A9B6C55F916577 /* rave_up_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE59B7E577591759A8905E864272621E /* rave_up_arrow@2x.png */; };
-		A296A14DF130F409649EBC7C8F703E15 /* RaveConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DD78F5C56C1F182D0839BCF849698 /* RaveConstants.swift */; };
-		A35664BEC41AE9A966E57BF032ADCC99 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF246DBABB308B52B76C5A9FF887838B /* Shape.swift */; };
-		A4AE6815BEE9BF0B1C13628B5EFBDFE7 /* rave_polaris.png in Resources */ = {isa = PBXBuildFile; fileRef = B8308D0170437AB482099FDD19FFC51E /* rave_polaris.png */; };
-		A60BCB3CB374275EFA53F471BC40C845 /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FEE136BE93DDC92918FCEC7DE02BC /* VSTextField.swift */; };
+		A137D83CC5D753716A3DBEF07A04C0F8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033D589218828400BF2D7058458B6B0 /* Group.swift */; };
+		A25DAF6FFEFAD766348A38808B98E007 /* SingleValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB664F4F25CFDB4BC89325BBA080BC /* SingleValueProvider.swift */; };
+		A5C196C17A6A1CEC327E5C8B06077A1B /* rave_fcmb.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF1CDBBC9C8F1ABE333FD009CCCD01 /* rave_fcmb.png */; };
+		A6C2A112A7F354D6DA5B288A61C3AD45 /* BundleImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7B1A209FFCB4F520D653E3E4CB3DB /* BundleImageProvider.swift */; };
+		A721F8564B5251510CF21C21F3BD4CD5 /* MobileMoneyGHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61401C8F176B930005323B73A8D633 /* MobileMoneyGHView.swift */; };
 		A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D8F624059D3353732F77C968CD2EB0 /* CFNetwork.framework */; };
-		A9D626145BEA2B8E43964E60973FD7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
-		AA2C95D5876C177DA1356343A06AE740 /* Rectangle 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E78D7CAA97A2B3EEA1EC9526046586 /* Rectangle 4.png */; };
-		AAE1BE083067A7B1FC0BF8AB0540625B /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46585728A8F396D61B306C1DEF0BB6 /* RaveMobileMoneyClient.swift */; };
-		AB9CB067EB45D1B0476B649DA1A17313 /* MpesaPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63B2E3CB94A84D33ECCB4487771F5A /* MpesaPendingView.swift */; };
+		A96E9F9B664FC08F16804C1A292C0DBA /* rave_unity.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FCA319518F53E62E1ABF0938F3087 /* rave_unity.png */; };
 		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBC97A859885D03335D3DC5B7F2974C /* CachedResponseHandler.swift */; };
-		AC1351EA71C2772987F17C328AFD54E1 /* LayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B70B30E01163D82FF4EE22AAB17373A /* LayerModel.swift */; };
-		AC4430A2AD261EA3FF5D50C6EB3B53F7 /* MobileMoneyGHPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A058B2C87084E73B3FBF6565E2FCB /* MobileMoneyGHPendingView.swift */; };
-		AC4BE33B0D12F91ED7D52BD3D84A3DA7 /* CurveVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B98784AE068652D2FFBEBBAF61E0F /* CurveVertex.swift */; };
-		ACAC3736542B3ADACCF4F114DC7DEA51 /* rave_fcmb.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF1CDBBC9C8F1ABE333FD009CCCD01 /* rave_fcmb.png */; };
-		AE0C53FCC18929724CFFCFDE3E83B7EB /* TextAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B841750B92CF087FFDE0C07360F92 /* TextAnimator.swift */; };
+		AC99EF4431B7EFC5A39FACF79834D248 /* NodePropertyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7F71DA971C7C3EC154524320709C5 /* NodePropertyMap.swift */; };
 		AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96218F1D5B754B72DDEAA17BA7566B42 /* IQUIView+IQKeyboardToolbar.swift */; };
-		B0755F5C8C64679577B770E598FF5F6C /* rave_firstbank@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349B91207915B6CD207CE88B12D265AD /* rave_firstbank@3x.png */; };
-		B38F0D618F9934DB8474117EB9BDE0F6 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033D589218828400BF2D7058458B6B0 /* Group.swift */; };
-		B3B5D742FBB3437C6DC2E3A9A7026290 /* AnyNodeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58016248337E6746F99C276B68692F27 /* AnyNodeProperty.swift */; };
-		B49D19C5718BDEE880FE408ADFFE2D58 /* SelectBankAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934DA49A0E2C6DD204EA53FCECF868F /* SelectBankAccountView.swift */; };
-		B51C27DF5F6932117D3FC09E28309998 /* rave_access@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66488E0B030B63AA3B8ABFBF37CCCA6D /* rave_access@3x.png */; };
-		B6DE1DF30A0C29641A5E5C418268D5A1 /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC827A5C0285AE113EFCA159B5D742 /* Trim.swift */; };
-		B78956F70D23DF37E4858B51F4C7220A /* KeyedDecodingContainerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E26DF8AC0B293D0B6B598CF53112 /* KeyedDecodingContainerExtensions.swift */; };
-		B7D788D9B38702B152EDABC6A5E4E4DA /* RavePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F4C9FB2A8A66E0D146C576E1D51A3 /* RavePayHeaderView.swift */; };
+		AF13B33010A6215B7F52E6C97476545F /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7DBD3DD1EA7271EF5CC733081E025 /* RaveCardClient.swift */; };
+		B00C556C7479F962ACB6627E11CAF827 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E80620D723A52C3800E80E19A6C49D /* Stroke.swift */; };
+		B12DE527B64399F4258D4AC86048E357 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D2278809077636754D010A7A5ECFE /* Transform.swift */; };
+		B2B75A54219B2D5752B8B808D68D91D6 /* TextAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B841750B92CF087FFDE0C07360F92 /* TextAnimator.swift */; };
+		B2BB4F3D3B7630C063E1E69B43CEB870 /* FilepathImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3B35AEC7646BB61500B63D30E88FD /* FilepathImageProvider.swift */; };
+		B5428205A25ABF780AE67ECCAFD50A0C /* rave_access2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1757FE882DC6E4F5E577F4C19A7BB3C /* rave_access2.png */; };
+		B5AD7D26481288369CF5DC216A8932B4 /* rave_providus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49B84C00FDDAD0F8E8331FFA9E1B22A /* rave_providus@2x.png */; };
+		B7279B7BCC7E4B741A90FDC98A537E72 /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210CCA46B0C3C7915BCA2D58F016222 /* LoadingHUD.swift */; };
+		B7554F2705F9ECFB235CEB7BF9985514 /* CompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4936177546B6A62055FC48CB59F77 /* CompositionLayer.swift */; };
+		B7A69F4C2126D31400E28DB71F42D0C1 /* lottie-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7E7309DE1E38E581897BDF56C6F05B /* lottie-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B802D495C57CA86701F7D38C695EE2D3 /* LRUAnimationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26225C55B0E25D985F0DF3821668E77 /* LRUAnimationCache.swift */; };
+		B90571BA2335205D36A1DA52BB37AE2F /* AssetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9771E0AB9FF0B371A22944E658471DA0 /* AssetLibrary.swift */; };
 		B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCD8C7EA066B807D8D63581BFA91A65 /* IQKeyboardManagerSwift-dummy.m */; };
-		BB05F56FC7323447887EB74363702C3F /* rave_sterling.png in Resources */ = {isa = PBXBuildFile; fileRef = B65383207114B7CA56A14C547966819B /* rave_sterling.png */; };
-		BCBE5DDEC212E65D1BD7680286EB8258 /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C814D6A7C55E3FA38B7FED5A1DB76 /* RavePayService.swift */; };
-		BDFF33AEC2763608F48C8A35D84DC450 /* rave_providus2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832B460A55521B1C1F197898BF7C090E /* rave_providus2@2x.png */; };
-		BE1EA116BA65D91F84B84853A553607D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965ACE02C1079BA33F1566C511E5991A /* Font.swift */; };
-		BF4E10C6205D21A87A79888FE6DF01AF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048303C2A1DFA79383285CD13FFA1C2 /* Animation.swift */; };
-		BF56BB536E448C09423F0D27EA20042E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9543D01ED4F58784967864D294FB1FE /* UIKit.framework */; };
-		BFAAA7DF2C8755D113A0FE84529877EA /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E80620D723A52C3800E80E19A6C49D /* Stroke.swift */; };
+		B9EAEC3C46B466631597DE0808F4D62D /* CompatibleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAC80272E0C24A68B5FDE0D9AD1A9D /* CompatibleAnimationView.swift */; };
+		BAE211F0972A1929617AB95005B0A7EB /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46585728A8F396D61B306C1DEF0BB6 /* RaveMobileMoneyClient.swift */; };
+		BC2A3800C8088339742A96AF889C09A9 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2C71A364721AEE3245DFA7F947426 /* Merge.swift */; };
+		BD2D46B86952B2D161184F09F47C8F83 /* GradientFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F67C96753C7E04B317DB70C9D4B0E /* GradientFill.swift */; };
+		BD41602EC0D5B18677812DA5B1A2C0F9 /* SizeValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64B20E2C931CE5C9AB3BBD16BE142F /* SizeValueProvider.swift */; };
+		BD529204D2B24AB7A50BD9A9D19E27F1 /* LayerTransformNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4AED5523F34E3AC39635EAAD0E9C /* LayerTransformNode.swift */; };
+		BEF4DE7DF16E9B49DDD909ABB8971652 /* rave_access2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC3D17E9D68F371EA62CD1476FA7DE /* rave_access2@3x.png */; };
 		C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C9E7999E310EECD3D9CF0181B5437 /* IQKeyboardManagerConstants.swift */; };
-		C0C8EEC42F664C75B413A35814D17E58 /* rave_access@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86889071F2F84A01CA5AED6D018EF9CB /* rave_access@2x.png */; };
+		C062DDF99C01FB1036295BD02E5108B7 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259C129E38AA4EB1213EAE7F67FA202 /* BezierPath.swift */; };
 		C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6727B2B200829A5FBC941708DA2AD0AE /* IQUIScrollView+Additions.swift */; };
-		C13554B57E7C30FB0F222F7FFC377C20 /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42BAF3FD8ED7365A47CD14344C7A1A /* Vectors.swift */; };
 		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEC626D1E3D14ED21A5BE4541BAE03 /* Response.swift */; };
 		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303AC5904C020418F7CBF582D383FBA6 /* Alamofire.swift */; };
 		C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A533F2D7ECCC85421ABD157FBDDF22 /* IQTitleBarButtonItem.swift */; };
-		C3FA26CFBAC8B5CA6273E0FC2F4B7551 /* SaveCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C746709BC52396B88FA8DA9ED3B919 /* SaveCardCell.swift */; };
+		C3D092DE73141CFF6E003731A94B7E31 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56997DE7DA9FE3D2CA47A55C95E7B45 /* LottieView.swift */; };
+		C48866E93C99A65202EE7450096A709F /* NewRavePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF8399B2988DF768469325607E6984 /* NewRavePayViewController.swift */; };
 		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D043AE616B7C06D7BBCEA4238D2C3CCF /* Alamofire-dummy.m */; };
-		C99091186445FA0B47E0299E45E79690 /* AnimatorNodeDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA42ABC7CCC911BCBDF0E10FC9FE8C /* AnimatorNodeDebugging.swift */; };
-		C992C76FD03C3F12E4F614A97BDC863E /* CompatibleAnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAD35AEF183DC43AB89834ECABC103 /* CompatibleAnimationKeypath.swift */; };
-		C9B692301570DA1439BBA2FF66DF5887 /* rave_unchecked_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D4F6C8C1448B015F64691CA2512092 /* rave_unchecked_box.png */; };
-		CA153A301D69D27DCC842051D5C6F9DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
-		CA5D35D625559A24580DD456E7B783DD /* AnyValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944265E3258B9CB65A59E2974F2A6309 /* AnyValueContainer.swift */; };
-		CE1061F373039305D75BC082B4D46C22 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC98AA0FEFCC54C44E28BF0D84E09BD /* Mask.swift */; };
-		CFAB7942E91061D3A915F09AD5F364FF /* rave_check_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D292CFCEE27BCCCCE67E65AB09EF54 /* rave_check_box@3x.png */; };
+		C6DC77187FAF6FC0F27FC516C12617EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9543D01ED4F58784967864D294FB1FE /* UIKit.framework */; };
+		C81A3DE0C65E509B02842A6CA371065C /* Pods-RaveSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6E48586C8672418BC99889C8A5A28E /* Pods-RaveSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A427B74F4ADAC4A65D7BCB0E912AEB /* RaveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142B2C7DECA8D27AEC523517553EFE1 /* RaveConfig.swift */; };
+		CA082D4E55DDAC622DA5D3CD81A5B220 /* LayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B70B30E01163D82FF4EE22AAB17373A /* LayerModel.swift */; };
+		CA1967477405F6BCC4B7E9450F1F6ECB /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BEF52B9F7B652C2F0A0FEE0A0CB3E /* Interpolatable.swift */; };
+		CA1B8DDF8F994061330CDA3CCCBC5B2A /* CompositionLayersInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159B70A26EE587CBE43BDA4B1CF07B5 /* CompositionLayersInitializer.swift */; };
+		CA3F6850218643D047510458AD2A1BD2 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A4A4FD3B5EBEBCDA5BE754E12D0D7 /* KeyframeExtensions.swift */; };
+		CBA270F113543DBBC1BA58E659629E09 /* lottie-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D352FA1D9C7791D455A52825691ED527 /* lottie-ios-dummy.m */; };
+		CC3602CEF11F5A67B10BAC557E606C45 /* rave_uba.png in Resources */ = {isa = PBXBuildFile; fileRef = 517850E5CABDB0E17AFF915B60EE9ABA /* rave_uba.png */; };
+		CD4B45548E88B98A8E791385365CA905 /* rave_down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E40131DBB103D56D1A82274A28B5CC0 /* rave_down_arrow@2x.png */; };
+		CDCA9FCCC8F077F2D7EFB2CA03F59B6B /* rave_zenith.png in Resources */ = {isa = PBXBuildFile; fileRef = B20809ACF7D7C5D95697466EAB28E548 /* rave_zenith.png */; };
+		CE8CE69F2E82605727D1FF114450C89A /* rave_firstbank@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349B91207915B6CD207CE88B12D265AD /* rave_firstbank@3x.png */; };
+		CE9AED8D1E13394AD4BAEFF36FDDF940 /* KeyedDecodingContainerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0E26DF8AC0B293D0B6B598CF53112 /* KeyedDecodingContainerExtensions.swift */; };
+		CFBDA7BBE5C3C668CF8AD01E8B653359 /* DebitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B9B8EA55B95D6CC82A9D0E4AA1D5F2 /* DebitCardView.swift */; };
+		D0125D22C1A829D7C8E555DB42C17A5F /* RaveConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DD78F5C56C1F182D0839BCF849698 /* RaveConstants.swift */; };
+		D024E9DF7906C7AC42627B4B9A477914 /* ValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F66F7C960F30E045BC761653119CA8 /* ValueContainer.swift */; };
 		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9A369C25131589B92B3680D238C5A /* MultipartUpload.swift */; };
-		D0FD065FF8FC72B9532702555763B089 /* AssetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9771E0AB9FF0B371A22944E658471DA0 /* AssetLibrary.swift */; };
+		D0433EB262D01092164F7E028523D43F /* RavePayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136779F654E13BBF3200A5B956E20469 /* RavePayWebViewController.swift */; };
 		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022B41866FCDDA32963AA4D484A1717 /* ParameterEncoding.swift */; };
-		D148671979814F6F48CA63A911EA92CF /* SingleValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB664F4F25CFDB4BC89325BBA080BC /* SingleValueProvider.swift */; };
-		D21EC9302224343F5B6814D38CF77962 /* SizeValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64B20E2C931CE5C9AB3BBD16BE142F /* SizeValueProvider.swift */; };
 		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B7DF4DDA4CE10DCC6E4101E57F8E5 /* URLEncodedFormEncoder.swift */; };
-		D3B17B687DB137C5A436F12B356179F4 /* AnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7A6D64969B58AA77C4A7E698258FA /* AnimatorNode.swift */; };
+		D3E51F4C3068524A56C144D2F8D20CC2 /* MpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB268DDD5B1DD2B3CA869FBC04EDB0D3 /* MpesaView.swift */; };
+		D3F095D361B4BF2B9004584C7EFD1BEF /* MaskContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945AEDE1327FFB9A4F3F54F321AF251 /* MaskContainerLayer.swift */; };
 		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA385341AF6999073DCAB9B2F580EF /* URLRequest+Alamofire.swift */; };
-		DA3203170EC94C29AF5926E956E39BCE /* RectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB15F2DEE6216A5F5ABEAE0D581488 /* RectNode.swift */; };
-		DB52D75D8CA4B1AB291935C9284C6A6B /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 83728F108C0D58967B7D516FEDD791FF /* Loader_WY.json */; };
+		D6325EBC0F67D486B87E1727682DA5D4 /* rave_providus2.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D6486357ECD71525FA4C7FB356A626 /* rave_providus2.png */; };
+		D6592F82D5B5391D3E909DC23D056D16 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA614388A77683D5CFA88D8D94BEF6 /* CGFloatExtensions.swift */; };
+		D6DA0FF766DF85FFDA5344497CCAAFDA /* MpesaPendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63B2E3CB94A84D33ECCB4487771F5A /* MpesaPendingView.swift */; };
+		D6E36C132AE4B7C54AE64A462C001BCA /* HowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7090079C52A263FD7E29094D975D47A /* HowView.swift */; };
+		D71D8D8EF9D5AEB27F2AC73FBE319BEF /* PreCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC87E3724632D00FBC551D80B2EC9 /* PreCompositionLayer.swift */; };
+		D8BE14B125D158B600F72D81 /* PaymentOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE14B025D158B600F72D81 /* PaymentOptionModel.swift */; };
+		DB532135001DE94C93F33AF194353EEF /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 83728F108C0D58967B7D516FEDD791FF /* Loader_WY.json */; };
+		DBAC2DBDAC73CACFF63F63F7BAD08F43 /* AnimationViewInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CB02C8D1B518BF5BE33372D8E4D02 /* AnimationViewInitializers.swift */; };
 		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5893BFF7DED3E624C59D676BE2B182 /* AuthenticationInterceptor.swift */; };
+		DCBD6AA2D88DACA032F21372C1726DD4 /* SaveCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798EB48C539DAE1C3E20482A26FB8BB /* SaveCardViewController.swift */; };
 		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C689C1B23418013554625EB4ED9A7 /* IQBarButtonItem.swift */; };
-		DE003A9140A8541A6B1E80FAE81519D7 /* ShapeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6114AC0880845103D6EA2972D7B70B24 /* ShapeItem.swift */; };
-		DE540FBB4F2F62AD8020CED89C3B43BE /* LayerDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CC24F74A4B82B8AAECB87143074CE /* LayerDebugging.swift */; };
-		DE7E4771A2B4D22956D591BF22A7239C /* VectorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D684674E476BD15A6760F236E7B9C08 /* VectorsExtensions.swift */; };
-		DEF396E9F6D5E2E97A15E2D158753C58 /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210CCA46B0C3C7915BCA2D58F016222 /* LoadingHUD.swift */; };
-		E0BE71AD4D0093802C92FF17EA4815E1 /* rave_access.png in Resources */ = {isa = PBXBuildFile; fileRef = 94500DB4970781714C823D77A72A691A /* rave_access.png */; };
-		E0CB6D764F78E301F46B0A1B128A3B75 /* RaveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A3E86206E5CCAA8132219759D8774 /* RaveExtension.swift */; };
+		DE8BB4BA0D42A738504E286C3324F44E /* GradientStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C09157FD89C62D02AA24C68F82D57B /* GradientStroke.swift */; };
+		DF8C4ECC3A62E996E6EB43483ED0294F /* MobileMoneyUganda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F125682AC01C527F5146A0191F10F24 /* MobileMoneyUganda.swift */; };
+		E098DEE0E98AF92A36044C8E95F55442 /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FEE136BE93DDC92918FCEC7DE02BC /* VSTextField.swift */; };
+		E0D612938732EB52D063EC583BA6C176 /* GradientFillNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F467C6546605C6AF66EC1125DE5E60 /* GradientFillNode.swift */; };
 		E2F241AE194191F06998ECFD8517ACB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9543D01ED4F58784967864D294FB1FE /* UIKit.framework */; };
-		E2F28FAECF6EE4D97E9F8B6C8A7EF9F3 /* rave_sterling@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D76AB5A9B59598C3F1A67BAA28349B /* rave_sterling@2x.png */; };
-		E3F29CDD49D2CE6E0533EFAC1B4BEEC2 /* rave_providus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49B84C00FDDAD0F8E8331FFA9E1B22A /* rave_providus@2x.png */; };
-		E4BC795CDB7042E6D230D71F2D602D63 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B1C29CA6FBD589BAFB0B432748614 /* AnimationView.swift */; };
-		E5D10105495B4E8B1A7DFB2BB774F682 /* GradientStrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8449DC7D4D3B4637A68EDF1EC32E3FA /* GradientStrokeRenderer.swift */; };
-		E64AFEF8F5507EB5BF4C37912F82B90A /* PolygonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A45E1913766A08BE70604A7E77C1D /* PolygonNode.swift */; };
-		E7F788575EA93816502C5AABA2226D97 /* Pods-RaveSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C599BDEEF3C9BED19261E57CD395884E /* Pods-RaveSDK_Tests-dummy.m */; };
-		E7FBC7A998D5A75416F7785B673F688F /* rave_unchecked_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D4605C2F15BEDBD29F40C6AE3F74BB /* rave_unchecked_box@2x.png */; };
-		E92C5B9AD5E681E128520AE4EAA7B614 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A4A4FD3B5EBEBCDA5BE754E12D0D7 /* KeyframeExtensions.swift */; };
-		E9444E05922F260541AFBB0231B05513 /* rave_gtb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B24FB571698988D1A62EC06A6BE001 /* rave_gtb@3x.png */; };
-		E9A39E714A2CBEE2401133F24F619DC9 /* ValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F66F7C960F30E045BC761653119CA8 /* ValueContainer.swift */; };
-		EABF59227D5DFE6198B4724D991ED85D /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004733DD98461F5F2381802B07ED43B9 /* AnimationContext.swift */; };
-		EB8184E2BE8BDE50073BB5BA545E04DA /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA57BC7113F720D1774E70BF376D201 /* PinView.swift */; };
-		EB831A32C8F642AA65BEACDAC4FACBDC /* RaveURLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E275F80B3246E6D548ED3CCE33AEF8F /* RaveURLHelper.swift */; };
-		ECA476D552F9BB423B33AD26A4E00C11 /* rave_padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E65B1D8A353C59735A745E19FCAD07 /* rave_padlock.png */; };
-		ED12F2093FB79A6E4788C7F46F4E8B77 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259C129E38AA4EB1213EAE7F67FA202 /* BezierPath.swift */; };
-		ED4559DF242AFAB77BC38DC9D719166D /* FillNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB55DC2318125A9DF99F6D07AEFB48E /* FillNode.swift */; };
+		E3B16626DF6C433E06BE618C399D2F66 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49556E3A4F4EECD7C4886E3AD05D0706 /* Rectangle.swift */; };
+		E3CC2BC9B392F8766A0003DFE9782266 /* RavePayNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9F7EF45395778A3FF8227673F0A452 /* RavePayNavTitle.swift */; };
+		E4949DA1987C9F8DBAD31BDCB24912DE /* SolidCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7598EBE909B1313AD0D3ADA243872792 /* SolidCompositionLayer.swift */; };
+		E4BF318AF18D66C6C10ACF3EC0D44114 /* rave_down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 07028BA13BBBE35707FAC219516A59E8 /* rave_down_arrow.png */; };
+		E4F853393003CB72A64F8BC7F83D9978 /* Loader_YB.json in Sources */ = {isa = PBXBuildFile; fileRef = 2CC375D4124F7D1B693B6B22B383C1F7 /* Loader_YB.json */; };
+		E5BA8D5FE3948C9B8A49C1E06E142939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
+		E5D4BC2CC23725D9A9C90A62EA79958A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46CC887D17A35E1BF163AF67368F24F /* ColorExtension.swift */; };
+		E67C52A1E32BCE74F285101EF2417B4E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41211B98A671B78E89D97209A7C3AE /* Color.swift */; };
+		E865EE10D26D573910A542B36436406A /* rave_unity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9785BC49076C956739C2BD40F59ADFC0 /* rave_unity@3x.png */; };
+		E957D2D6ECC426ACD44C1B13A62697D5 /* AnyValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944265E3258B9CB65A59E2974F2A6309 /* AnyValueContainer.swift */; };
+		E97CF07F0CA266FF1C4479AB332A207F /* CurveVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B98784AE068652D2FFBEBBAF61E0F /* CurveVertex.swift */; };
+		EB09E2BEFC041FED714F21C2A9E0698C /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DE41F2B1FFF18989E6C8AC4D5B7F4C /* IQKeyboardManagerSwift.framework */; };
+		EC49A9DC7509031FA0EC0D915C413105 /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C814D6A7C55E3FA38B7FED5A1DB76 /* RavePayService.swift */; };
+		ECAC4FE267DF3EE7B2BDA7347F4F90E9 /* FillNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB55DC2318125A9DF99F6D07AEFB48E /* FillNode.swift */; };
+		ECAEF9F32D3316B14610A0A749342AED /* MobileMoneyRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5774A22B053954F13CF00E8528058F9 /* MobileMoneyRW.swift */; };
+		ECB6F1DA90E6045A09D6B11405B226A9 /* rave_padlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 725F07703D202687C0C2AAC17757430A /* rave_padlock@2x.png */; };
+		ED81B4A849E0D6FD74EE33C43D16DAAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BF5F1D286348132F2019C488CCA4F9 /* QuartzCore.framework */; };
 		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C49ECFD7AB9DC4141264415A4A2160 /* Request.swift */; };
-		EDFF973CDDEFDCFB4C31D59599A830D3 /* rave_providus2.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D6486357ECD71525FA4C7FB356A626 /* rave_providus2.png */; };
-		EFFEB54CF0FE90FB87178C4A6962090A /* MPesaBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D320021383581F1910DD1D6111C8748 /* MPesaBusinessView.swift */; };
-		F0D015AA51A9988AA749796BB6915E95 /* ItemsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6EE63845FAC04464AAA3DC8E5BCC2 /* ItemsExtension.swift */; };
+		EE43F75A13E7809BE05CE8DAE1650DA7 /* PathOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F01C907C3698CBCD83B1420AC4737 /* PathOutputNode.swift */; };
+		EFA7398599059AAF3EB698C9B00E5386 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321960B3947EDDBA0A3849FA40ACCC1 /* ImageAsset.swift */; };
+		EFC210695F08A94495D483D4FB698EB0 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18783687B4D7BC3B31973549342ACB5 /* Lottie.framework */; };
+		EFE113E6D5F12E0D337F1F5193D0D8DD /* TrimPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412DFC593DFA01C33189C08A06F0F36 /* TrimPathNode.swift */; };
+		EFF32D2CF3F4616A6C88192567E0B9CE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98E695796574C1377ADAB0937124B5C /* Alamofire.framework */; };
+		F04B288654DDDFCCD1D91EF687C38F83 /* AnimationPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0601A7640560895A0133C75B9EC8BF7E /* AnimationPublic.swift */; };
 		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852E30ACD2084E1ECDBA10F560D927D4 /* Validation.swift */; };
-		F0FA4D01928CB553923F564C2DAAB2B5 /* rave_mastercard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B64AFABECD0F4E38BD6814119A03EF /* rave_mastercard@3x.png */; };
-		F343AB843B666E4D307DB4DAD0701633 /* rave_fcmb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6292197D50FC3D7083557EFFC62D6476 /* rave_fcmb@2x.png */; };
-		F45A717289FC93117963E04AC6E53F2E /* AccountForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DD4145E196AAC088AD993311E7075 /* AccountForm.swift */; };
-		F4B6BA7B87D381CEA11A3FC7D4F59783 /* rave_access2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1757FE882DC6E4F5E577F4C19A7BB3C /* rave_access2.png */; };
-		F5AD328D6BF33A61478240F7A3BC3022 /* RaveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9284CBBE8C7B49711A68CF8A17571F9F /* RaveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5D43766DAFCAC83AF8F7477065A13D0 /* DashPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4423AA0739716053648298D0710B65B /* DashPattern.swift */; };
+		F0FF884FB62D9C739E8622FC08A76471 /* AnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7A6D64969B58AA77C4A7E698258FA /* AnimatorNode.swift */; };
+		F2680065EB6FEBC4F4C01823F66D71FF /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5FEF4155C66A84EA222ACA4755A47 /* UIColorExtension.swift */; };
+		F425BE8007AF3FD3E0B7F6E302D49F98 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB47B2855487418BF2EF86D76621A2 /* Marker.swift */; };
+		F493D9F484217F84191138CB8B973886 /* rave_providus2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 263AF0BF2DBFC8CA0BA766A9BF24D0E3 /* rave_providus2@3x.png */; };
+		F530B32CFC3EBB7482E41CF37C786DFB /* rave_providus2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832B460A55521B1C1F197898BF7C090E /* rave_providus2@2x.png */; };
+		F592F76361227E1F503EB489C8CB5D22 /* RenderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBE9EF2D868F842A589D6DC695B02 /* RenderNode.swift */; };
+		F6760C422D7531E8FE19F55FF48813F4 /* ShapeTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A135F7908B785A7AAE586A7159AE3 /* ShapeTransform.swift */; };
 		F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
-		F6B3ECD2B69A500F61013865173F03B9 /* Rectangle 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D0ABF9B7690A2EDB7C44E36D773290 /* Rectangle 4@3x.png */; };
-		F6C62BA3750ED6472ACDA0AF0851BD88 /* RaveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142B2C7DECA8D27AEC523517553EFE1 /* RaveConfig.swift */; };
-		F6E624C44FB3491BC47A6DC21B4C74BC /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2C71A364721AEE3245DFA7F947426 /* Merge.swift */; };
 		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE42C0A11927A4FD1DFAEBCFB6C31F /* URLSessionConfiguration+Alamofire.swift */; };
-		F7A200A7F5E70487F70305A8A0AA7EA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9543D01ED4F58784967864D294FB1FE /* UIKit.framework */; };
-		F7A5142673C718D8A75D239DBCEAF8A2 /* NodePropertyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7F71DA971C7C3EC154524320709C5 /* NodePropertyMap.swift */; };
-		F7EB1ACCACB7C26DA9AAAA1A4CA33D92 /* ImageCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05360C4D9C63495BDB4D49547DFFF5E9 /* ImageCompositionLayer.swift */; };
-		F9BB7DD435A3E5FEC428002EE7C44F84 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40727513CD0FACB2C2E11285D6B1BBA8 /* TextCompositionLayer.swift */; };
-		FA6D2209FEC815241FC875DA3E0DDEBC /* rave_up_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55952D74FE24ACBE08A4A2B9DDAA6701 /* rave_up_arrow@3x.png */; };
-		FB599BE42056D040A56DD18D9613CE0E /* rave_mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9958D9EDD9F80298F5DA583F165D9EB /* rave_mastercard@2x.png */; };
-		FD87B9760DD3C3A1536ECD0C233C56A3 /* SolidCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7598EBE909B1313AD0D3ADA243872792 /* SolidCompositionLayer.swift */; };
-		FE366E19521DE9A5748F1EBBFBC36E23 /* MobileMoneyZM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E27BE1EC6E5D59376016F8BACFDF58 /* MobileMoneyZM.swift */; };
-		FE5E3166065853230CD601A8A65CD72B /* AnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8906622EEAF4EBDA50EF17C0F4827 /* AnimationKeypath.swift */; };
-		FE809187D2BAE3B2CAFEC977D0850B42 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE210B99A35345A960C2599BDCF972 /* TextAnimatorNode.swift */; };
+		F8273D4C6AD4123075382E3AAD0C4846 /* PrecompAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF3E2A83E31F321D943B068842E369 /* PrecompAsset.swift */; };
+		F9B0FC8446471D1ADE6660F3C5645576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFEE444060DF14C5D1740A6065F030 /* Foundation.framework */; };
+		F9D928A878A5667EB86CDDCF661F7F02 /* rave_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C463A7FD06903C065C00D2682968281 /* rave_close.png */; };
+		FA3E30781011F0B1DE9DBF66FA9029DE /* GradientFillRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212B1CE0E1CFFF6A31F8C93CC7E65E8 /* GradientFillRenderer.swift */; };
+		FB02F087B256DA4AD02D6A0616FD78DE /* MobileMoneyFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89F86B1E15A28152F8B65302817417 /* MobileMoneyFR.swift */; };
+		FC798DF35B4ED303217113CE5D5BC834 /* rave_padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E65B1D8A353C59735A745E19FCAD07 /* rave_padlock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16DBC7778E33F0617E8318CF8C0E911D /* PBXContainerItemProxy */ = {
+		07809970A441C296D5F1581A449FF07E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0345C9168AF4C5A8CBFF2FB772F19D5B;
-			remoteInfo = "RaveSDK-RaveSDK";
+			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
+			remoteInfo = "lottie-ios";
 		};
-		6BF410092EDAB9F5605B1D21EAD7BCB1 /* PBXContainerItemProxy */ = {
+		3F3FAA3DCE68E0B0DDDD64FF0E8A0EEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0E2B07FD012AE210BD641F4FD0DCB8F7;
-			remoteInfo = "Pods-RaveSDK_Example";
+			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
+			remoteInfo = "lottie-ios";
 		};
-		7156E8AC5034CA4CD1467A20DF1818F6 /* PBXContainerItemProxy */ = {
+		4EE0FE27A4D6DA653B8F62668F2613DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		894B6D195A1E59FFDB1D9EB1048D30C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		8C69FD6D3AE8CDFABA8007A1917AA216 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BEC556053A1BD5AF13ACB77940840B1D;
 			remoteInfo = RaveSDK;
 		};
-		8522531A14FA69B8DA4194A6AF6C4F6E /* PBXContainerItemProxy */ = {
+		A2FFD45390B4ACB4184192866AE6707E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		BD761C1B4EC8FE752E0DD43BD02580D5 /* PBXContainerItemProxy */ = {
+		B30146A641B9CB6C00B32683CBE57493 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 0345C9168AF4C5A8CBFF2FB772F19D5B;
+			remoteInfo = "RaveSDK-RaveSDK";
 		};
-		C7D9A16641FB902F0CE02F6CDDE06808 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
-			remoteInfo = "lottie-ios";
-		};
-		D772F87F6D2D020605A2E3E470708721 /* PBXContainerItemProxy */ = {
+		C154C143C4EAD6EDD1BD5A521137BFC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
 			remoteInfo = IQKeyboardManagerSwift;
 		};
-		FB16A159FC40C613A9543B7605EE4262 /* PBXContainerItemProxy */ = {
+		EE86809B48967C7AA128A74CE8C860CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
-			remoteInfo = "lottie-ios";
-		};
-		FF8968CD0DF497C64A8DDBC7F93FFC2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
-			remoteInfo = IQKeyboardManagerSwift;
+			remoteGlobalIDString = 0E2B07FD012AE210BD641F4FD0DCB8F7;
+			remoteInfo = "Pods-RaveSDK_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -683,6 +684,7 @@
 		D7090079C52A263FD7E29094D975D47A /* HowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HowView.swift; sourceTree = "<group>"; };
 		D7D80C8E3689614839DE399073953286 /* Loader_WY.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
 		D7F39BDACFCE48F16CF77E10E6646E5E /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		D8BE14B025D158B600F72D81 /* PaymentOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionModel.swift; sourceTree = "<group>"; };
 		D9B9B8EA55B95D6CC82A9D0E4AA1D5F2 /* DebitCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebitCardView.swift; sourceTree = "<group>"; };
 		DA17E380CEC9C8815BFDFAF27CD4F41B /* RaveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaveSDK-dummy.m"; sourceTree = "<group>"; };
 		DAB55DC2318125A9DF99F6D07AEFB48E /* FillNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift"; sourceTree = "<group>"; };
@@ -736,11 +738,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01C8F67800F7A280C3229EE626123AA1 /* Frameworks */ = {
+		1261665E953DEE3F9788D38ACC8C580B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732F063E15BE3DC79D8098BF8BC81B12 /* Foundation.framework in Frameworks */,
+				3B8D440D86C47B121DC425618186AC74 /* CoreGraphics.framework in Frameworks */,
+				E5BA8D5FE3948C9B8A49C1E06E142939 /* Foundation.framework in Frameworks */,
+				ED81B4A849E0D6FD74EE33C43D16DAAD /* QuartzCore.framework in Frameworks */,
+				503427359108CEA289658EE9E4016B97 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,30 +760,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CB3CC25EDDF1A72BA7FBE3E45E5C66C /* Frameworks */ = {
+		40413DAD5C206D94494E14C121970545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00322FBF9E1F5FEB8F782060E6634A77 /* Alamofire.framework in Frameworks */,
-				CA153A301D69D27DCC842051D5C6F9DE /* Foundation.framework in Frameworks */,
-				4A932D54640498A22A4755D4D47597C7 /* IQKeyboardManagerSwift.framework in Frameworks */,
-				38E167AC6D652B79203963B23A2DD223 /* Lottie.framework in Frameworks */,
-				BF56BB536E448C09423F0D27EA20042E /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62F4504EC0F2EAF378B68FDC373FBF34 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AC6D38A8ED8626C8C0E0F7FD02AEF51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FA5EA6531138503E3E72EDAA4127991 /* Foundation.framework in Frameworks */,
+				EFF32D2CF3F4616A6C88192567E0B9CE /* Alamofire.framework in Frameworks */,
+				97A2B1DA77696FDB1E1A88F9946D4212 /* Foundation.framework in Frameworks */,
+				EB09E2BEFC041FED714F21C2A9E0698C /* IQKeyboardManagerSwift.framework in Frameworks */,
+				EFC210695F08A94495D483D4FB698EB0 /* Lottie.framework in Frameworks */,
+				C6DC77187FAF6FC0F27FC516C12617EF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,14 +781,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6868BEB6DBF07E00A169A5A5EFCDE32 /* Frameworks */ = {
+		962DEFC4FC3491CFF1A3963E25C6D6F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CAC5627B3082E071745D2DC74300529 /* CoreGraphics.framework in Frameworks */,
-				A9D626145BEA2B8E43964E60973FD7DE /* Foundation.framework in Frameworks */,
-				9B5DABD805AE7C5AAE9D73BEE1976FE3 /* QuartzCore.framework in Frameworks */,
-				F7A200A7F5E70487F70305A8A0AA7EA9 /* UIKit.framework in Frameworks */,
+				05A7FC202D27088412248DB7B591CFFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16685E10DC57B37844BF14E507A6212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A51488C823BCC2E3EBA764A215246A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B0FC8446471D1ADE6660F3C5645576 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,6 +899,7 @@
 			children = (
 				89F5BCBFFC7BFD812B001EFDF4F96339 /* Bank.swift */,
 				FC509E0B289931BB8D28897A235D1F05 /* SavedCard.swift */,
+				D8BE14B025D158B600F72D81 /* PaymentOptionModel.swift */,
 			);
 			name = Model;
 			path = RaveSDK/Classes/Model;
@@ -1365,19 +1368,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11F7E14776ADDDDAF6F7204744A849C4 /* Headers */ = {
+		75FFE97BC89154F183831E39C1B8A09D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BBB28517B300E462E01552C02F3885 /* Pods-RaveSDK_Tests-umbrella.h in Headers */,
+				B7A69F4C2126D31400E28DB71F42D0C1 /* lottie-ios-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D47732F0A90B2CB31B5595C4389BF06 /* Headers */ = {
+		7A355F6E74C53C787DF69469A4515A0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AD328D6BF33A61478240F7A3BC3022 /* RaveSDK-umbrella.h in Headers */,
+				C81A3DE0C65E509B02842A6CA371065C /* Pods-RaveSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1389,11 +1392,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8197463C553C7EA413A6BB7FF6A51A24 /* Headers */ = {
+		B17D378196339D3DC0C78E9BA5B48F31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E8E0BD5E2988E2481A7F2C608E3BFA /* Pods-RaveSDK_Example-umbrella.h in Headers */,
+				9E70FC40215132CDF0E63668A84ECFA3 /* Pods-RaveSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F031AC4B3393690ABBE8F96F919A00EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC7376CBAD0D4FC56032E12338D79BC /* RaveSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1405,24 +1416,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEDEA1C1A5E33E505ED053855EF3DE7D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34D38CFDC1011FAF13EBAD8B167E3047 /* lottie-ios-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0345C9168AF4C5A8CBFF2FB772F19D5B /* RaveSDK-RaveSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E145BA45F122126BBE29A310F874FC3C /* Build configuration list for PBXNativeTarget "RaveSDK-RaveSDK" */;
+			buildConfigurationList = C1615A323C7094735B1AD6838097D0C0 /* Build configuration list for PBXNativeTarget "RaveSDK-RaveSDK" */;
 			buildPhases = (
-				BA4E56EC052920C16F8FF2FEDB8C4063 /* Sources */,
-				62F4504EC0F2EAF378B68FDC373FBF34 /* Frameworks */,
-				407536BC6AE0D34CEBD5A0DD475725C1 /* Resources */,
+				E3C59B21CD25DB00F1C97E1DBF67B7DE /* Sources */,
+				A16685E10DC57B37844BF14E507A6212 /* Frameworks */,
+				34085DADA0AF0FF175C059DAC34487E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1435,12 +1438,12 @@
 		};
 		0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11621CCEAA36686B040DC8127EAD7942 /* Build configuration list for PBXNativeTarget "lottie-ios" */;
+			buildConfigurationList = B3833842C1622730CA460D030AC238BF /* Build configuration list for PBXNativeTarget "lottie-ios" */;
 			buildPhases = (
-				FEDEA1C1A5E33E505ED053855EF3DE7D /* Headers */,
-				85E91593BF06F5A0BE6EAE6F753B402B /* Sources */,
-				B6868BEB6DBF07E00A169A5A5EFCDE32 /* Frameworks */,
-				CD3A4E8E4086A8E0A2AB4D89517DCBE3 /* Resources */,
+				75FFE97BC89154F183831E39C1B8A09D /* Headers */,
+				62C5567ADC211151431464A1C435EB37 /* Sources */,
+				1261665E953DEE3F9788D38ACC8C580B /* Frameworks */,
+				DC344753966DF4175F21D76B6A5E009B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1453,20 +1456,20 @@
 		};
 		0E2B07FD012AE210BD641F4FD0DCB8F7 /* Pods-RaveSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCB35C8F1808ED8B7526753B6613637F /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Example" */;
+			buildConfigurationList = 6ADA5896C3C0E0C496BBE29355ECB28E /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Example" */;
 			buildPhases = (
-				8197463C553C7EA413A6BB7FF6A51A24 /* Headers */,
-				40F4A8FF9BC335462BF4099DC751966A /* Sources */,
-				01C8F67800F7A280C3229EE626123AA1 /* Frameworks */,
-				78529E2B94EBA211A503043CE16CE781 /* Resources */,
+				B17D378196339D3DC0C78E9BA5B48F31 /* Headers */,
+				AB8537C8B7F285D63D0B50EFD0A6B8D8 /* Sources */,
+				962DEFC4FC3491CFF1A3963E25C6D6F9 /* Frameworks */,
+				ECAC2B8CD66D8837D89AFD8584897CA9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACD47ACF24FFE1F33293B5F07FEB8829 /* PBXTargetDependency */,
-				A09820B10AB1925FE435DAC3991FE754 /* PBXTargetDependency */,
-				6DA0A3C11BA702B105936F97AB45AC34 /* PBXTargetDependency */,
-				041AE3144B84BF780FFB6381A58C6340 /* PBXTargetDependency */,
+				B57BED9732D2CA592EA09F159A29204F /* PBXTargetDependency */,
+				38911DF7078F74228010009E76245A2C /* PBXTargetDependency */,
+				40B63D869D462EF307DEF59FB84B1122 /* PBXTargetDependency */,
+				CACF738309F6352EEDA925E0F3BA051A /* PBXTargetDependency */,
 			);
 			name = "Pods-RaveSDK_Example";
 			productName = "Pods-RaveSDK_Example";
@@ -1475,17 +1478,17 @@
 		};
 		90D243013475888592D93FC6B1E7F398 /* Pods-RaveSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEEEA5D9D2A4F45D9FEF3C7F2989427E /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Tests" */;
+			buildConfigurationList = 681E382868D2E05F66FB85ACC96CC24C /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Tests" */;
 			buildPhases = (
-				11F7E14776ADDDDAF6F7204744A849C4 /* Headers */,
-				6CB4C362E449D679170C0719A32A9D6B /* Sources */,
-				6AC6D38A8ED8626C8C0E0F7FD02AEF51 /* Frameworks */,
-				A4CA070152C42BADC2EEA4CB8B695AF8 /* Resources */,
+				7A355F6E74C53C787DF69469A4515A0A /* Headers */,
+				EC9461923AA697B28523C9C986CF5748 /* Sources */,
+				C5A51488C823BCC2E3EBA764A215246A /* Frameworks */,
+				0F2CF156FD0615AF976C869471173290 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				100AB2A9180B48B35C4BDC6B189072A9 /* PBXTargetDependency */,
+				F30FEB65F18806F074C6680EF953A75B /* PBXTargetDependency */,
 			);
 			name = "Pods-RaveSDK_Tests";
 			productName = "Pods-RaveSDK_Tests";
@@ -1512,20 +1515,20 @@
 		};
 		BEC556053A1BD5AF13ACB77940840B1D /* RaveSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CEE0965EABCF1AAE981F9B574F5572C /* Build configuration list for PBXNativeTarget "RaveSDK" */;
+			buildConfigurationList = 31B33DB485E5C607DEC231544B61BCDE /* Build configuration list for PBXNativeTarget "RaveSDK" */;
 			buildPhases = (
-				1D47732F0A90B2CB31B5595C4389BF06 /* Headers */,
-				8014E363F68A3549C3F0E8A927C6885D /* Sources */,
-				3CB3CC25EDDF1A72BA7FBE3E45E5C66C /* Frameworks */,
-				A01849F38F8F7CD1B29F3AB4A3BBB403 /* Resources */,
+				F031AC4B3393690ABBE8F96F919A00EC /* Headers */,
+				F10BA72467D8E78C8126D50D0CC283F6 /* Sources */,
+				40413DAD5C206D94494E14C121970545 /* Frameworks */,
+				69D8C682D508367CFCAE57BC17CAEFEF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				198A6D62088D15338453C4BC765ED889 /* PBXTargetDependency */,
-				083AAB55BB18D6C175B5375A91EF2ED7 /* PBXTargetDependency */,
-				C12A6543F57BC4E3010AB2C451C3870D /* PBXTargetDependency */,
-				A89472A3CA3747C6568E250A95CB155D /* PBXTargetDependency */,
+				B0316236790344C208256371C26E15D9 /* PBXTargetDependency */,
+				DA9485B23FA726E49503B3106C5E7548 /* PBXTargetDependency */,
+				C4AFE5646C5498ED35F1B08005E80CAF /* PBXTargetDependency */,
+				D69423E08A847CAC7141797CC71523E4 /* PBXTargetDependency */,
 			);
 			name = RaveSDK;
 			productName = RaveSDK;
@@ -1584,80 +1587,88 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		407536BC6AE0D34CEBD5A0DD475725C1 /* Resources */ = {
+		0F2CF156FD0615AF976C869471173290 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB52D75D8CA4B1AB291935C9284C6A6B /* Loader_WY.json in Resources */,
-				78B36A2D61060C1CDEB07652C8278B07 /* Loader_YB.json in Resources */,
-				1EC176BC3A1FD86643C3FE3781708609 /* Loader_YW.json in Resources */,
-				E0BE71AD4D0093802C92FF17EA4815E1 /* rave_access.png in Resources */,
-				F4B6BA7B87D381CEA11A3FC7D4F59783 /* rave_access2.png in Resources */,
-				059761D04F8C67DD3E40AA61E68C57B0 /* rave_access2@2x.png in Resources */,
-				105D64E6B6BFCF4A8390A7F49B7F8139 /* rave_access2@3x.png in Resources */,
-				C0C8EEC42F664C75B413A35814D17E58 /* rave_access@2x.png in Resources */,
-				B51C27DF5F6932117D3FC09E28309998 /* rave_access@3x.png in Resources */,
-				704C36F3F37760C86B731BF5D3BAE6EC /* rave_check_box.png in Resources */,
-				98AAA17ED65EE7C69093F9A5E22062BA /* rave_check_box@2x.png in Resources */,
-				CFAB7942E91061D3A915F09AD5F364FF /* rave_check_box@3x.png in Resources */,
-				905D92E61752C330D97F66479E928E19 /* rave_close.png in Resources */,
-				4AD74EF519A13E76ADFBC9C7424EE0E0 /* rave_close@2x.png in Resources */,
-				2EFAFAB1644CA4702EA4DA05FBF2E6F6 /* rave_close@3x.png in Resources */,
-				1CA8056B3796C09E610CD311DFA6E4B5 /* rave_down_arrow.png in Resources */,
-				00D1CCD07FE5FBD84A90DA2D0909FC43 /* rave_down_arrow@2x.png in Resources */,
-				2F258D3D7248BF8151808EE4D1EE9C68 /* rave_down_arrow@3x.png in Resources */,
-				18F68F8325C281B14967D62909EA3E0E /* rave_ecobank.png in Resources */,
-				ACAC3736542B3ADACCF4F114DC7DEA51 /* rave_fcmb.png in Resources */,
-				F343AB843B666E4D307DB4DAD0701633 /* rave_fcmb@2x.png in Resources */,
-				0AE44666A6C8754A7F03C828B77E1AA8 /* rave_fcmb@3x.png in Resources */,
-				847F8324FA34414ED56B340369A64E79 /* rave_firstbank.png in Resources */,
-				1F72838DCC53DDAA081849F877E5F5AD /* rave_firstbank@2x.png in Resources */,
-				B0755F5C8C64679577B770E598FF5F6C /* rave_firstbank@3x.png in Resources */,
-				2D231EAA068A211022C26DFC80815C54 /* rave_fsdh.png in Resources */,
-				7618A1C903962345AED43AB0ED821689 /* rave_gtb.png in Resources */,
-				2D8C8A89183005AA430E69B5DBCAB5D4 /* rave_gtb@2x.png in Resources */,
-				E9444E05922F260541AFBB0231B05513 /* rave_gtb@3x.png in Resources */,
-				9339D3B13D5997332C5F9988BD3F45AD /* rave_mastercard.png in Resources */,
-				FB599BE42056D040A56DD18D9613CE0E /* rave_mastercard@2x.png in Resources */,
-				F0FA4D01928CB553923F564C2DAAB2B5 /* rave_mastercard@3x.png in Resources */,
-				ECA476D552F9BB423B33AD26A4E00C11 /* rave_padlock.png in Resources */,
-				3C3E5D86F968C5F1127918D38660A6F0 /* rave_padlock@2x.png in Resources */,
-				5547103A3AA5E9CF1CE597330A985A23 /* rave_padlock@3x.png in Resources */,
-				A4AE6815BEE9BF0B1C13628B5EFBDFE7 /* rave_polaris.png in Resources */,
-				1E33F071C68F4CA458EBB6FB80CC1006 /* rave_providus.png in Resources */,
-				EDFF973CDDEFDCFB4C31D59599A830D3 /* rave_providus2.png in Resources */,
-				BDFF33AEC2763608F48C8A35D84DC450 /* rave_providus2@2x.png in Resources */,
-				69FC91BA39DBED3BDBFC3F9D19871155 /* rave_providus2@3x.png in Resources */,
-				E3F29CDD49D2CE6E0533EFAC1B4BEEC2 /* rave_providus@2x.png in Resources */,
-				182306D427D822A341D6C976C993C09C /* rave_providus@3x.png in Resources */,
-				5696788AC7538472A1147670B90BBE2D /* rave_skye.png in Resources */,
-				BB05F56FC7323447887EB74363702C3F /* rave_sterling.png in Resources */,
-				E2F28FAECF6EE4D97E9F8B6C8A7EF9F3 /* rave_sterling@2x.png in Resources */,
-				A025DBD521D4A10A5A21D5B313AA9375 /* rave_sterling@3x.png in Resources */,
-				1A46352E83A6A22F10E4C15F2102C1A6 /* rave_uba.png in Resources */,
-				C9B692301570DA1439BBA2FF66DF5887 /* rave_unchecked_box.png in Resources */,
-				E7FBC7A998D5A75416F7785B673F688F /* rave_unchecked_box@2x.png in Resources */,
-				8916F1B59B1E619FCC4E358C92C20D8D /* rave_unchecked_box@3x.png in Resources */,
-				70D499569298C96955FDF3FDE6A66D06 /* rave_unity.png in Resources */,
-				1B7E63741F5ABF544F38BEC4DFA00E65 /* rave_unity@2x.png in Resources */,
-				6136A2C6D55AA3F5E4533864DC6BCE79 /* rave_unity@3x.png in Resources */,
-				956177002FFDF51E5AEF0C572F5038A8 /* rave_up_arrow.png in Resources */,
-				A0ED3A505EABF9E711A9B6C55F916577 /* rave_up_arrow@2x.png in Resources */,
-				FA6D2209FEC815241FC875DA3E0DDEBC /* rave_up_arrow@3x.png in Resources */,
-				43C6F20186F5AD5A9ED0797BB9025C3E /* rave_visa.png in Resources */,
-				363F548596EC074C68C29EEC519AF303 /* rave_zenith.png in Resources */,
-				643B20E2CA49DC78203E2D5ACB5AAEF0 /* rave_zenith@2x.png in Resources */,
-				56E165C9C5411D61750F4B7CFAF8BEF1 /* rave_zenith@3x.png in Resources */,
-				AA2C95D5876C177DA1356343A06AE740 /* Rectangle 4.png in Resources */,
-				11FA9005750EDEE65727FB908DBD95A6 /* Rectangle 4@2x.png in Resources */,
-				F6B3ECD2B69A500F61013865173F03B9 /* Rectangle 4@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78529E2B94EBA211A503043CE16CE781 /* Resources */ = {
+		34085DADA0AF0FF175C059DAC34487E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB532135001DE94C93F33AF194353EEF /* Loader_WY.json in Resources */,
+				8646886FF62DD3B3C2CB121294136FF8 /* Loader_YB.json in Resources */,
+				99493CFEC4B78578D264C156CA1E031F /* Loader_YW.json in Resources */,
+				9BCA807B9B99D7D727BB1236F54E0E0A /* rave_access.png in Resources */,
+				B5428205A25ABF780AE67ECCAFD50A0C /* rave_access2.png in Resources */,
+				1D5CB46AC645095A1655A3AE287391E1 /* rave_access2@2x.png in Resources */,
+				BEF4DE7DF16E9B49DDD909ABB8971652 /* rave_access2@3x.png in Resources */,
+				50EAAA44509699AEF0A6EBFACA1417FF /* rave_access@2x.png in Resources */,
+				26E2F95A24FF1B436B3D196E2CD1CFA5 /* rave_access@3x.png in Resources */,
+				0B25E489271976BA7BF319C4A1FFEA2C /* rave_check_box.png in Resources */,
+				9D79FC6B631809113C853BEE36802AF2 /* rave_check_box@2x.png in Resources */,
+				6A1E30133A53BC73F3B9312C187CDCE4 /* rave_check_box@3x.png in Resources */,
+				F9D928A878A5667EB86CDDCF661F7F02 /* rave_close.png in Resources */,
+				532B2CF0C3682E77FB8865355ABFBD19 /* rave_close@2x.png in Resources */,
+				03B96462600D5574D0E9F6CD340E2A6A /* rave_close@3x.png in Resources */,
+				E4BF318AF18D66C6C10ACF3EC0D44114 /* rave_down_arrow.png in Resources */,
+				CD4B45548E88B98A8E791385365CA905 /* rave_down_arrow@2x.png in Resources */,
+				5293A9F8A40C76DE2FD539BB123F0378 /* rave_down_arrow@3x.png in Resources */,
+				3F928332FB50735E09799FF9FFA8266B /* rave_ecobank.png in Resources */,
+				A5C196C17A6A1CEC327E5C8B06077A1B /* rave_fcmb.png in Resources */,
+				37D8403F03C35B5AE5AFBC3049FC5F33 /* rave_fcmb@2x.png in Resources */,
+				98DACFF563D6B21AF0443F3339892A37 /* rave_fcmb@3x.png in Resources */,
+				922DD2CA829EC9A660FBBA055CAC38E3 /* rave_firstbank.png in Resources */,
+				0B79C063682631282CD6172F27290458 /* rave_firstbank@2x.png in Resources */,
+				CE8CE69F2E82605727D1FF114450C89A /* rave_firstbank@3x.png in Resources */,
+				631776FAC00559DD88535C32D0461A25 /* rave_fsdh.png in Resources */,
+				4D66C969B77D9719B4D374791F5A01AA /* rave_gtb.png in Resources */,
+				9E89F45E1D73C30F08B4726789560BC3 /* rave_gtb@2x.png in Resources */,
+				9A73694B53849C9523850C3D4B4DE029 /* rave_gtb@3x.png in Resources */,
+				6BBDE28D7928A5880B786B3234FA79C6 /* rave_mastercard.png in Resources */,
+				42D039E35243548085E93D64E1FD5A10 /* rave_mastercard@2x.png in Resources */,
+				0AB7E1247A70CE6C95B537DA3AD18AB7 /* rave_mastercard@3x.png in Resources */,
+				FC798DF35B4ED303217113CE5D5BC834 /* rave_padlock.png in Resources */,
+				ECB6F1DA90E6045A09D6B11405B226A9 /* rave_padlock@2x.png in Resources */,
+				4BD9733F70D0967C674113CE80B2DA52 /* rave_padlock@3x.png in Resources */,
+				33AC72AD6FFF1F1A68D7EDC6BB652EDC /* rave_polaris.png in Resources */,
+				093D78B477AF368B403EC979B65BF268 /* rave_providus.png in Resources */,
+				D6325EBC0F67D486B87E1727682DA5D4 /* rave_providus2.png in Resources */,
+				F530B32CFC3EBB7482E41CF37C786DFB /* rave_providus2@2x.png in Resources */,
+				F493D9F484217F84191138CB8B973886 /* rave_providus2@3x.png in Resources */,
+				B5AD7D26481288369CF5DC216A8932B4 /* rave_providus@2x.png in Resources */,
+				494F89CAAB610CE59C1C90813D4A15DB /* rave_providus@3x.png in Resources */,
+				3020339EF3C4570079FD8341F3C2F39D /* rave_skye.png in Resources */,
+				2E0C12056B3515EDC58EFAB4F484E0D3 /* rave_sterling.png in Resources */,
+				0BE23EA3879F67DC4D048DCF0E45AAE9 /* rave_sterling@2x.png in Resources */,
+				51ACA437D619D45C238E0850D27F1B5D /* rave_sterling@3x.png in Resources */,
+				CC3602CEF11F5A67B10BAC557E606C45 /* rave_uba.png in Resources */,
+				0B21CC11097EEA6DF6CD5D2620E45D37 /* rave_unchecked_box.png in Resources */,
+				5DF890399BA7D27941CCDE5E64AD0F7A /* rave_unchecked_box@2x.png in Resources */,
+				8B2538689D4169CB1B029726DBC3368E /* rave_unchecked_box@3x.png in Resources */,
+				A96E9F9B664FC08F16804C1A292C0DBA /* rave_unity.png in Resources */,
+				047DAD5A237DA87E61C000B8284C7D15 /* rave_unity@2x.png in Resources */,
+				E865EE10D26D573910A542B36436406A /* rave_unity@3x.png in Resources */,
+				602665651552857ADBAB80149DBB5D9D /* rave_up_arrow.png in Resources */,
+				3F872E5B1CC4742FFB33BDCBA3AD435A /* rave_up_arrow@2x.png in Resources */,
+				9D9F25AC82B6030EAEF530B8CB17329D /* rave_up_arrow@3x.png in Resources */,
+				306C0CC3446A57FB89CA64AB9E14B4FF /* rave_visa.png in Resources */,
+				CDCA9FCCC8F077F2D7EFB2CA03F59B6B /* rave_zenith.png in Resources */,
+				0AFAFFE46813E69644E85132E403AD12 /* rave_zenith@2x.png in Resources */,
+				512F536AAF47F13EFE9FC245FF91388F /* rave_zenith@3x.png in Resources */,
+				4F237FA4AEBAF701D7C0EA1F9C401729 /* Rectangle 4.png in Resources */,
+				92B8171D7045B50D68F2C19DCFAD33AB /* Rectangle 4@2x.png in Resources */,
+				8A00DAB4B3E41EE4C38D67AC5926DBD0 /* Rectangle 4@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D8C682D508367CFCAE57BC17CAEFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737716CFD60D9DCDF92BD71F887C5A3A /* RaveSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1668,22 +1679,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A01849F38F8F7CD1B29F3AB4A3BBB403 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				094ECB05561E11DF3884F84053DC7543 /* RaveSDK.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CA070152C42BADC2EEA4CB8B695AF8 /* Resources */ = {
+		DC344753966DF4175F21D76B6A5E009B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD3A4E8E4086A8E0A2AB4D89517DCBE3 /* Resources */ = {
+		ECAC2B8CD66D8837D89AFD8584897CA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1743,11 +1746,135 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40F4A8FF9BC335462BF4099DC751966A /* Sources */ = {
+		62C5567ADC211151431464A1C435EB37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCC8648CFF17D86A6D1B68BD26FC001 /* Pods-RaveSDK_Example-dummy.m in Sources */,
+				8750561AD9586FC08267DDA50F1609BC /* AnimatedButton.swift in Sources */,
+				482054202225E91A1D6A53FC5EED1E05 /* AnimatedControl.swift in Sources */,
+				0F2B938EFE99BD4AE48613527A44ED7E /* AnimatedSwitch.swift in Sources */,
+				36095F2DB8A346EE4AFDDE953BE9A9E3 /* Animation.swift in Sources */,
+				2B7180A94AF6DD52F8E83A986CBDBD59 /* AnimationCacheProvider.swift in Sources */,
+				753AA1F6B870BEC1957431673E1243F3 /* AnimationContainer.swift in Sources */,
+				462B6191F12114B4C442502D3BFE3780 /* AnimationContext.swift in Sources */,
+				08F88B34E5D602785B90197D4D171E6B /* AnimationImageProvider.swift in Sources */,
+				585B891BAEA4B21DEC3D0A6F95E3E35A /* AnimationKeypath.swift in Sources */,
+				38367E5A09979C633CA11EC28E572169 /* AnimationKeypathExtension.swift in Sources */,
+				F04B288654DDDFCCD1D91EF687C38F83 /* AnimationPublic.swift in Sources */,
+				166AAC3A93823F08842C1A863391F57C /* AnimationSubview.swift in Sources */,
+				1876E7E11FD4445A391F1A73E834B57B /* AnimationTime.swift in Sources */,
+				412733A12906C54B9326C999B9BB9DE1 /* AnimationView.swift in Sources */,
+				DBAC2DBDAC73CACFF63F63F7BAD08F43 /* AnimationViewInitializers.swift in Sources */,
+				F0FF884FB62D9C739E8622FC08A76471 /* AnimatorNode.swift in Sources */,
+				37F218C397187647AAFE64F1782F1D6F /* AnimatorNodeDebugging.swift in Sources */,
+				60BFB371A8B4CB2A72EB49919F5D7738 /* AnyNodeProperty.swift in Sources */,
+				E957D2D6ECC426ACD44C1B13A62697D5 /* AnyValueContainer.swift in Sources */,
+				5A3CEAAC04A07590BFAFFC8590AA881D /* AnyValueProvider.swift in Sources */,
+				6111C5538EFDD2C8E9667190594279A5 /* Asset.swift in Sources */,
+				B90571BA2335205D36A1DA52BB37AE2F /* AssetLibrary.swift in Sources */,
+				C062DDF99C01FB1036295BD02E5108B7 /* BezierPath.swift in Sources */,
+				A6C2A112A7F354D6DA5B288A61C3AD45 /* BundleImageProvider.swift in Sources */,
+				D6592F82D5B5391D3E909DC23D056D16 /* CGFloatExtensions.swift in Sources */,
+				E67C52A1E32BCE74F285101EF2417B4E /* Color.swift in Sources */,
+				E5D4BC2CC23725D9A9C90A62EA79958A /* ColorExtension.swift in Sources */,
+				2721FA1DC51CCAC247B5C12A780DEB38 /* ColorValueProvider.swift in Sources */,
+				58F05E1BDDF70BCA20031293F29F7340 /* CompatibleAnimationKeypath.swift in Sources */,
+				B9EAEC3C46B466631597DE0808F4D62D /* CompatibleAnimationView.swift in Sources */,
+				B7554F2705F9ECFB235CEB7BF9985514 /* CompositionLayer.swift in Sources */,
+				CA1B8DDF8F994061330CDA3CCCBC5B2A /* CompositionLayersInitializer.swift in Sources */,
+				9234A1CF585A4840DBB040B4B2FB198F /* CompoundBezierPath.swift in Sources */,
+				E97CF07F0CA266FF1C4479AB332A207F /* CurveVertex.swift in Sources */,
+				7D6EF1411FB1F8B083007EBB5730EB46 /* DashPattern.swift in Sources */,
+				0825C425AC294C20A528AF5F23609727 /* Ellipse.swift in Sources */,
+				8027DEA6AD98F5DF2AE6D8A379D9A817 /* EllipseNode.swift in Sources */,
+				B2BB4F3D3B7630C063E1E69B43CEB870 /* FilepathImageProvider.swift in Sources */,
+				8A3177331816A47BD99B5D7EDCDECCA3 /* FillI.swift in Sources */,
+				ECAC4FE267DF3EE7B2BDA7347F4F90E9 /* FillNode.swift in Sources */,
+				32799C3603590EE55E0A04C0C091BB0E /* FillRenderer.swift in Sources */,
+				3A36AA643DC4599990546F1F0D6C0AC3 /* FloatValueProvider.swift in Sources */,
+				7121D7CCB58B74713CFE5D0C1D8A5A59 /* Font.swift in Sources */,
+				3CBE13A8BDDF710509668AD28A1F6725 /* Glyph.swift in Sources */,
+				BD2D46B86952B2D161184F09F47C8F83 /* GradientFill.swift in Sources */,
+				E0D612938732EB52D063EC583BA6C176 /* GradientFillNode.swift in Sources */,
+				FA3E30781011F0B1DE9DBF66FA9029DE /* GradientFillRenderer.swift in Sources */,
+				DE8BB4BA0D42A738504E286C3324F44E /* GradientStroke.swift in Sources */,
+				6300684E15FC9412524BA58FCE5A56CD /* GradientStrokeNode.swift in Sources */,
+				8832F6726D62E0C8295328B41EC120A9 /* GradientStrokeRenderer.swift in Sources */,
+				A137D83CC5D753716A3DBEF07A04C0F8 /* Group.swift in Sources */,
+				2002CBE398F72FB822F171D1790B5E3C /* GroupInterpolator.swift in Sources */,
+				48254A984ED91129394647BE8AB30702 /* GroupNode.swift in Sources */,
+				21C62BE06A4A3A4F3C80FBFB1536BB9B /* GroupOutputNode.swift in Sources */,
+				EFA7398599059AAF3EB698C9B00E5386 /* ImageAsset.swift in Sources */,
+				6BAEDC7EAA8BAB4FCDF914E6699511E9 /* ImageCompositionLayer.swift in Sources */,
+				4669672F1425BA978A765EDFCFF4847B /* ImageLayerModel.swift in Sources */,
+				CA1967477405F6BCC4B7E9450F1F6ECB /* Interpolatable.swift in Sources */,
+				581504946B49E1BBBFA0180C673381D0 /* InterpolatableExtensions.swift in Sources */,
+				648DCC11FEBF41AEA5835DA21DE6F068 /* InvertedMatteLayer.swift in Sources */,
+				3379F6E8DD3C7E0762A3AA8249DD7E5E /* ItemsExtension.swift in Sources */,
+				CE9AED8D1E13394AD4BAEFF36FDDF940 /* KeyedDecodingContainerExtensions.swift in Sources */,
+				1724F0A69A88292D40E717F25F7D3D75 /* Keyframe.swift in Sources */,
+				CA3F6850218643D047510458AD2A1BD2 /* KeyframeExtensions.swift in Sources */,
+				1E42E398B26C221FBA2CDF66F2C24688 /* KeyframeGroup.swift in Sources */,
+				73DC2A4D90D90F330BD751402B1D4F4E /* KeyframeInterpolator.swift in Sources */,
+				844511BD0AEC00F2663179C62CB07B6D /* KeypathSearchable.swift in Sources */,
+				3597B8CF5762DF1D3E4B17F6B8F5E9CF /* LayerDebugging.swift in Sources */,
+				8FB596234B7EEC8B944F2C6F15023E84 /* LayerImageProvider.swift in Sources */,
+				CA082D4E55DDAC622DA5D3CD81A5B220 /* LayerModel.swift in Sources */,
+				BD529204D2B24AB7A50BD9A9D19E27F1 /* LayerTransformNode.swift in Sources */,
+				CBA270F113543DBBC1BA58E659629E09 /* lottie-ios-dummy.m in Sources */,
+				C3D092DE73141CFF6E003731A94B7E31 /* LottieView.swift in Sources */,
+				B802D495C57CA86701F7D38C695EE2D3 /* LRUAnimationCache.swift in Sources */,
+				F425BE8007AF3FD3E0B7F6E302D49F98 /* Marker.swift in Sources */,
+				4D4E5AF5E892E11F01B7A722562659C5 /* Mask.swift in Sources */,
+				D3F095D361B4BF2B9004584C7EFD1BEF /* MaskContainerLayer.swift in Sources */,
+				9B27F84BC2D974B48A37B8FE03EA2B92 /* MathKit.swift in Sources */,
+				BC2A3800C8088339742A96AF889C09A9 /* Merge.swift in Sources */,
+				5B18CB10804778BAD1553153AD4471B7 /* NodeProperty.swift in Sources */,
+				AC99EF4431B7EFC5A39FACF79834D248 /* NodePropertyMap.swift in Sources */,
+				9E2ABDEAA16C7762A8ED0173EAFF68F9 /* NullCompositionLayer.swift in Sources */,
+				0688A03A9027757B0860A53E77BF9FF3 /* PassThroughOutputNode.swift in Sources */,
+				2969B22FC9BFFB0C748095CDD3D86BB2 /* PathElement.swift in Sources */,
+				6F4A990B419986C4E4806BAEBCB9C896 /* PathNode.swift in Sources */,
+				EE43F75A13E7809BE05CE8DAE1650DA7 /* PathOutputNode.swift in Sources */,
+				291055F80C68F4D86F644FC87CDDD121 /* PointValueProvider.swift in Sources */,
+				1BECE6909DAB1739635943A84E2BEC6E /* PolygonNode.swift in Sources */,
+				F8273D4C6AD4123075382E3AAD0C4846 /* PrecompAsset.swift in Sources */,
+				70AECBF285FBBBD1A66A33AAF16B8427 /* PreCompLayerModel.swift in Sources */,
+				D71D8D8EF9D5AEB27F2AC73FBE319BEF /* PreCompositionLayer.swift in Sources */,
+				E3B16626DF6C433E06BE618C399D2F66 /* Rectangle.swift in Sources */,
+				07CCC32EE85E60FCB2E24AE48CF0C46B /* RectNode.swift in Sources */,
+				F592F76361227E1F503EB489C8CB5D22 /* RenderNode.swift in Sources */,
+				50B43A83B5CAFAF1F6218BE5F8077228 /* Repeater.swift in Sources */,
+				302B23AFCF0FBB1ECD53E6564DAF69FC /* Shape.swift in Sources */,
+				6B0C61857599A0B2635DF981F7D7E797 /* ShapeCompositionLayer.swift in Sources */,
+				6316BEAF20D71D13805314FC25332DAE /* ShapeContainerLayer.swift in Sources */,
+				8573A91522BB9E8CA1BDE56BB8216DED /* ShapeItem.swift in Sources */,
+				4B51EC0BF79BC3F005A4FC7B061654D5 /* ShapeLayerModel.swift in Sources */,
+				6BC3C6A562A88353511FF0051612BB86 /* ShapeNode.swift in Sources */,
+				12B66BE163C46EC1EA0C20723C6BAC74 /* ShapeRenderLayer.swift in Sources */,
+				F6760C422D7531E8FE19F55FF48813F4 /* ShapeTransform.swift in Sources */,
+				A25DAF6FFEFAD766348A38808B98E007 /* SingleValueProvider.swift in Sources */,
+				BD41602EC0D5B18677812DA5B1A2C0F9 /* SizeValueProvider.swift in Sources */,
+				E4949DA1987C9F8DBAD31BDCB24912DE /* SolidCompositionLayer.swift in Sources */,
+				8D42C64F2086ECCA5FA3DBCBFC8D2FF8 /* SolidLayerModel.swift in Sources */,
+				9D0306A1F0B39AF6DAF39603DD4609F4 /* Star.swift in Sources */,
+				8784F40014A00E650D8C42465CFBEC46 /* StarNode.swift in Sources */,
+				9BA52477900FAB21D2DC82AABB470C84 /* StringExtensions.swift in Sources */,
+				B00C556C7479F962ACB6627E11CAF827 /* Stroke.swift in Sources */,
+				006BA215FEA40267BBAAB0C4FF902169 /* StrokeNode.swift in Sources */,
+				82148ACA39DB743A2611CF12901DA8A6 /* StrokeRenderer.swift in Sources */,
+				B2B75A54219B2D5752B8B808D68D91D6 /* TextAnimator.swift in Sources */,
+				12F1C3813540171DC054D220C98E2384 /* TextAnimatorNode.swift in Sources */,
+				32D4F39D9E3FE8CAC05254B0BF958380 /* TextCompositionLayer.swift in Sources */,
+				5B2F05C6DF9E4FD4EA91FA8C19DBDBEA /* TextDocument.swift in Sources */,
+				6FA1DFE92555ED9050B62B3382D855E6 /* TextLayerModel.swift in Sources */,
+				B12DE527B64399F4258D4AC86048E357 /* Transform.swift in Sources */,
+				3648E2DFC0BEE589B05E06A1B2E058EA /* Trim.swift in Sources */,
+				EFE113E6D5F12E0D337F1F5193D0D8DD /* TrimPathNode.swift in Sources */,
+				F2680065EB6FEBC4F4C01823F66D71FF /* UIColorExtension.swift in Sources */,
+				D024E9DF7906C7AC42627B4B9A477914 /* ValueContainer.swift in Sources */,
+				264B35672746A4F6B58143285B6AAC5F /* Vectors.swift in Sources */,
+				18C571920EC95D48F69F04BB3D50DBB1 /* VectorsExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1775,267 +1902,144 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CB4C362E449D679170C0719A32A9D6B /* Sources */ = {
+		AB8537C8B7F285D63D0B50EFD0A6B8D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F788575EA93816502C5AABA2226D97 /* Pods-RaveSDK_Tests-dummy.m in Sources */,
+				447295A9CA07E76FAE4AF8D11A6DE036 /* Pods-RaveSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8014E363F68A3549C3F0E8A927C6885D /* Sources */ = {
+		E3C59B21CD25DB00F1C97E1DBF67B7DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45A717289FC93117963E04AC6E53F2E /* AccountForm.swift in Sources */,
-				230EC68413854E92B20124A950C47036 /* Bank.swift in Sources */,
-				6D93DAD4565E9E9B4B4C8164BDCC2E5D /* BillingAddress.swift in Sources */,
-				9F0398D867ADBEE766C6AB4CCAC0CF48 /* DebitCardView.swift in Sources */,
-				769FA8061BF8C9A40423DEEF116DAA17 /* HowView.swift in Sources */,
-				3FAE6D80C32DE445DC23328E1653FC00 /* Loader_WY.json in Sources */,
-				0656B6CDEEACF6C52BD9645B7AC5E06B /* Loader_YB.json in Sources */,
-				8DC079BA439F5B8142A2CF94875C948C /* Loader_YW.json in Sources */,
-				DEF396E9F6D5E2E97A15E2D158753C58 /* LoadingHUD.swift in Sources */,
-				2619E6A78A7FB6940ABA9C8878F4D029 /* MobileMoneyFR.swift in Sources */,
-				AC4430A2AD261EA3FF5D50C6EB3B53F7 /* MobileMoneyGHPendingView.swift in Sources */,
-				4E3A5C655C03B7211DD3759C466DB551 /* MobileMoneyGHView.swift in Sources */,
-				28A4FE87CFE9086A4989CB58E01E6BB2 /* MobileMoneyRW.swift in Sources */,
-				280D779B6989A701673E9CDFA444F38D /* MobileMoneyUganda.swift in Sources */,
-				FE366E19521DE9A5748F1EBBFBC36E23 /* MobileMoneyZM.swift in Sources */,
-				EFFEB54CF0FE90FB87178C4A6962090A /* MPesaBusinessView.swift in Sources */,
-				AB9CB067EB45D1B0476B649DA1A17313 /* MpesaPendingView.swift in Sources */,
-				45CA9B47F22E9D0591DABC66BDE24616 /* MpesaView.swift in Sources */,
-				3ABD41AF4D6CF24B3DCB0ECED2E22F06 /* NewRavePayViewController.swift in Sources */,
-				69C1D8927C5F8A375F91C39E39FC85FE /* OTPView.swift in Sources */,
-				EB8184E2BE8BDE50073BB5BA545E04DA /* PinView.swift in Sources */,
-				48214700FA13FA46210B36E6D936FDFC /* RaveAccountClient.swift in Sources */,
-				7D721747FFE5A41BBBAEE7457CA4742E /* RaveCardClient.swift in Sources */,
-				F6C62BA3750ED6472ACDA0AF0851BD88 /* RaveConfig.swift in Sources */,
-				A296A14DF130F409649EBC7C8F703E15 /* RaveConstants.swift in Sources */,
-				E0CB6D764F78E301F46B0A1B128A3B75 /* RaveExtension.swift in Sources */,
-				AAE1BE083067A7B1FC0BF8AB0540625B /* RaveMobileMoneyClient.swift in Sources */,
-				9829849A69BF8E42F6564EFD1AE28456 /* RaveMpesaClient.swift in Sources */,
-				B7D788D9B38702B152EDABC6A5E4E4DA /* RavePayHeaderView.swift in Sources */,
-				964209FC817692034D8735FB47FA1DCA /* RavePayNavTitle.swift in Sources */,
-				BCBE5DDEC212E65D1BD7680286EB8258 /* RavePayService.swift in Sources */,
-				5D3F5657C82524B0EB01938028BFEFFE /* RavePayWebViewController.swift in Sources */,
-				92A41CA88B8DD208C9A4C4C4220EF75A /* RaveSDK-dummy.m in Sources */,
-				EB831A32C8F642AA65BEACDAC4FACBDC /* RaveURLHelper.swift in Sources */,
-				C3FA26CFBAC8B5CA6273E0FC2F4B7551 /* SaveCardCell.swift in Sources */,
-				06F35051251755371FFF2D40C0F69E28 /* SaveCardViewController.swift in Sources */,
-				167050C27D9680B7396234305AA2C2AB /* SavedCard.swift in Sources */,
-				5AC93AF8FD1A624CDEF7F4167BA6957B /* SavedCardsView.swift in Sources */,
-				B49D19C5718BDEE880FE408ADFFE2D58 /* SelectBankAccountView.swift in Sources */,
-				271AFD4AA0BCA8EC2DBE75C8B422D6FD /* SnackBar.swift in Sources */,
-				0A33D100CB1B15E40BC92847CF2E2731 /* TripleDES.swift in Sources */,
-				03CC37128FAADD76A275A38703821E73 /* UKAccountDetailsView.swift in Sources */,
-				027849A9363C62140BAACDF20FA52623 /* UKAccountView.swift in Sources */,
-				A60BCB3CB374275EFA53F471BC40C845 /* VSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85E91593BF06F5A0BE6EAE6F753B402B /* Sources */ = {
+		EC9461923AA697B28523C9C986CF5748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76FE727E8D019052C241C74D074F2050 /* AnimatedButton.swift in Sources */,
-				04CB4C7420F2A2C9C735C1CE501A4F3B /* AnimatedControl.swift in Sources */,
-				4AE789B581759C82B73C90BEED01C04D /* AnimatedSwitch.swift in Sources */,
-				BF4E10C6205D21A87A79888FE6DF01AF /* Animation.swift in Sources */,
-				41B3F871ADE77F2498200BCC03CDF3D6 /* AnimationCacheProvider.swift in Sources */,
-				2679BAD1E9C6FE892B943014883E9B3E /* AnimationContainer.swift in Sources */,
-				EABF59227D5DFE6198B4724D991ED85D /* AnimationContext.swift in Sources */,
-				2CD59B728427D7A3795FB5758EF765F6 /* AnimationImageProvider.swift in Sources */,
-				FE5E3166065853230CD601A8A65CD72B /* AnimationKeypath.swift in Sources */,
-				0E752A17C1767A89E5A2A3A0349208C7 /* AnimationKeypathExtension.swift in Sources */,
-				9DAFF59F6364E168D386D1A160EFC7B0 /* AnimationPublic.swift in Sources */,
-				9495C4C0A17383026D55A19AAB5D9232 /* AnimationSubview.swift in Sources */,
-				8E49D8191901E4D61D3F157D19BD67A0 /* AnimationTime.swift in Sources */,
-				E4BC795CDB7042E6D230D71F2D602D63 /* AnimationView.swift in Sources */,
-				49C4AFD449CE40CCBAE17BF164C26C21 /* AnimationViewInitializers.swift in Sources */,
-				D3B17B687DB137C5A436F12B356179F4 /* AnimatorNode.swift in Sources */,
-				C99091186445FA0B47E0299E45E79690 /* AnimatorNodeDebugging.swift in Sources */,
-				B3B5D742FBB3437C6DC2E3A9A7026290 /* AnyNodeProperty.swift in Sources */,
-				CA5D35D625559A24580DD456E7B783DD /* AnyValueContainer.swift in Sources */,
-				215AEAD3419A3ACF2C0221613E9E70C1 /* AnyValueProvider.swift in Sources */,
-				0A1E7F564D07404139CDE1BF2BBA5CB1 /* Asset.swift in Sources */,
-				D0FD065FF8FC72B9532702555763B089 /* AssetLibrary.swift in Sources */,
-				ED12F2093FB79A6E4788C7F46F4E8B77 /* BezierPath.swift in Sources */,
-				97D0999C89FD6C18EDF2CA33AEAFFCF6 /* BundleImageProvider.swift in Sources */,
-				1A49BA1391D08DD8D145E3CB3B6B0361 /* CGFloatExtensions.swift in Sources */,
-				7DB977EF2C373038AC5418B39F5BE722 /* Color.swift in Sources */,
-				0368A1A567BF145C96D38B88591B67E8 /* ColorExtension.swift in Sources */,
-				9432DE76D082A4816A414AD023428B13 /* ColorValueProvider.swift in Sources */,
-				C992C76FD03C3F12E4F614A97BDC863E /* CompatibleAnimationKeypath.swift in Sources */,
-				1737FC144C171DBF3AB193F4F3D45A19 /* CompatibleAnimationView.swift in Sources */,
-				4422242108A61B6CC1D7D23490B8D3FD /* CompositionLayer.swift in Sources */,
-				7EA78743630E098C0776F618B271A599 /* CompositionLayersInitializer.swift in Sources */,
-				05C5E1204249D9D386295F0C1089F38D /* CompoundBezierPath.swift in Sources */,
-				AC4BE33B0D12F91ED7D52BD3D84A3DA7 /* CurveVertex.swift in Sources */,
-				F5D43766DAFCAC83AF8F7477065A13D0 /* DashPattern.swift in Sources */,
-				91E77796B19470ADDA83878E82865BAE /* Ellipse.swift in Sources */,
-				46D021D0082451781D23D99AB5892046 /* EllipseNode.swift in Sources */,
-				13F3B0AB12867E888086FAAB9D481E8C /* FilepathImageProvider.swift in Sources */,
-				37396B483B537F3ADB0EE13CFAE90FBB /* FillI.swift in Sources */,
-				ED4559DF242AFAB77BC38DC9D719166D /* FillNode.swift in Sources */,
-				4BCAE2CD1E007B0232F9006E72BDC819 /* FillRenderer.swift in Sources */,
-				64FF0152E769206515EB8111F73B739B /* FloatValueProvider.swift in Sources */,
-				BE1EA116BA65D91F84B84853A553607D /* Font.swift in Sources */,
-				9FA842328BB0C02CA91CC268BE34F575 /* Glyph.swift in Sources */,
-				2FD4DA6D083BDE1A18DC9484EC965458 /* GradientFill.swift in Sources */,
-				1B0460BEB83242770025319E74797306 /* GradientFillNode.swift in Sources */,
-				79A2DD0ED41D7531DB6EF4BD80F589AF /* GradientFillRenderer.swift in Sources */,
-				4AF2672D4EB6CCF0B9C01A79B67B7ADF /* GradientStroke.swift in Sources */,
-				2FA3D88D23D8DE8CDAB423AD48A5597D /* GradientStrokeNode.swift in Sources */,
-				E5D10105495B4E8B1A7DFB2BB774F682 /* GradientStrokeRenderer.swift in Sources */,
-				B38F0D618F9934DB8474117EB9BDE0F6 /* Group.swift in Sources */,
-				5B218CE1CD4D71F3D42CED3333F01609 /* GroupInterpolator.swift in Sources */,
-				049208BE485227C4A0DE6B9E7A69E8CB /* GroupNode.swift in Sources */,
-				92FD6D68AFF0FD14665489EFFAB2E804 /* GroupOutputNode.swift in Sources */,
-				70ADF3683237C7064445113A949C37A3 /* ImageAsset.swift in Sources */,
-				F7EB1ACCACB7C26DA9AAAA1A4CA33D92 /* ImageCompositionLayer.swift in Sources */,
-				24644CE725F009E9A8CDF9C5722826CF /* ImageLayerModel.swift in Sources */,
-				354D7EE9B4C452DD10AACFD211C340DB /* Interpolatable.swift in Sources */,
-				730B1D584A6A6A5C6A3318CB04625D51 /* InterpolatableExtensions.swift in Sources */,
-				836DBA279DB86ADA821BBD0F737A33AA /* InvertedMatteLayer.swift in Sources */,
-				F0D015AA51A9988AA749796BB6915E95 /* ItemsExtension.swift in Sources */,
-				B78956F70D23DF37E4858B51F4C7220A /* KeyedDecodingContainerExtensions.swift in Sources */,
-				39D7B9946FA54D7761A108B724145863 /* Keyframe.swift in Sources */,
-				E92C5B9AD5E681E128520AE4EAA7B614 /* KeyframeExtensions.swift in Sources */,
-				4EA12FAD16E7F22C9FD6FBB2974A6ECE /* KeyframeGroup.swift in Sources */,
-				7650D38F2EB46AD53A9FDD99047952C6 /* KeyframeInterpolator.swift in Sources */,
-				24E73652A234A60A5934E67403BE1C2B /* KeypathSearchable.swift in Sources */,
-				DE540FBB4F2F62AD8020CED89C3B43BE /* LayerDebugging.swift in Sources */,
-				950DBE01357D80BD706CF6B75830260E /* LayerImageProvider.swift in Sources */,
-				AC1351EA71C2772987F17C328AFD54E1 /* LayerModel.swift in Sources */,
-				9B73739AF4147E195DBEB494BB84C127 /* LayerTransformNode.swift in Sources */,
-				749A783926FE3AA1F559AD2366DBCD35 /* lottie-ios-dummy.m in Sources */,
-				958FE12BE0BA9E2529E70281B78D0D9A /* LottieView.swift in Sources */,
-				793331DE97A5C36E2DCF364965410AF7 /* LRUAnimationCache.swift in Sources */,
-				0030DABADE75E256C094D06CBE3C26BF /* Marker.swift in Sources */,
-				CE1061F373039305D75BC082B4D46C22 /* Mask.swift in Sources */,
-				8F951264D22184ACCD45DE56B62301DD /* MaskContainerLayer.swift in Sources */,
-				49ABA3456FD58A7CCECF9AC6FFDDC762 /* MathKit.swift in Sources */,
-				F6E624C44FB3491BC47A6DC21B4C74BC /* Merge.swift in Sources */,
-				335A190B97C8ACA59943BCA89A9A020E /* NodeProperty.swift in Sources */,
-				F7A5142673C718D8A75D239DBCEAF8A2 /* NodePropertyMap.swift in Sources */,
-				62FEB55C8B40025489FE701DF8E4B536 /* NullCompositionLayer.swift in Sources */,
-				A03550AC20AF003783CF5CAEDE68F263 /* PassThroughOutputNode.swift in Sources */,
-				993DD5ED7C5B1BBD7EB2B4095E73F006 /* PathElement.swift in Sources */,
-				280CDE9F7880D9E463129EA2E85CEFB3 /* PathNode.swift in Sources */,
-				923736BD95F0A97F0F24D35359359E7C /* PathOutputNode.swift in Sources */,
-				0648689E4D6F3D075AAC31C404BE6937 /* PointValueProvider.swift in Sources */,
-				E64AFEF8F5507EB5BF4C37912F82B90A /* PolygonNode.swift in Sources */,
-				1121ADD5FBFB1A855FEBC35EC58FC7D4 /* PrecompAsset.swift in Sources */,
-				914B9883CEA7F85BA07551C97032B163 /* PreCompLayerModel.swift in Sources */,
-				693E76E0E7261CF4102A6B36ECE1DFEF /* PreCompositionLayer.swift in Sources */,
-				70EC6643CAF29A0D174A5F679547A483 /* Rectangle.swift in Sources */,
-				DA3203170EC94C29AF5926E956E39BCE /* RectNode.swift in Sources */,
-				3B625181D2B1B64C1B9717158DBC93B2 /* RenderNode.swift in Sources */,
-				2B0A52CAEBDE0DF9F726ABB551574C4A /* Repeater.swift in Sources */,
-				A35664BEC41AE9A966E57BF032ADCC99 /* Shape.swift in Sources */,
-				0EAF287F5AA59CF6AC0E04A156129ABD /* ShapeCompositionLayer.swift in Sources */,
-				838FC8B981056E88E056A06D95BFB57F /* ShapeContainerLayer.swift in Sources */,
-				DE003A9140A8541A6B1E80FAE81519D7 /* ShapeItem.swift in Sources */,
-				8B9150ECD8BFBC65680E08090B6F375C /* ShapeLayerModel.swift in Sources */,
-				1129FB12E6F6CAF80CF112CADAE93304 /* ShapeNode.swift in Sources */,
-				0BE8365C3EC65D244DABB6676B14977F /* ShapeRenderLayer.swift in Sources */,
-				5330A87ABE084E3B4F0086DFC9E99770 /* ShapeTransform.swift in Sources */,
-				D148671979814F6F48CA63A911EA92CF /* SingleValueProvider.swift in Sources */,
-				D21EC9302224343F5B6814D38CF77962 /* SizeValueProvider.swift in Sources */,
-				FD87B9760DD3C3A1536ECD0C233C56A3 /* SolidCompositionLayer.swift in Sources */,
-				A0067D663FF5446800CD07953C82FFC3 /* SolidLayerModel.swift in Sources */,
-				84E02324F9DC76488E44AFC4D7B00B95 /* Star.swift in Sources */,
-				5015F052D9C3A3A709AEE7C38004F029 /* StarNode.swift in Sources */,
-				46A1CB6FFAED99B70796DF4FB25739A0 /* StringExtensions.swift in Sources */,
-				BFAAA7DF2C8755D113A0FE84529877EA /* Stroke.swift in Sources */,
-				975F7CA36A42DD15C59405C345CE7894 /* StrokeNode.swift in Sources */,
-				1AA916C863B845AB2E969C8E2691DA94 /* StrokeRenderer.swift in Sources */,
-				AE0C53FCC18929724CFFCFDE3E83B7EB /* TextAnimator.swift in Sources */,
-				FE809187D2BAE3B2CAFEC977D0850B42 /* TextAnimatorNode.swift in Sources */,
-				F9BB7DD435A3E5FEC428002EE7C44F84 /* TextCompositionLayer.swift in Sources */,
-				28C229878148DBFA8CD67F90F20647D0 /* TextDocument.swift in Sources */,
-				139DE806A6AA044201854DDEF0171A4E /* TextLayerModel.swift in Sources */,
-				2D1D745CF9250A148655A004E70DCBF3 /* Transform.swift in Sources */,
-				B6DE1DF30A0C29641A5E5C418268D5A1 /* Trim.swift in Sources */,
-				58EAE227316B7C8926C1A121391CF27E /* TrimPathNode.swift in Sources */,
-				72C902C26CA753A9FEAE533FA25DEF2B /* UIColorExtension.swift in Sources */,
-				E9A39E714A2CBEE2401133F24F619DC9 /* ValueContainer.swift in Sources */,
-				C13554B57E7C30FB0F222F7FFC377C20 /* Vectors.swift in Sources */,
-				DE7E4771A2B4D22956D591BF22A7239C /* VectorsExtensions.swift in Sources */,
+				707F9F10EB8F7F53BDB6CCAF088235AB /* Pods-RaveSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA4E56EC052920C16F8FF2FEDB8C4063 /* Sources */ = {
+		F10BA72467D8E78C8126D50D0CC283F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831EA861F896261BB917B840408E1CEE /* AccountForm.swift in Sources */,
+				8962EFBE9E0E1004C125547E605A006B /* Bank.swift in Sources */,
+				D8BE14B125D158B600F72D81 /* PaymentOptionModel.swift in Sources */,
+				93E4449A8F2516E7C84BF77D876F6F63 /* BillingAddress.swift in Sources */,
+				CFBDA7BBE5C3C668CF8AD01E8B653359 /* DebitCardView.swift in Sources */,
+				D6E36C132AE4B7C54AE64A462C001BCA /* HowView.swift in Sources */,
+				2EF023992C45B4F859461682DA68AD84 /* Loader_WY.json in Sources */,
+				E4F853393003CB72A64F8BC7F83D9978 /* Loader_YB.json in Sources */,
+				656DD087CE66765F04B62C9D9594EA93 /* Loader_YW.json in Sources */,
+				B7279B7BCC7E4B741A90FDC98A537E72 /* LoadingHUD.swift in Sources */,
+				FB02F087B256DA4AD02D6A0616FD78DE /* MobileMoneyFR.swift in Sources */,
+				19F2D7A72CE6806DB1657BA50F969E6A /* MobileMoneyGHPendingView.swift in Sources */,
+				A721F8564B5251510CF21C21F3BD4CD5 /* MobileMoneyGHView.swift in Sources */,
+				ECAEF9F32D3316B14610A0A749342AED /* MobileMoneyRW.swift in Sources */,
+				DF8C4ECC3A62E996E6EB43483ED0294F /* MobileMoneyUganda.swift in Sources */,
+				115CDCB9332A91751995AE45644814E2 /* MobileMoneyZM.swift in Sources */,
+				8B349AA73953140C2EB6F6672F0D951A /* MPesaBusinessView.swift in Sources */,
+				D6DA0FF766DF85FFDA5344497CCAAFDA /* MpesaPendingView.swift in Sources */,
+				D3E51F4C3068524A56C144D2F8D20CC2 /* MpesaView.swift in Sources */,
+				C48866E93C99A65202EE7450096A709F /* NewRavePayViewController.swift in Sources */,
+				4319CBABBDD2910F44E8874C1EC5040D /* OTPView.swift in Sources */,
+				6378995E716BBE329BAE1623D93C2DF0 /* PinView.swift in Sources */,
+				7B9C8F093A52ABFC3002A42F0EBC4B97 /* RaveAccountClient.swift in Sources */,
+				AF13B33010A6215B7F52E6C97476545F /* RaveCardClient.swift in Sources */,
+				C9A427B74F4ADAC4A65D7BCB0E912AEB /* RaveConfig.swift in Sources */,
+				D0125D22C1A829D7C8E555DB42C17A5F /* RaveConstants.swift in Sources */,
+				87BA604688FA58CA6FB520F2AAB4D9E9 /* RaveExtension.swift in Sources */,
+				BAE211F0972A1929617AB95005B0A7EB /* RaveMobileMoneyClient.swift in Sources */,
+				29D50B95E9DAEEE9FE75AFF2D8F47D08 /* RaveMpesaClient.swift in Sources */,
+				464D0A74C84D528006DEEB40CFCFCA18 /* RavePayHeaderView.swift in Sources */,
+				E3CC2BC9B392F8766A0003DFE9782266 /* RavePayNavTitle.swift in Sources */,
+				EC49A9DC7509031FA0EC0D915C413105 /* RavePayService.swift in Sources */,
+				D0433EB262D01092164F7E028523D43F /* RavePayWebViewController.swift in Sources */,
+				5B7E7974646E37FDDB63444330B4DFF4 /* RaveSDK-dummy.m in Sources */,
+				9E415B13E68343D57CB9B15DE253E029 /* RaveURLHelper.swift in Sources */,
+				94922B696F297931C7E0C2B5D9A73787 /* SaveCardCell.swift in Sources */,
+				DCBD6AA2D88DACA032F21372C1726DD4 /* SaveCardViewController.swift in Sources */,
+				981260276729B7B250333E746E9BD963 /* SavedCard.swift in Sources */,
+				8291F7977913D1361C76759F16183416 /* SavedCardsView.swift in Sources */,
+				4EF722374C1A75DED6B02E719EC6E68F /* SelectBankAccountView.swift in Sources */,
+				6EDBC7C72CEF2D84100318C7AF51337F /* SnackBar.swift in Sources */,
+				86225E8E6D86885750A722ABCA5DD6DF /* TripleDES.swift in Sources */,
+				46A174383B9AA79C11CA9C92678FE159 /* UKAccountDetailsView.swift in Sources */,
+				50B994B8351A524689B9E97D0885AD2F /* UKAccountView.swift in Sources */,
+				E098DEE0E98AF92A36044C8E95F55442 /* VSTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		041AE3144B84BF780FFB6381A58C6340 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "lottie-ios";
-			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
-			targetProxy = C7D9A16641FB902F0CE02F6CDDE06808 /* PBXContainerItemProxy */;
-		};
-		083AAB55BB18D6C175B5375A91EF2ED7 /* PBXTargetDependency */ = {
+		38911DF7078F74228010009E76245A2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
 			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = D772F87F6D2D020605A2E3E470708721 /* PBXContainerItemProxy */;
+			targetProxy = 4EE0FE27A4D6DA653B8F62668F2613DA /* PBXContainerItemProxy */;
 		};
-		100AB2A9180B48B35C4BDC6B189072A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RaveSDK_Example";
-			target = 0E2B07FD012AE210BD641F4FD0DCB8F7 /* Pods-RaveSDK_Example */;
-			targetProxy = 6BF410092EDAB9F5605B1D21EAD7BCB1 /* PBXContainerItemProxy */;
-		};
-		198A6D62088D15338453C4BC765ED889 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 8522531A14FA69B8DA4194A6AF6C4F6E /* PBXContainerItemProxy */;
-		};
-		6DA0A3C11BA702B105936F97AB45AC34 /* PBXTargetDependency */ = {
+		40B63D869D462EF307DEF59FB84B1122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RaveSDK;
 			target = BEC556053A1BD5AF13ACB77940840B1D /* RaveSDK */;
-			targetProxy = 7156E8AC5034CA4CD1467A20DF1818F6 /* PBXContainerItemProxy */;
+			targetProxy = 8C69FD6D3AE8CDFABA8007A1917AA216 /* PBXContainerItemProxy */;
 		};
-		A09820B10AB1925FE435DAC3991FE754 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IQKeyboardManagerSwift;
-			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = FF8968CD0DF497C64A8DDBC7F93FFC2C /* PBXContainerItemProxy */;
-		};
-		A89472A3CA3747C6568E250A95CB155D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "lottie-ios";
-			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
-			targetProxy = FB16A159FC40C613A9543B7605EE4262 /* PBXContainerItemProxy */;
-		};
-		ACD47ACF24FFE1F33293B5F07FEB8829 /* PBXTargetDependency */ = {
+		B0316236790344C208256371C26E15D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = BD761C1B4EC8FE752E0DD43BD02580D5 /* PBXContainerItemProxy */;
+			targetProxy = 894B6D195A1E59FFDB1D9EB1048D30C4 /* PBXContainerItemProxy */;
 		};
-		C12A6543F57BC4E3010AB2C451C3870D /* PBXTargetDependency */ = {
+		B57BED9732D2CA592EA09F159A29204F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = A2FFD45390B4ACB4184192866AE6707E /* PBXContainerItemProxy */;
+		};
+		C4AFE5646C5498ED35F1B08005E80CAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RaveSDK-RaveSDK";
 			target = 0345C9168AF4C5A8CBFF2FB772F19D5B /* RaveSDK-RaveSDK */;
-			targetProxy = 16DBC7778E33F0617E8318CF8C0E911D /* PBXContainerItemProxy */;
+			targetProxy = B30146A641B9CB6C00B32683CBE57493 /* PBXContainerItemProxy */;
+		};
+		CACF738309F6352EEDA925E0F3BA051A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
+			targetProxy = 3F3FAA3DCE68E0B0DDDD64FF0E8A0EEE /* PBXContainerItemProxy */;
+		};
+		D69423E08A847CAC7141797CC71523E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
+			targetProxy = 07809970A441C296D5F1581A449FF07E /* PBXContainerItemProxy */;
+		};
+		DA9485B23FA726E49503B3106C5E7548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = C154C143C4EAD6EDD1BD5A521137BFC1 /* PBXContainerItemProxy */;
+		};
+		F30FEB65F18806F074C6680EF953A75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RaveSDK_Example";
+			target = 0E2B07FD012AE210BD641F4FD0DCB8F7 /* Pods-RaveSDK_Example */;
+			targetProxy = EE86809B48967C7AA128A74CE8C860CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01BDE30215E2E21FF1DD47F1B83E2EAF /* Release */ = {
+		235EF4542392EA58E0A095B3BB367ABC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C514F8C3A40286977DC49D22B0FC3CA /* Pods-RaveSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 78F39FD8D386E800ABB989D6D3A4B0DC /* Pods-RaveSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -2049,12 +2053,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RaveSDK_Tests/Pods-RaveSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RaveSDK_Tests/Pods-RaveSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2063,26 +2067,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		232B53102ED83088BD2E208B4989D40A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD60E762DC146845881D9C650C9C6087 /* RaveSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RaveSDK";
-				IBSC_MODULE = RaveSDK;
-				INFOPLIST_FILE = "Target Support Files/RaveSDK/ResourceBundle-RaveSDK-RaveSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = RaveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -2178,28 +2164,10 @@
 			};
 			name = Debug;
 		};
-		341D54F6B64BB6699C234FB25658C8C5 /* Release */ = {
+		4928364EFDC5AD9580EDF9581A491BEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A18022658F83801B884062F9CD5449D8 /* RaveSDK.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RaveSDK";
-				IBSC_MODULE = RaveSDK;
-				INFOPLIST_FILE = "Target Support Files/RaveSDK/ResourceBundle-RaveSDK-RaveSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = RaveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		42265A3254A611521ACD862724F5CCE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38DC1F09FF44569D2E027B4A724F0227 /* Pods-RaveSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2211,28 +2179,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RaveSDK/RaveSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RaveSDK/RaveSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MARKETING_VERSION = 2.2.2;
+				MODULEMAP_FILE = "Target Support Files/RaveSDK/RaveSDK.modulemap";
+				PRODUCT_MODULE_NAME = RaveSDK;
+				PRODUCT_NAME = RaveSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		70041A23E86E1E77D70DD97CD5E87F77 /* Debug */ = {
+		600A07691D43170C0CB20C42AA1E3B2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78F39FD8D386E800ABB989D6D3A4B0DC /* Pods-RaveSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = AACF9400BF83DA941816B50D2BA4222A /* Pods-RaveSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -2259,6 +2228,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D0DC316E46B14A5995DF5AD15CA380A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD60E762DC146845881D9C650C9C6087 /* RaveSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RaveSDK/RaveSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RaveSDK/RaveSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.2;
+				MODULEMAP_FILE = "Target Support Files/RaveSDK/RaveSDK.modulemap";
+				PRODUCT_MODULE_NAME = RaveSDK;
+				PRODUCT_NAME = RaveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2298,9 +2302,9 @@
 			};
 			name = Release;
 		};
-		963820AF6980472385E01EE9611F77E7 /* Release */ = {
+		8E8ADDDFE4C11EA3F2B2EF3CADB57D0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AACF9400BF83DA941816B50D2BA4222A /* Pods-RaveSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 6C514F8C3A40286977DC49D22B0FC3CA /* Pods-RaveSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -2314,12 +2318,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RaveSDK_Tests/Pods-RaveSDK_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RaveSDK_Tests/Pods-RaveSDK_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2334,7 +2338,7 @@
 			};
 			name = Release;
 		};
-		B493C5360903918A19C48CA0F1929B45 /* Debug */ = {
+		9189128E051F1658AC9D8B546658622A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F1D34CC943D20035421492C734565E6 /* lottie-ios.debug.xcconfig */;
 			buildSettings = {
@@ -2360,6 +2364,58 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99AB1A8905A1DE5F7BEB344BD35D7728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18022658F83801B884062F9CD5449D8 /* RaveSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RaveSDK";
+				IBSC_MODULE = RaveSDK;
+				INFOPLIST_FILE = "Target Support Files/RaveSDK/ResourceBundle-RaveSDK-RaveSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = RaveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B91736D50A4674157F154D1E35FEC3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DC1F09FF44569D2E027B4A724F0227 /* Pods-RaveSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RaveSDK_Example/Pods-RaveSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2432,41 +2488,6 @@
 			};
 			name = Release;
 		};
-		C7A628ED65533C5709562E69AEF92713 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18022658F83801B884062F9CD5449D8 /* RaveSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RaveSDK/RaveSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RaveSDK/RaveSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 2.2.0;
-				MODULEMAP_FILE = "Target Support Files/RaveSDK/RaveSDK.modulemap";
-				PRODUCT_MODULE_NAME = RaveSDK;
-				PRODUCT_NAME = RaveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2531,7 +2552,24 @@
 			};
 			name = Debug;
 		};
-		E27EC323738B6E2A042CB9C9967B3F40 /* Release */ = {
+		EFF01EC0C28655221E9163ED103ED341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD60E762DC146845881D9C650C9C6087 /* RaveSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RaveSDK";
+				IBSC_MODULE = RaveSDK;
+				INFOPLIST_FILE = "Target Support Files/RaveSDK/ResourceBundle-RaveSDK-RaveSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = RaveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F07135FC49BD6AE98AEC13151067C778 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B8967EB9FAAFDC825AF268314F9A348 /* lottie-ios.release.xcconfig */;
 			buildSettings = {
@@ -2564,57 +2602,14 @@
 			};
 			name = Release;
 		};
-		F9DEE9F684B7691D055F3F2843C30768 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD60E762DC146845881D9C650C9C6087 /* RaveSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RaveSDK/RaveSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RaveSDK/RaveSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 2.2.0;
-				MODULEMAP_FILE = "Target Support Files/RaveSDK/RaveSDK.modulemap";
-				PRODUCT_MODULE_NAME = RaveSDK;
-				PRODUCT_NAME = RaveSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CEE0965EABCF1AAE981F9B574F5572C /* Build configuration list for PBXNativeTarget "RaveSDK" */ = {
+		31B33DB485E5C607DEC231544B61BCDE /* Build configuration list for PBXNativeTarget "RaveSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9DEE9F684B7691D055F3F2843C30768 /* Debug */,
-				C7A628ED65533C5709562E69AEF92713 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11621CCEAA36686B040DC8127EAD7942 /* Build configuration list for PBXNativeTarget "lottie-ios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B493C5360903918A19C48CA0F1929B45 /* Debug */,
-				E27EC323738B6E2A042CB9C9967B3F40 /* Release */,
+				8D0DC316E46B14A5995DF5AD15CA380A /* Debug */,
+				4928364EFDC5AD9580EDF9581A491BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2624,6 +2619,24 @@
 			buildConfigurations = (
 				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
 				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681E382868D2E05F66FB85ACC96CC24C /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235EF4542392EA58E0A095B3BB367ABC /* Debug */,
+				600A07691D43170C0CB20C42AA1E3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADA5896C3C0E0C496BBE29355ECB28E /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91736D50A4674157F154D1E35FEC3F3 /* Debug */,
+				8E8ADDDFE4C11EA3F2B2EF3CADB57D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2646,29 +2659,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E145BA45F122126BBE29A310F874FC3C /* Build configuration list for PBXNativeTarget "RaveSDK-RaveSDK" */ = {
+		B3833842C1622730CA460D030AC238BF /* Build configuration list for PBXNativeTarget "lottie-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				232B53102ED83088BD2E208B4989D40A /* Debug */,
-				341D54F6B64BB6699C234FB25658C8C5 /* Release */,
+				9189128E051F1658AC9D8B546658622A /* Debug */,
+				F07135FC49BD6AE98AEC13151067C778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCB35C8F1808ED8B7526753B6613637F /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Example" */ = {
+		C1615A323C7094735B1AD6838097D0C0 /* Build configuration list for PBXNativeTarget "RaveSDK-RaveSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42265A3254A611521ACD862724F5CCE6 /* Debug */,
-				01BDE30215E2E21FF1DD47F1B83E2EAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FEEEA5D9D2A4F45D9FEF3C7F2989427E /* Build configuration list for PBXNativeTarget "Pods-RaveSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				70041A23E86E1E77D70DD97CD5E87F77 /* Debug */,
-				963820AF6980472385E01EE9611F77E7 /* Release */,
+				EFF01EC0C28655221E9163ED103ED341 /* Debug */,
+				99AB1A8905A1DE5F7BEB344BD35D7728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
