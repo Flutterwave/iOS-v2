@@ -12,6 +12,7 @@ import RaveSDK
 class ViewController: UIViewController ,RavePayProtocol {
     func tranasctionSuccessful(flwRef: String?, responseData: [String : Any]?) {
         print(responseData?.description ?? "Nothing here")
+        
     }
     
     func tranasctionFailed(flwRef: String?, responseData: [String : Any]?) {
@@ -23,7 +24,7 @@ class ViewController: UIViewController ,RavePayProtocol {
     }
     
     @objc func showAction(){
-        
+
         let config = RaveConfig.sharedConfig()
         config.paymentOptionsToExclude = []
         config.currencyCode = "NGN" // This is the specified currency to charge in.
@@ -43,9 +44,12 @@ class ViewController: UIViewController ,RavePayProtocol {
         controller.amount = "[AMOUNT]" // This is the amount to be charged.
         controller.delegate = self
         self.present(nav, animated: true)
-        
+
     }
     
+    
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

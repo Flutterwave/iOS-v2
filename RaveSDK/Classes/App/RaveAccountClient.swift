@@ -145,7 +145,8 @@ class RaveAccountClient {
                 "country":country,
                 "IP": getIFAddresses().first!,
                 "txRef":  RaveConfig.sharedConfig().transcationRef!,
-                "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!
+                "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!,
+                "redirect_url": "https://webhook.site/finish"
             ]
             if let accountNumber = self.accountNumber{
                 param.merge(["accountnumber":accountNumber])

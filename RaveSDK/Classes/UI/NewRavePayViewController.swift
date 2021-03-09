@@ -924,7 +924,7 @@ public class NewRavePayViewController: UITableViewController {
              return 0
         case 1:
             //||  RaveConfig.sharedConfig().country == "UG"
-            return RaveConfig.sharedConfig().currencyCode == "KES" || RaveConfig.sharedConfig().country == "GHS" || checkIfPaymentOptionIsExcluded(paymentOption: .debitCard) ? 0 :  65
+            return RaveConfig.sharedConfig().currencyCode == "" || RaveConfig.sharedConfig().country == "GHS" || checkIfPaymentOptionIsExcluded(paymentOption: .debitCard) ? 0 :  65
         case 2:
             return (RaveConfig.sharedConfig().currencyCode == "NGN" || RaveConfig.sharedConfig().currencyCode == "USD" || RaveConfig.sharedConfig().currencyCode == "ZAR") && !checkIfPaymentOptionIsExcluded(paymentOption: .bankAccount) ? 65 : 0
         case 3:

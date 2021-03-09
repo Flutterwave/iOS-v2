@@ -79,7 +79,8 @@ class RaveMpesaClient {
                 "meta":"",
                 "IP": getIFAddresses().first!,
                 "txRef": transactionReference!,
-                "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!
+                "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!,
+                "redirect_url": "https://webhook.site/finish"
             ]
             if RaveConfig.sharedConfig().isPreAuth{
                 param.merge(["charge_type":"preauth"])
