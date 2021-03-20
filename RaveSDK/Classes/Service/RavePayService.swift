@@ -237,4 +237,25 @@ class RavePayService: NSObject {
 			}
 		}
     }
+    
+    class func callPaypal(_ bodyParam:Dictionary<String,String>,resultCallback:@escaping (_ Result:Dictionary<String,AnyObject>?) -> Void ,errorCallback:@escaping (_ err:String) -> Void ){
+
+        let req: URLConvertible = RaveURLHelper.getURL("VALIDATE_ACCOUNT_OTP")
+        
+        AF.request(req,method: .post, parameters: bodyParam).responseJSON {
+            (res) -> Void in
+            
+            switch res.result {
+            case .success(let value):
+                if let json = value as? Dictionary<String,AnyObject> {
+                    print(res.request?.urlRequest ?? "")
+                    print(json)
+                    resultCallback(json)
+                }
+            case .failure(let error):
+                print(error)
+                errorCallback(error.localizedDescription)
+            }
+        }
+    }
 }

@@ -2,7 +2,7 @@ PODS:
   - Alamofire (5.2.1)
   - IQKeyboardManagerSwift (6.5.5)
   - lottie-ios (3.0.7)
-  - RaveSDK (2.2.3):
+  - RaveSDK (2.2.4):
     - Alamofire (= 5.2.1)
     - IQKeyboardManagerSwift
     - lottie-ios (~> 3.0.2)
@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   lottie-ios: c38c3178ae8c4a8f200661aa5f80b9f1ca7f56b3
-  RaveSDK: 3ec1aa3c07b5ce2bd5f81ae01d5c9cca3cf5e57e
+  RaveSDK: f0ac7555aaf43a501e125a772b1a4d77a7c341be
 
 PODFILE CHECKSUM: f1bcbf0178b99b16df462e51edd978e6ec5e61f4
 

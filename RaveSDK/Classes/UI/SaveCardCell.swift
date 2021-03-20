@@ -9,13 +9,10 @@
 import UIKit
 
 class SaveCardCell: UITableViewCell {
-   // @IBOutlet weak var maskCardLabel: UILabel!
-   // @IBOutlet weak var brandImage: UIImageView!
-   // @IBOutlet weak var contentContainer: UIView!
-    
+
     lazy var contentContainer: UIView = {
         let view = UIView()
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(hex: "#F2F2F2")
         view.clipsToBounds = true
         view.translatesAutoresizingMaskIntoConstraints = false
         return view

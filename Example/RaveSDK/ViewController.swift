@@ -23,8 +23,8 @@ class ViewController: UIViewController ,RavePayProtocol {
         print("View controller was dimissed ")
     }
     
-    @objc func showAction(){
-
+    
+    @IBAction func showAction(_ sender: Any) {
         let config = RaveConfig.sharedConfig()
         config.paymentOptionsToExclude = []
         config.currencyCode = "NGN" // This is the specified currency to charge in.
@@ -44,11 +44,7 @@ class ViewController: UIViewController ,RavePayProtocol {
         controller.amount = "[AMOUNT]" // This is the amount to be charged.
         controller.delegate = self
         self.present(nav, animated: true)
-
     }
-    
-    
-    
    
     override func viewDidLoad() {
         super.viewDidLoad()

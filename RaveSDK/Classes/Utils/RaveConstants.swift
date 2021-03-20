@@ -85,7 +85,8 @@ class RaveConstants: NSObject {
             "FEE":"/flwv3-pug/getpaidx/api/fee",
             "SAVE_CARD_LOOKUP":"/v2/gpx/users/lookup",
             "SEND_SAVEDCARD_OTP":"/v2/gpx/users/send_otp",
-            "REMOVE_SAVEDCARD":"/v2/gpx/users/remove"
+            "REMOVE_SAVEDCARD":"/v2/gpx/users/remove",
+            
         ]
     }
     

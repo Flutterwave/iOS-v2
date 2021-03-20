@@ -23,12 +23,13 @@ class RaveCardClient{
     public var saveCardPayment:String?
     public var savedCardHash:String?
     public var savedCardMobileNumber:String?
-
+    
     public var transactionReference:String?
     public var bodyParam:[String:Any]? = [:]
     
     typealias FeeSuccessHandler = ((String?,String?) -> Void)
     typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+    typealias PaypalSuccessHandler = ((String?,[String:Any]?) -> Void)
     typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
     typealias SuggestedAuthHandler = ((SuggestedAuthModel,[String:Any]?, String?) -> Void)
     typealias OTPAuthHandler = ((String,String) -> Void)
@@ -49,6 +50,7 @@ class RaveCardClient{
     public var chargeOTPAuth: OTPAuthHandler?
     public var chargeWebAuth: WebAuthHandler?
     public var chargeSuccess: SuccessHandler?
+    public var paypalSuccess: PaypalSuccessHandler?
     public var sendOTPSuccess:SaveCardErrorHandler?
     public var sendOTPError:SaveCardErrorHandler?
     public var selectedCard:SavedCard?
@@ -64,19 +66,19 @@ class RaveCardClient{
                 "amount": amount!,
                 "currency": RaveConfig.sharedConfig().currencyCode,
                 "card6": cardfirst6!]
-                RavePayService.getFee(param, resultCallback: {[weak self] (result) in
+            RavePayService.getFee(param, resultCallback: {[weak self] (result) in
                 guard let strongSelf = self else {return}
                 let data = result?["data"] as? [String:AnyObject]
-                    if let _fee =  data?["fee"] as? Double{
-                        let fee = "\(_fee)"
-                        let chargeAmount = data?["charge_amount"] as? String
-                            strongSelf.feeSuccess?(fee,chargeAmount)
-                        }else{
-                            if let err = result?["message"] as? String{
-                             strongSelf.error?(err,nil)
-                            }
+                if let _fee =  data?["fee"] as? Double{
+                    let fee = "\(_fee)"
+                    let chargeAmount = data?["charge_amount"] as? String
+                    strongSelf.feeSuccess?(fee,chargeAmount)
+                }else{
+                    if let err = result?["message"] as? String{
+                        strongSelf.error?(err,nil)
                     }
-                }, errorCallback: {[weak self] (err) in
+                }
+            }, errorCallback: {[weak self] (err) in
                 guard let strongSelf = self else {return}
                 strongSelf.error?(err,nil)
             })
@@ -90,11 +92,11 @@ class RaveCardClient{
         if let pubkey = RaveConfig.sharedConfig().publicKey{
             var country :String = ""
             switch RaveConfig.sharedConfig().currencyCode {
-                       case "KES","TZS","GHS","KES","ZAR":
-                           country = RaveConfig.sharedConfig().country
-                       default:
-                           country = "NG"
-                       }
+            case "KES","TZS","GHS","KES","ZAR":
+                country = RaveConfig.sharedConfig().country
+            default:
+                country = "NG"
+            }
             var param:[String:Any] = ["PBFPubKey":pubkey,
                                       "IP": getIFAddresses().first!,
                                       "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!,
@@ -116,11 +118,11 @@ class RaveCardClient{
             }
             if let brand = selectedCard?.card?.cardBrand{
                 if brand.lowercased() == "visa"{
-                  param.merge(["is_visa":true])
+                    param.merge(["is_visa":true])
                 }else{
-                  param.merge(["is_visa":false])
+                    param.merge(["is_visa":false])
                 }
-               
+                
             }
             if let device = selectedCard?.mobileNumber{
                 param.merge(["device_key":device])
@@ -247,11 +249,11 @@ class RaveCardClient{
         if let pubkey = RaveConfig.sharedConfig().publicKey{
             var country :String = ""
             switch RaveConfig.sharedConfig().currencyCode {
-                       case "KES","TZS","GHS","KES","ZAR":
-                           country = RaveConfig.sharedConfig().country
-                       default:
-                           country = "NG"
-                       }
+            case "KES","TZS","GHS","KES","ZAR":
+                country = RaveConfig.sharedConfig().country
+            default:
+                country = "NG"
+            }
             guard let _ = cardNumber else {
                 fatalError("Card Number is missing")
             }
@@ -320,7 +322,7 @@ class RaveCardClient{
                 }
                 param.merge(["subaccounts":subAccountDict])
             }
-           
+            
             if let meta = RaveConfig.sharedConfig().meta{
                 param.merge(["meta":meta])
             }
@@ -349,7 +351,7 @@ class RaveCardClient{
                 "client": base64String!, // Encrypted $data payload here.
                 "alg": "3DES-24"
             ]
-           
+            
             RavePayService.charge(reqbody, resultCallback: { [weak self] (res) in
                 guard let strongSelf = self else {return}
                 if let status = res?["status"] as? String{
@@ -395,11 +397,11 @@ class RaveCardClient{
                                         }
                                     }
                                     if let authURL = result?["authurl"] as? String, authURL != "NO-URL", authURL != "N/A" {
-                                          // Show Web View
-                                          strongSelf.chargeWebAuth?(flwTransactionRef!,authURL)
+                                        // Show Web View
+                                        strongSelf.chargeWebAuth?(flwTransactionRef!,authURL)
                                     }else{
                                         if let flwRef = flwTransactionRef{
-                                          // Show OTP Screen
+                                            // Show OTP Screen
                                             strongSelf.chargeOTPAuth?(flwRef, _instruction ?? "Pending OTP Validation")
                                         }
                                     }
@@ -417,13 +419,112 @@ class RaveCardClient{
                 }
             }) {[weak self] (err) in
                 guard let strongSelf = self else {return}
-                 strongSelf.error?(err,nil)
+                strongSelf.error?(err,nil)
             }
             
         }else{
-           self.error?("Public Key is not specified",nil)
+            self.error?("Public Key is not specified",nil)
         }
     }
+    
+    
+    
+    //MARK: PAYPAL
+    public func chargePaypal(){
+        
+        if let pubkey = RaveConfig.sharedConfig().publicKey{
+            var country :String = ""
+            switch RaveConfig.sharedConfig().currencyCode {
+            case "KES","TZS","GHS","KES","ZAR":
+                country = RaveConfig.sharedConfig().country
+            default:
+                country = "NG"
+            }
+            var param:[String:Any] = ["PBFPubKey":pubkey,
+                                      "amount":amount ?? "",
+                                      "firstname":RaveConfig.sharedConfig().firstName ?? "",
+                                      "lastname": RaveConfig.sharedConfig().lastName ?? "",
+                                      "email": RaveConfig.sharedConfig().email!,
+                                      "currency": RaveConfig.sharedConfig().currencyCode,
+                                      "country":country,
+                                      "IP": getIFAddresses().first!,
+                                      "payment_type":"paypal",
+                                      "txRef": RaveConfig.sharedConfig().transcationRef!,
+                                      "device_fingerprint": (UIDevice.current.identifierForVendor?.uuidString)!,
+                                      "billing_address":"",
+                                      "billing_city":"",
+                                      "billing_zip": "",
+                                      "billing_state": "",
+                                      "billing_country": "",
+                                      "shipping_name": "",
+                                      "shipping_address": "",
+                                      "shipping_city": "",
+                                      "shipping_zip": "",
+                                      "shipping_state": "",
+                                      "shipping_country": "",
+                                      "redirect_url": "https://webhook.site/finish"]
+            if let narrate = RaveConfig.sharedConfig().narration{
+                param.merge(["narration":narrate])
+            }
+            if RaveConfig.sharedConfig().isPreAuth{
+                param.merge(["charge_type":"preauth"])
+            }
+            
+            
+            if let meta = RaveConfig.sharedConfig().meta{
+                param.merge(["meta":meta])
+            }
+            
+            if bodyParam?.count == 0 {
+                bodyParam = param
+            }
+            if isRetryCharge{
+                if let retryValue = self.retryChargeValue{
+                    bodyParam?.merge(["retry_charge":retryValue])
+                }
+            }
+            let jsonString  = bodyParam!.jsonStringify()
+            let secret = RaveConfig.sharedConfig().encryptionKey!
+            let data =  TripleDES.encrypt(string: jsonString, key:secret)
+            let base64String = data?.base64EncodedString()
+            
+            
+            let reqbody = [
+                "PBFPubKey": pubkey,
+                "client": base64String!, // Encrypted $data payload here.
+                "alg": "3DES-24"
+            ]
+            
+            RavePayService.charge(reqbody, resultCallback: { [weak self] (res) in
+                guard let strongSelf = self else {return}
+                if let status = res?["status"] as? String{
+                    if status == "success"{
+                        
+                        let result = res?["data"] as? Dictionary<String,AnyObject>
+//                        if let suggestedAuth = result?["meta"] as? Meta{
+//                            print("redirected successfully")
+//                            if suggestedAuth.authorization?.mode == "redirect" {
+//
+                                let flwTransactionRef = result?["flwRef"] as? String
+                                strongSelf.paypalSuccess?(flwTransactionRef,result)
+//                            }
+//                        }
+                    }else{
+                        if let message = res?["message"] as? String{
+                            strongSelf.error?(message,nil)
+                        }
+                    }
+                }
+            }) {[weak self] (err) in
+                guard let strongSelf = self else {return}
+                strongSelf.error?(err,nil)
+            }
+            
+        }else{
+            self.error?("Public Key is not specified",nil)
+        }
+    }
+    
     
     //MARK: Validate Card
     public func validateCardOTP(){
@@ -472,35 +573,20 @@ class RaveCardClient{
                             
                         }
                     }else{
-//                        if let data = res ["data"] as? [String:AnyObject]{
-//                            if let _data = res ["data"] as? [String:AnyObject]{
-//                                if let message = _data["responsemessage"] as? String{
-//                                    if (self.isMasterCard() && !(message.containsIgnoringCase(find: "insufficient"))){
-//                                       let tx = data["tx"] as? [String:AnyObject]
-//                                       self.retryChargeValue =  tx?["flwRef"] as? String
-//                                       self.isRetryCharge = true
-//                                       self.chargeCard()
-//                                    }
-//                                }else{
-//                                    let message = res ["message"] as? String
-//                                    self.validateError?(message,nil)
-//                                }
-//                            }
-//
-//                        }
+                        
                         let message = res ["message"] as? String
                         self.validateError?(message,nil)
                         
                     }
                 }else{
-                        let message = res ["message"] as? String
-                        self.validateError?(message,nil)
+                    let message = res ["message"] as? String
+                    self.validateError?(message,nil)
                 }
                 
             }
         }) { (err) in
             if (err.containsIgnoringCase(find: "serialize") || err.containsIgnoringCase(find: "JSON")){
-                 self.validateError?("Request Timed Out",nil)
+                self.validateError?("Request Timed Out",nil)
             }else{
                 self.validateError?(err,nil)
             }
@@ -533,10 +619,10 @@ class RaveCardClient{
                 "mobile_number": savedCardMobileNumber!]
             RavePayService.removeSavedCard(param, resultCallback: {[weak self] (result) in
                 guard let strongSelf = self else {return}
-                    strongSelf.removesavedCardSuccess?()
-                }, errorCallback: {[weak self] (err) in
-                    guard let strongSelf = self else {return}
-                    strongSelf.removesavedCardError?(err)
+                strongSelf.removesavedCardSuccess?()
+            }, errorCallback: {[weak self] (err) in
+                guard let strongSelf = self else {return}
+                strongSelf.removesavedCardError?(err)
             })
         }else{
             self.removesavedCardError?("Public Key is not specified")
@@ -544,7 +630,7 @@ class RaveCardClient{
     }
     
     //MARK: Send OTP
-      func sendOTP(card: SavedCard){
+    func sendOTP(card: SavedCard){
         if let pubkey = RaveConfig.sharedConfig().publicKey{
             let param = ["public_key":pubkey,"card_hash":card.cardHash ?? "","device_key":card.mobileNumber ?? ""]
             RavePayService.sendOTP(param, resultCallback: {[weak self] (message) in
@@ -555,7 +641,7 @@ class RaveCardClient{
                 strongSelf.sendOTPError?(err)
             }
         }
-     }
+    }
     
     func isMasterCard() -> Bool{
         if let cardNumber = self.cardNumber{

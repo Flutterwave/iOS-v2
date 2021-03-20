@@ -71,10 +71,15 @@ class RavePayWebViewController: UIViewController, WKNavigationDelegate,WKUIDeleg
             self.navigationItem.title = webView.title
             print(webView.url!.absoluteString)
             if (webView.url!.absoluteString.contains("/complete") || webView.url!.absoluteString.contains("submitting_mock_form")){
+                let data = webView.url!.queryParameters
+                let response = data?["resp"]
+                let jsonResponseData = response?.toJSON() as? [String : Any]
                 print("success page")
-                self.delegate?.tranasctionSuccessful(flwRef: flwRef!, responseData: nil)
+                self.delegate?.tranasctionSuccessful(flwRef: flwRef!, responseData: jsonResponseData)
                 self.progressView.removeFromSuperview()
+                showSnackBarWithMessage(msg: "Transaction Completed")
                 self.navigationController?.popViewController(animated: true)
+                
             } else if(webView.url!.absoluteString.contains("/finish")){
                 let newURL = webView.url!.absoluteString
                 if let range = newURL.range(of: "https://webhook.site/finish") {
