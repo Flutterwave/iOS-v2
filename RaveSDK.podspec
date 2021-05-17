@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RaveSDK'
-  s.version          = '2.2.7'
+  s.version          = '2.2.8'
   s.summary          = 'RaveSDK'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Flutterwave/RaveSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'solejay' => 'segun.solaja@flutterwavego.com' }
+  s.author           = { 'Flutterwave Developers' => 'rotimi.joshua@flutterwavego.com' }
   s.source           = { :git => 'https://github.com/Flutterwave/RaveSDK.git', :tag => s.version.to_s }
   #
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
