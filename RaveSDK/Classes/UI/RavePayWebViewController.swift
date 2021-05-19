@@ -68,11 +68,14 @@ class RavePayWebViewController: UIViewController, WKNavigationDelegate,WKUIDeleg
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             LoadingHUD.shared().hide()
             
-            self.navigationItem.title = webView.title
-            print(webView.url!.absoluteString)
+        self.navigationItem.title = webView.title
+        print(webView.url!.absoluteString)
+        let data = webView.url!.queryParameters
+        let response = data?["resp"]
+        let jsonResponseData = response?.toJSON() as? [String : Any]
             if (webView.url!.absoluteString.contains("/complete") || webView.url!.absoluteString.contains("submitting_mock_form")){
-                print("success page")
-                self.delegate?.tranasctionSuccessful(flwRef: flwRef!, responseData: nil)
+//                print("success page")
+                self.delegate?.tranasctionSuccessful(flwRef: flwRef!, responseData: jsonResponseData)
                 self.progressView.removeFromSuperview()
                 self.navigationController?.popViewController(animated: true)
             } else if(webView.url!.absoluteString.contains("/finish")){
@@ -81,10 +84,6 @@ class RavePayWebViewController: UIViewController, WKNavigationDelegate,WKUIDeleg
                     let dataPayload = newURL[range.upperBound...]
                     print("Extra Data \(dataPayload)")
                 }
-                let data = webView.url!.queryParameters
-                let response = data?["resp"]
-                let jsonResponseData = response?.toJSON() as? [String : Any]
-                
                 self.delegate?.tranasctionSuccessful(flwRef: flwRef!, responseData: jsonResponseData)
                 self.progressView.removeFromSuperview()
                 self.navigationController?.popViewController(animated: true)

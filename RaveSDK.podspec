@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RaveSDK'
-  s.version          = '2.2.3'
+  s.version          = '2.2.9'
   s.summary          = 'RaveSDK'
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,5 @@ TODO: Add long description of the pod here.
    s.frameworks = 'UIKit'
    s.dependency 'IQKeyboardManagerSwift'
    s.dependency 'lottie-ios','~>3.0.2'
-   s.dependency 'Alamofire','5.2.1'
+   s.dependency 'Alamofire'
 end
