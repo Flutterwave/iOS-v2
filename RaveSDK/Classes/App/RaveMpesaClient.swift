@@ -9,21 +9,23 @@
 import Foundation
 import UIKit
 
-class RaveMpesaClient {
+public class RaveMpesaClient {
     public var amount:String?
     public var phoneNumber:String?
     public var email:String? = ""
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias PendingHandler = ((String?,String?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-    public var error:ErrorHandler?
-    public var feeSuccess:FeeSuccessHandler?
-    public var transactionReference:String?
-    public var chargeSuccess: SuccessHandler?
-    public var chargePending: PendingHandler?
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias PendingHandler = ((String?,String?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+	public var error:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var transactionReference:String?
+	public var chargeSuccess: SuccessHandler?
+	public var chargePending: PendingHandler?
     public var businessNumber:String?
     public var accountNumber:String?
+	
+	public init() {}
     
     //MARK: Transaction Fee
     public func getFee(){
@@ -153,7 +155,7 @@ class RaveMpesaClient {
                         }
                     }else{
                         if let message = res?["message"] as? String{
-                           self.error?(message, nil)
+                           self.error?(message, res)
                         }
                     }
                 }

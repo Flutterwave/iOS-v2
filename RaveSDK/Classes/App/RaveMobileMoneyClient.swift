@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 
-enum MobileMoneyType{
+public enum MobileMoneyType{
     case ghana
     case uganda
     case rwanda
@@ -18,25 +18,27 @@ enum MobileMoneyType{
     case franco
 }
 
-class RaveMobileMoneyClient {
+public class RaveMobileMoneyClient {
     public var amount:String?
     public var phoneNumber:String?
     public var email:String? = ""
     public var voucher:String?
     public var network:String?
     public var selectedMobileNetwork:String?
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias PendingHandler = ((String?,String?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-    typealias WebAuthHandler = ((String,String) -> Void)
-    public var error:ErrorHandler?
-    public var feeSuccess:FeeSuccessHandler?
-    public var transactionReference:String?
-    public var chargeSuccess: SuccessHandler?
-    public var chargePending: PendingHandler?
-    public var chargeWebAuth: WebAuthHandler?
-    public var mobileMoneyType:MobileMoneyType = .ghana
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias PendingHandler = ((String?,String?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+    public typealias WebAuthHandler = ((String,String) -> Void)
+	public var error:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var transactionReference:String?
+	public var chargeSuccess: SuccessHandler?
+	public var chargePending: PendingHandler?
+	public var chargeWebAuth: WebAuthHandler?
+	public var mobileMoneyType:MobileMoneyType = .ghana
+	
+	public init() {}
     
     //MARK: Get transaction Fee
     public func getFee(){
@@ -200,7 +202,7 @@ class RaveMobileMoneyClient {
                     }else{
                         if let message = res?["message"] as? String{
                             print(message)
-                            self.error?(message, nil)
+                            self.error?(message, res)
                         }
                     }
                 }

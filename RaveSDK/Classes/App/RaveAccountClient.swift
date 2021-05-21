@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class RaveAccountClient {
+public class RaveAccountClient {
     public var amount:String?
     public var accountNumber:String?
     public var bankCode:String?
@@ -19,26 +19,28 @@ class RaveAccountClient {
     public var blacklistedBankCodes:[String]?
     public var isUSBankAccount =  false
     
-    typealias BanksHandler = (([Bank]?) -> Void)
-    typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
-    typealias FeeSuccessHandler = ((String?,String?) -> Void)
-    typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
-    public var banks: BanksHandler?
-    public var error:ErrorHandler?
-    public var validateError:ErrorHandler?
-    public var feeSuccess:FeeSuccessHandler?
-    public var chargeSuccess: SuccessHandler?
-    typealias OTPAuthHandler = ((String,String) -> Void)
-    typealias WebAuthHandler = ((String,String) -> Void)
-     typealias GBPOTPAuthHandler = ((String,String,String) -> Void)
+    public typealias BanksHandler = (([Bank]?) -> Void)
+    public typealias ErrorHandler = ((String?,[String:Any]?) -> Void)
+    public typealias FeeSuccessHandler = ((String?,String?) -> Void)
+    public typealias SuccessHandler = ((String?,[String:Any]?) -> Void)
+	public var banks: BanksHandler?
+	public var error:ErrorHandler?
+	public var validateError:ErrorHandler?
+	public var feeSuccess:FeeSuccessHandler?
+	public var chargeSuccess: SuccessHandler?
+    public typealias OTPAuthHandler = ((String,String) -> Void)
+    public typealias WebAuthHandler = ((String,String) -> Void)
+    public typealias GBPOTPAuthHandler = ((String,String,String) -> Void)
     public var chargeOTPAuth: OTPAuthHandler?
     public var redoChargeOTPAuth: OTPAuthHandler?
-     public var chargeGBPOTPAuth: GBPOTPAuthHandler?
+	public var chargeGBPOTPAuth: GBPOTPAuthHandler?
     public var chargeWebAuth: WebAuthHandler?
     public var otp:String?
     public var transactionReference:String?
     var txRef:String?
     var chargeAmount:String?
+	
+	public init() {}
     //MARK: Fee
     public func getFee(){
         if let pubkey = RaveConfig.sharedConfig().publicKey{
@@ -282,7 +284,7 @@ class RaveAccountClient {
                     }else{
                         if let message = res?["message"] as? String{
                             
-                            self.error?(message, nil)
+                            self.error?(message, res)
                             
                         }
                     }
@@ -336,7 +338,7 @@ class RaveAccountClient {
                     }
                 }else{
                         let message = res ["message"] as? String
-                        self.validateError?(message, nil)
+                        self.validateError?(message, res)
                 }
             }
         }) { (err) in
@@ -349,7 +351,7 @@ class RaveAccountClient {
     }
     
     
-  public  func queryTransaction(txRef:String?){
+  public func queryTransaction(txRef:String?){
            if let secret = RaveConfig.sharedConfig().publicKey ,let  ref = txRef{
                let param = ["PBFPubKey":secret,"flw_ref":ref]
                RavePayService.mpesaQueryTransaction(param, resultCallback: { (result) in

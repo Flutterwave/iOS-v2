@@ -168,6 +168,7 @@ extension String{
 		formatter.minimumFractionDigits = withFraction
         formatter.maximumFractionDigits = withFraction
 		formatter.generatesDecimalNumbers = true
+		formatter.roundingMode = .down
         formatter.locale = locale
         if self == ""{
             return formatter.string(from: NSNumber(value: 0))!
@@ -194,7 +195,7 @@ extension String{
                 return nil
             }
     }
-    func toCountryCurrency(code:String, fraction:Int = 2) -> String{
+    func toCountryCurrency(code:String, fraction:Int = 3) -> String{
         var str:String = ""
         str = self.toRaveCurrency(fraction, locale: getLocale(code: code))
         return str
