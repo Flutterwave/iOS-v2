@@ -1993,17 +1993,15 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
     }
     
     func showOTP(message:String, flwRef:String, otpType:OTPType){
-        self.otpContentContainer.isHidden = false
-        self.accountOtpContentContainer.isHidden = false
         switch otpType {
         case .savedCard:
-           
+            self.otpContentContainer.isHidden = false
             otpContentContainer.alpha = 0
             otpContentContainer.otpMessage.text = message
             otpContentContainer.otpButton.removeTarget(self, action: #selector(accountOTPButtonTapped), for: .touchUpInside)
             otpContentContainer.otpButton.removeTarget(self, action: #selector(cardOTPButtonTapped), for: .touchUpInside)
             otpContentContainer.otpButton.addTarget(self, action: #selector(saveCardOTPButtonTapped), for: .touchUpInside)
-
+            
             UIView.animate(withDuration: 0.6, animations: {
                 self.otpContentContainer.alpha = 1
                 self.pinViewContainer.alpha = 0
@@ -2014,16 +2012,16 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
                 self.debitCardView.isHidden = true
                 self.saveCardContainer.isHidden = true
             }
-
+            
         case .card:
-           
+            self.otpContentContainer.isHidden = false
             otpContentContainer.alpha = 0
             otpContentContainer.otpMessage.text = message
             otpContentContainer.otpButton.removeTarget(self, action: #selector(accountOTPButtonTapped), for: .touchUpInside)
             otpContentContainer.otpButton.removeTarget(self, action: #selector(saveCardOTPButtonTapped), for: .touchUpInside)
             otpContentContainer.otpButton.addTarget(self, action: #selector(cardOTPButtonTapped), for: .touchUpInside)
-
-
+            
+            
             raveCardClient.transactionReference = flwRef
             UIView.animate(withDuration: 0.6, animations: {
                 self.otpContentContainer.alpha = 1
@@ -2034,7 +2032,7 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
                 self.debitCardView.isHidden = true
             }
         case .bank:
-            
+            self.otpContentContainer.isHidden = false
             accountOtpContentContainer.alpha = 0
             accountOtpContentContainer.otpMessage.text = message
             accountOtpContentContainer.otpTextField.text = ""

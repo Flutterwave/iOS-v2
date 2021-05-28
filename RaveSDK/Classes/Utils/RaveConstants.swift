@@ -13,7 +13,7 @@ class RaveConstants: NSObject {
 
     class func baseURL () -> String{
         //return "https://ravesandbox.azurewebsites.net"
-        return "https://rave-api-v2.herokuapp.com"
+        return "https://api.ravepay.co"
     }
     class func liveBaseURL() -> String{
        // return "https://raveapi.azurewebsites.net"
