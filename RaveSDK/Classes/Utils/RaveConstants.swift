@@ -25,7 +25,7 @@ class RaveConstants: NSObject {
         
     }
    
-    static let bankStyle = [(code:"044",color:"#143f89",image:"rave_access2"),
+    static let bankStyle = [
                      (code:"101",color:"#ffffff",image:"rave_providus2"),
                      (code:"232",color:"#ad1620",image:"rave_sterling2"),
                      (code:"057",color:"#ed3237",image:"rave_zenith2"),
@@ -66,7 +66,7 @@ class RaveConstants: NSObject {
                                         """),
                                     ("AIRTEL","","")]
     
-    static let zambianNetworks = ["MTN"]
+    static let zambianNetworks = ["AIRTEL","MTN","ZAMTEL"]
     
     class func isConnectedToInternet() ->Bool {
         return NetworkReachabilityManager()!.isReachable

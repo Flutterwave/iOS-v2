@@ -23,7 +23,8 @@ class ViewController: UIViewController ,RavePayProtocol {
     }
     
     @IBAction func showAction(_ sender: Any){
-        let config = RaveConfig.sharedConfig()
+                       
+                       let config = RaveConfig.sharedConfig()
                        config.paymentOptionsToExclude = []
                        config.currencyCode = "NGN" // This is the specified currency to charge in.
                        config.email = "[USER'S EMAIL]" // This is the email address of the customer
@@ -32,7 +33,7 @@ class ViewController: UIViewController ,RavePayProtocol {
                        config.transcationRef = "[TRANSACTION REF]" // This is a unique reference, unique to the particular transaction being carried out. It is generated when it is not provided by the merchant for every transaction.
                        config.firstName = "[USER'S FIRST NAME]" // This is the customers first name.
                        config.lastName = "[USER'S SECOND NAME]" //This is the customers last name.
-                       config.meta = [["metaname":"sdk", "metavalue":"ios"]] //This is used to include additional payment information
+                       config.meta = [["metaname":"iOS-SDK-v2", "metavalue": MetaValueDetails(paymentDetails: "", recieptId: "")]] //This is used to include additional payment information
                        config.narration = "simplifying payments for endless possibilities"
                        config.publicKey = "[PUB_KEY]" //Public key
                        config.encryptionKey = "[ENCRYPTION_KEY]" //Encryption key
@@ -42,10 +43,8 @@ class ViewController: UIViewController ,RavePayProtocol {
                        controller.amount = "[AMOUNT]" // This is the amount to be charged.
                        controller.delegate = self
                        self.present(nav, animated: true)
-                      
-                  }
-    
-    
+                       
+                   }
     
    
     override func viewDidLoad() {
@@ -60,3 +59,8 @@ class ViewController: UIViewController ,RavePayProtocol {
     
 }
 
+
+struct MetaValueDetails  {
+    var paymentDetails:String
+    var recieptId:String
+}

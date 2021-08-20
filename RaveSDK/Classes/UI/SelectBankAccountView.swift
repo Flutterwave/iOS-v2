@@ -17,6 +17,7 @@ class SelectBankAccountView: UIView {
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = UIFont.systemFont(ofSize: 17, weight: .regular)
+        label.textColor = .black
         return label
     }()
     

@@ -27,7 +27,7 @@ public class RaveConfig {
     public var currencyCode:String = "NGN"
     public var narration:String?
     public var isPreAuth:Bool = false
-    public var meta:[[String:String]]?
+    public var meta:[[String:Any]]?
     public var subAccounts:[SubAccount]?
     public var whiteListedBanksOnly:[String]?
     public var paymentOptionsToExclude:[PaymentOption] = []
