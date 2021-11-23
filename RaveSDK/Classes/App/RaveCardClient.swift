@@ -104,13 +104,14 @@ class RaveCardClient{
                                       "amount":amount ?? "",
                                       "firstname":RaveConfig.sharedConfig().firstName ?? "",
                                       "lastname": RaveConfig.sharedConfig().lastName ?? "",
+                                      "otp":"123456",
                                       "txRef": RaveConfig.sharedConfig().transcationRef!]
             if let saveCard = isSaveCardCharge{
                 param.merge(["is_saved_card_charge":saveCard])
             }
-            if let _otp = otp{
-                param.merge(["otp":_otp])
-            }
+//            if let _otp = otp{
+//                param.merge(["otp":"1234567"])
+//            }
             if let saveCardType = saveCardPayment{
                 param.merge(["payment_type":saveCardType])
             }

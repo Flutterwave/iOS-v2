@@ -41,19 +41,21 @@ func showSnackBarWithMessage(msg: String, style:Style = .success,autoComplete:Bo
 public enum SubAccountChargeType:String {
     case flat = "flat" , percentage = "percentage"
 }
+
 public class SubAccount{
     public let id:String
     public let ratio:Double?
     public let charge_type:SubAccountChargeType?
     public let charge:Double?
     
-    public init(id:String , ratio:Double?, charge_type:SubAccountChargeType? ,charge:Double?) {
+    public init(id:String, ratio:Double?, charge_type:SubAccountChargeType? ,charge:Double?) {
         self.id = id
         self.ratio = ratio
         self.charge_type = charge_type
         self.charge = charge
     }
 }
+
 
 
 func MD5(string: String) -> Data? {

@@ -494,6 +494,10 @@ public class NewRavePayViewController: UITableViewController {
         configureMobileMoneyRwanda()
         configureMobileMoneyFranco()
         configureMobileMoneyZambia()
+        
+        if #available(iOS 15.0, *) {
+            UITableView.appearance().sectionHeaderTopPadding = 0
+        }
     }
     
     override public func viewDidLayoutSubviews() {
@@ -917,7 +921,7 @@ public class NewRavePayViewController: UITableViewController {
             currentPaymentOption == paymentOption
         }.count > 0
     }
-    
+   
     override  public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         switch section {
         case 0:
@@ -1857,11 +1861,11 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
     
     func cardSelected(card: SavedCard?) {
         raveCardClient.selectedCard = card
-        if let card =  raveCardClient.selectedCard{
-            LoadingHUD.shared().show()
-
-            raveCardClient.sendOTP(card: card)
-        }
+        LoadingHUD.shared().show()
+        raveCardClient.isSaveCardCharge = "1"
+         raveCardClient.saveCardPayment = "saved-card"
+         raveCardClient.amount = self.amount
+         raveCardClient.saveCardCharge()
     }
     @objc func textFieldDidChange(textField: UITextField) {
         if (textField == pinViewContainer.hiddenPinTextField){
@@ -1995,23 +1999,25 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
     func showOTP(message:String, flwRef:String, otpType:OTPType){
         switch otpType {
         case .savedCard:
-            self.otpContentContainer.isHidden = false
-            otpContentContainer.alpha = 0
-            otpContentContainer.otpMessage.text = message
-            otpContentContainer.otpButton.removeTarget(self, action: #selector(accountOTPButtonTapped), for: .touchUpInside)
-            otpContentContainer.otpButton.removeTarget(self, action: #selector(cardOTPButtonTapped), for: .touchUpInside)
-            otpContentContainer.otpButton.addTarget(self, action: #selector(saveCardOTPButtonTapped), for: .touchUpInside)
-            
-            UIView.animate(withDuration: 0.6, animations: {
-                self.otpContentContainer.alpha = 1
-                self.pinViewContainer.alpha = 0
-                self.debitCardView.alpha = 0
-                self.saveCardContainer.alpha = 0
-            }) { (success) in
-                self.pinViewContainer.isHidden = true
-                self.debitCardView.isHidden = true
-                self.saveCardContainer.isHidden = true
-            }
+            print("")
+//        case .savedCard:
+//            self.otpContentContainer.isHidden = false
+//            otpContentContainer.alpha = 0
+//            otpContentContainer.otpMessage.text = message
+//            otpContentContainer.otpButton.removeTarget(self, action: #selector(accountOTPButtonTapped), for: .touchUpInside)
+//            otpContentContainer.otpButton.removeTarget(self, action: #selector(cardOTPButtonTapped), for: .touchUpInside)
+//            otpContentContainer.otpButton.addTarget(self, action: #selector(saveCardOTPButtonTapped), for: .touchUpInside)
+//
+//            UIView.animate(withDuration: 0.6, animations: {
+//                self.otpContentContainer.alpha = 1
+//                self.pinViewContainer.alpha = 0
+//                self.debitCardView.alpha = 0
+//                self.saveCardContainer.alpha = 0
+//            }) { (success) in
+//                self.pinViewContainer.isHidden = true
+//                self.debitCardView.isHidden = true
+//                self.saveCardContainer.isHidden = true
+//            }
             
         case .card:
             self.otpContentContainer.isHidden = false
@@ -2070,16 +2076,16 @@ extension NewRavePayViewController : UITextFieldDelegate,CardSelect,UIPickerView
     }
     
     @objc func saveCardOTPButtonTapped(){
-        self.view.endEditing(true)
-        guard let otp = otpContentContainer.otpTextField.text, otp != ""  else {
-            return
-        }
-        LoadingHUD.shared().show()
-        raveCardClient.otp = otp
-        raveCardClient.isSaveCardCharge = "1"
-        raveCardClient.saveCardPayment = "saved-card"
-        raveCardClient.amount = self.amount
-        raveCardClient.saveCardCharge()
+//        self.view.endEditing(true)
+//        guard let otp = otpContentContainer.otpTextField.text, otp != ""  else {
+//            return
+//        }
+//        LoadingHUD.shared().show()
+//        raveCardClient.otp = otp
+//        raveCardClient.isSaveCardCharge = "1"
+//        raveCardClient.saveCardPayment = "saved-card"
+//        raveCardClient.amount = self.amount
+//        raveCardClient.saveCardCharge()
     }
     @objc func pinContinueButtonTapped(){
         self.pinAction()

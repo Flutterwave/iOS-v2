@@ -211,7 +211,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = NSPMGSMKS7;
+						DevelopmentTeam = YL4C3AS383;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -483,11 +483,11 @@
 			baseConfigurationReference = A2A54C44696D217D69C4769A /* Pods-RaveSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NSPMGSMKS7;
+				DEVELOPMENT_TEAM = YL4C3AS383;
 				INFOPLIST_FILE = RaveSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.3.1;
+				MARKETING_VERSION = 2.3.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,11 +502,11 @@
 			baseConfigurationReference = DEB5BD93E69BD4BFCE599006 /* Pods-RaveSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NSPMGSMKS7;
+				DEVELOPMENT_TEAM = YL4C3AS383;
 				INFOPLIST_FILE = RaveSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.3.1;
+				MARKETING_VERSION = 2.3.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -44,7 +44,7 @@ class ViewController: UIViewController ,RavePayProtocol {
                        controller.delegate = self
                        self.present(nav, animated: true)
                        
-                   }
+    }
     
    
     override func viewDidLoad() {
